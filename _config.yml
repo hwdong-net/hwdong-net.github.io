@@ -5,9 +5,9 @@ header-img: img/home_bg.jpg  #post-bg-desk.jpg
 email: xxx@gmail.com
 description: "提供计算机编程教学的各种课程、教程、视频 | 教小白精通编程，Teach you how to programming | 这里是 @教小白精通编程 的博客，与你一起学习计算机编程，发现更大的世界。"
 keyword: "教小白学编程, 数据结构，Data structure, 图形学，图像处理，机器学习，深度学习，Deep Learning, MAchine learning,C语言, 教程, 课程, Java, Python, C, Java,Python, tutorialhuxpro, @huxpro, 教小白学精通编程, Learnin to Programming, Blog, 博客, 个人网站, 互联网, Web, JavaScript, 前端, 设计"
-url: "https://xuepro.github.io"          # your host, for absolute URL
+url: "https://hwdong-net.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
-github_repo: "https://github.com/xuepro/xuepro.github.io.git" # you code repository
+github_repo: "https://github.com/hwdong-net/hwdong-net.github.io.git" # you code repository
 
 
 # Sidebar settings
@@ -20,8 +20,8 @@ sidebar-avatar: /img/avatar_xuepro.jpg      # use absolute URL, seeing it's used
 # SNS settings
 RSS: false
 weibo_username: 6196175626
-github_username:    xuepro
-twitter_username:   xuepro
+github_username:    hwdong-net
+twitter_username:   hwdong1
 #facebook_username:  huxpro
 # linkedin_username:  firstname-lastname-idxxxx
 #jianshu_username:   e71990ada2fd
