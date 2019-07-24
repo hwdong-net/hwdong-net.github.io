@@ -2,7 +2,7 @@
 title: 教小白精通编程
 SEOTitle: 教小白精通编程的博客 | Learn to programming Blog
 header-img: img/home_bg.jpg  #post-bg-desk.jpg
-email: xueprog@gmail.com
+email: xxx@gmail.com
 description: "提供计算机编程教学的各种课程、教程、视频 | 教小白精通编程，Teach you how to programming | 这里是 @教小白精通编程 的博客，与你一起学习计算机编程，发现更大的世界。"
 keyword: "教小白学编程, 数据结构，Data structure, 图形学，图像处理，机器学习，深度学习，Deep Learning, MAchine learning,C语言, 教程, 课程, Java, Python, C, Java,Python, tutorialhuxpro, @huxpro, 教小白学精通编程, Learnin to Programming, Blog, 博客, 个人网站, 互联网, Web, JavaScript, 前端, 设计"
 url: "https://xuepro.github.io"          # your host, for absolute URL
@@ -70,9 +70,9 @@ gitalk:
   enable: true
   clientID: 6602ecb46c82d1c987f7
   clientSecret: 9840b8d516aa9c5a32d7236dc44520836f8596a6
-  repo: xuepro.github.io
-  owner: xuepro
-  admin: xuepro
+  repo: hwdong-net.github.io
+  owner: hwdong-net
+  admin: hwdong-net
   distractionFreeMode: false
 
 
@@ -84,7 +84,7 @@ ba_track_id: b50bf2b12b5338a1845e33832976fd68
 
 # Google Analytics
 ga_track_id: 'UA-49627206-1'            # Format: UA-xxxxxx-xx
-ga_domain: xuepro.github.io             # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
+ga_domain: hwdong-net.github.io             # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
 
 
 
