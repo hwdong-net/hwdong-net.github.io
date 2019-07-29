@@ -67,9 +67,9 @@ source activate my_venv
 4）可以用pip在虚拟环境下安装自己需要的第三方包。如：
 ```
 pip install --upgrade pip
-pip install numpy
-python -m pip install -U matplotlib 
-
+python -m pip install numpy
+python -m pip install scipy
+python -m pip install -U matplotlib
 pip install jupyter 
 ```
 也可以先用 "pip list" 命令列出当前已经安装了哪些包？
