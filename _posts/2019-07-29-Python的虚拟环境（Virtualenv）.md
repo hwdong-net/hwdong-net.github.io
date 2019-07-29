@@ -56,7 +56,7 @@ virtualenv --no-site-packages -p python3 my_venv
 pip install --upgrade pip
 pip install jupyter 
 ```
-也可以用 "pip list" 命令列出当前已经安装了哪些包？
+也可以先用 "pip list" 命令列出当前已经安装了哪些包？
 ```
 pip list
 ```
