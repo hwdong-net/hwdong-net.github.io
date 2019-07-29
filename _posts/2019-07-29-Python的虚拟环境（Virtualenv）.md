@@ -22,11 +22,11 @@ virtualenv就是用来创建和管理虚拟环境的。
 
 首先需要安装virtualenv
 ```
-pip3 install --user virtualenv
+pip3 install -U pip virtualenv
 ```
 或
 ```
-pip3 install --user virtualenv
+pip install -U pip virtualenv
 ```
 然后按下面步骤创建一个虚拟环境。
 
