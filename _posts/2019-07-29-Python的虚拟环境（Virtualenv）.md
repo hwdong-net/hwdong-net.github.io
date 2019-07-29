@@ -60,6 +60,9 @@ virtualenv --no-site-packages -p python3 my_venv
 source activate my_venv
 ```
 命令提示符变了，有个(venv)前缀，表示当前环境是一个名为venv的Python环境。
+```
+(my_venv) D:\my_venv_dir>
+```
 
 4）可以用pip在虚拟环境下安装自己需要的第三方包。如：
 ```
