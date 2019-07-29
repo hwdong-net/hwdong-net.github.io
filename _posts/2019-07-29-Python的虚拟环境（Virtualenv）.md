@@ -24,7 +24,7 @@ virtualenv就是用来创建和管理虚拟环境的。
 ```
 pip3 install -U pip virtualenv
 ```
-或
+如果是python2，则用
 ```
 pip install -U pip virtualenv
 ```
