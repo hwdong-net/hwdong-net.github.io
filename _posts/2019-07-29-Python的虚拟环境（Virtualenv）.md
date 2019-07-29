@@ -53,7 +53,7 @@ virtualenv --no-site-packages -p python3 my_venv
 
 3）激活虚拟环境
 ```
-.\venv\Scripts\activate
+.\my_venv\Scripts\activate
 ```
 如果是conda环境，则用
 ```
