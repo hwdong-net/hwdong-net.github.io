@@ -53,7 +53,8 @@ virtualenv --no-site-packages -p python3 my_venv
 
 4）可以用pip在虚拟环境下安装自己需要的第三方包。如：
 ```
-pip install numpy
+pip install --upgrade pip
+pip install jupyter 
 ```
 也可以用 "pip list" 命令列出当前已经安装了哪些包？
 ```
