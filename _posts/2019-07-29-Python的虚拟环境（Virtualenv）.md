@@ -1,7 +1,7 @@
 ---
 layout:       post
-title:        Intellij IDEA安装创建JavaFX程序
-subtitle:     install intellij IDEA and create JavaFX Application
+title:        Python的虚拟环境（Virtualenv）
+subtitle:     Python的虚拟环境（Virtualenv）
 date:         2019-07-29 07:53:00
 author:       "xuepro"
 header-img:   "img/home_bg.jpg"
