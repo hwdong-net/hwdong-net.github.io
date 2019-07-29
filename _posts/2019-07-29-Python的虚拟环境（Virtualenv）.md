@@ -20,13 +20,17 @@ Python分为python 2和python 3，它们各自又有多个不同版本（如pyth
 
 virtualenv就是用来创建和管理虚拟环境的。
 
-首先需要安装virtualenv
+首先需要安装virtualenv，右击命令行程序以管理员身份运行
 ```
 pip3 install -U pip virtualenv
 ```
 如果是python2，则用
 ```
 pip install -U pip virtualenv
+```
+如果不想以管理员身份运行pip，可以加上:--user。如：
+```
+pip3 install -U pip virtualenv --user
 ```
 然后按下面步骤创建一个虚拟环境。
 
