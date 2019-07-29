@@ -37,7 +37,7 @@ cd my_venv_dir
 ```
 2) 在目录“my_venv_dir”下创建一个虚拟环境，如“my_venv”。
 ```
-virtualenv --no-site-packages -p python3 venv
+virtualenv --no-site-packages -p python3 my_venv
 ```
 参数--no-site-packages表示已经安装到系统Python环境中的所有第三方包都不会复制过来，即创建的虚拟环境中将不包含任何任何第三方包。默认情况下，会将系统中安装的第三方包也安装在虚拟环境中。
 
@@ -46,7 +46,7 @@ virtualenv --no-site-packages -p python3 venv
 3）使用source命令进入虚拟环境
 ```
 cd my_venv_dir
-source ./bin/activate
+source ./my_venv/bin/activate
 ```
 命令提示符变了，有个(venv)前缀，表示当前环境是一个名为venv的Python环境。
 
