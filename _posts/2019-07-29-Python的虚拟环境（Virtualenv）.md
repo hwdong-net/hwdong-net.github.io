@@ -46,7 +46,7 @@ virtualenv --no-site-packages -p python3 venv
 3）使用source命令进入虚拟环境
 ```
 cd my_venv_dir
-source my_venv/bin/activate
+source ./bin/activate
 ```
 命令提示符变了，有个(venv)前缀，表示当前环境是一个名为venv的Python环境。
 
