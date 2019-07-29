@@ -45,9 +45,11 @@ virtualenv --no-site-packages -p python3 my_venv
 
 3）激活虚拟环境
 ```
-#cd my_venv_dir
-#source ./my_venv/bin/activate
 .\venv\Scripts\activate
+```
+如果是conda环境，则用
+```
+source activate my_venv
 ```
 命令提示符变了，有个(venv)前缀，表示当前环境是一个名为venv的Python环境。
 
@@ -65,5 +67,9 @@ pip list
 5)退出虚拟环境很简单，只要执行下面的命令
 ```
 deactivate
+```
+如果是conda环境，则用
+```
+source deactivate
 ```
 
