@@ -12,11 +12,32 @@ tags:
     - IT    
 ---   
 
-Python分为python 2和python 3，它们各自又有多个不同版本，如果系统直接使用不同的python版本，会引起冲突。另外即使同一个版本的python，其中的
+Python分为python 2和python 3，它们各自又有多个不同版本（如python3.4，python3.5.6），如果系统直接使用不同的python版本，会引起冲突。另外即使同一个版本的python，其中的
 各个包package或库也有会有不同的版本，而python中一个包或库只能由一个版本，如果想根据需要使用同一个包的不同版本，怎么办？
 
 上述这些情况，都需要使用python虚拟环境（Virtualenv），即创建一些独立的、互不干扰的、干净的虚拟环境，虚拟环境之间互不干扰。因此，
 一般开发python程序都建议创建虚拟环境，在虚拟环境下进行python编程。
 
+virtualenv就是用来创建和管理虚拟环境的。
 
-同时安装python 2和python 3在使用中会引起冲突。另外即使同
+首先需要安装virtualenv
+```
+pip3 install --user virtualenv
+```
+或
+```
+pip3 install --user virtualenv
+```
+然后按下面步骤创建一个虚拟环境。
+
+1）先为虚拟环境创建一个工作目录如“my_venv_dir”。如在命令行输入：
+```
+mkdir my_venv_dir
+cd my_venv_dir
+```
+2) 在目录“my_venv_dir”下创建一个虚拟环境，如“my_venv”。
+```
+virtualenv --no-site-packages venv
+```
+参数--no-site-packages表示已经安装到系统Python环境中的所有第三方包都不会复制过来，即创建的虚拟环境中将不包含任何任何第三方包。默认情况下，会将系统中安装的第三方包也安装在虚拟环境中。
+
