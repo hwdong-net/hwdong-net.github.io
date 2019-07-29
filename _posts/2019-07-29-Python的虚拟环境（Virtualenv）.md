@@ -71,6 +71,7 @@ pip install numpy
 pip install scipy
 pip install -U matplotlib
 pip install jupyter 
+pip install tensorflow-gpu==2.0.0-beta1
 ```
 或
 ```
