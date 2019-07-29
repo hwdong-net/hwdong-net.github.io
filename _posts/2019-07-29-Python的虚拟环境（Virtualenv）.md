@@ -43,10 +43,11 @@ virtualenv --no-site-packages -p python3 my_venv
 
 -p可指定python的版本，默认使用系统中默认的pathon。
 
-3）使用source命令进入虚拟环境
+3）激活虚拟环境
 ```
-cd my_venv_dir
-source ./my_venv/bin/activate
+#cd my_venv_dir
+#source ./my_venv/bin/activate
+.\venv\Scripts\activate
 ```
 命令提示符变了，有个(venv)前缀，表示当前环境是一个名为venv的Python环境。
 
