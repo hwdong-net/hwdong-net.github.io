@@ -68,6 +68,8 @@ source activate my_venv
 ```
 pip install --upgrade pip
 pip install numpy
+python -m pip install -U matplotlib 
+
 pip install jupyter 
 ```
 也可以先用 "pip list" 命令列出当前已经安装了哪些包？
