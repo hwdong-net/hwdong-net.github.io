@@ -37,7 +37,31 @@ cd my_venv_dir
 ```
 2) 在目录“my_venv_dir”下创建一个虚拟环境，如“my_venv”。
 ```
-virtualenv --no-site-packages venv
+virtualenv --no-site-packages -p python3 venv
 ```
 参数--no-site-packages表示已经安装到系统Python环境中的所有第三方包都不会复制过来，即创建的虚拟环境中将不包含任何任何第三方包。默认情况下，会将系统中安装的第三方包也安装在虚拟环境中。
+
+-p可指定python的版本，默认使用系统中默认的pathon。
+
+3）使用source命令进入虚拟环境
+```
+cd my_venv_dir
+source my_venv/bin/activate
+```
+命令提示符变了，有个(venv)前缀，表示当前环境是一个名为venv的Python环境。
+
+4）可以用pip在虚拟环境下安装自己需要的第三方包。如：
+```
+pip install numpy
+```
+也可以用 "pip list" 命令列出当前已经安装了哪些包？
+```
+pip list
+```
+虚拟环境环境下，用pip安装的包都被安装到这个虚拟环境中，系统Python环境或其他虚拟环境都不受任何影响。
+
+5)退出虚拟环境很简单，只要执行下面的命令
+```
+deactivate
+```
 
