@@ -88,6 +88,10 @@ $$ A_{mn} = U_{mm} D_{mn} V_{nn}^T $$
   那么矩阵$AA^T$的特征向量是U中的列向量，特征值就是$D^2$中的对角线上相应的值。
   那么矩阵$A^TA$的特征向量是V中的列向量，特征值就是$D^2$中的对角线上相应的值。
 
+公式看不清楚。试试下面链接：
+
+[奇异值分解Singular Value Decomposition (SVD)](https://github.com/hwdong-net/hwdong-net.github.io/blob/master/_posts/2019-08-01-%E5%A5%87%E5%BC%82%E5%80%BC%E5%88%86%E8%A7%A3Singular%20Value%20Decomposition%20(SVD).md)
+
 参考：
 
 
