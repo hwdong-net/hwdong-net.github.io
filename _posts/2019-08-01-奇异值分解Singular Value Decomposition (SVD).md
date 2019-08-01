@@ -46,7 +46,11 @@ $$ A_{mn} = U_{mm} D_{mn} V_{mn}^T $$
 证明：对A进行一系列的初等行变换和初等列变换，可将A化为对角矩阵（如同高斯消去法）。即
  $$E_hE_{h-1}\cdots E_{2} E_{1} A \hat{E_{1}} \hat{E_{2}} \cdots \hat{E_{k}} = D $$
  
-  $$E_hE_{h-1}\cdots E_{2} E_{1} A \hat{E_{1}} \hat{E_{2}} \cdots \hat{E_{k}} ={E_1}^T \cdots  {E_h}^TD{\hat{E_k}}^T \cdots {\hat{E_1}} $$
+  $$ A  ={E_1}^T \cdots  {E_h}^TD{\hat{E_k}}^T \cdots {\hat{E_1}} $$
+  
+ 令 $U_{mm}  = {E_1}^T \cdots  {E_h}^T$, $V_{mn}^T = {\hat{E_k}}^T \cdots {\hat{E_1}} $。
+ 
+  即有：$ A_{mn} = U_{mm} D_{mn} V_{mn}^T $
 
 
 参考：
