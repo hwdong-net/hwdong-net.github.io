@@ -18,17 +18,19 @@ tags:
 
 对矩阵的行初等变换可以分为以下三类：
 
--1）对调矩阵的两行，记为 $r_i \leftrightarrow r_j$
+-1）对调矩阵的两行，记为 $T_{i,j} = r_i \leftrightarrow r_j$
 
--2）将某一行的元素乘以非零常数，记为 $r_i\times s $
+-2）将某一行的元素乘以非零常数，记为 $T_{s} =r_i\times s $
 
--3）将某一行的元素乘以非零常数后，加到另一行上，记为$r_i+r_j\times s $
+-3）将某一行的元素乘以非零常数后，加到另一行上，记为$$T_{i,j(s)}r_i+r_j\times s $
 
 
 **定理**： 
  - 对一个矩阵$A_{mn}$进行初等行变换相对于用相应的初等矩阵$T_{mm}$左乘矩阵A。
  
  ![](https://wikimedia.org/api/rest_v1/media/math/render/svg/3b151927c99a2a93d0357d22dce8ba67c88bb14b)
+ ![](https://wikimedia.org/api/rest_v1/media/math/render/svg/c8f916ca60d21f8aca2150614e01cde5d7ae72de)
+ ![](https://wikimedia.org/api/rest_v1/media/math/render/svg/faedc76d62657278fc36551465bf189d4fb5da8a)
  
  - 对一个矩阵$A_{mn}$进行初等列变换相对于用相应的初等矩阵$T_{nn}$右乘矩阵A。
 
