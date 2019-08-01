@@ -28,6 +28,15 @@ tags:
 **定理1**： 
  - 对一个矩阵$A_{mn}$进行初等行变换相对于用相应的初等矩阵$T_{mm}$左乘矩阵A。
  
+ $$\begin{bmatrix}
+
+     1 &  & & & & & \\
+     0&\ddots& & & & & \\
+     0 & 0 & &1 & & & \\
+     0 & 1 & &0 & & & \\
+     0 &  & & & &\ddots & \\
+     &  & & & & &1 \\\end{bmatrix}$$
+
  ![](https://wikimedia.org/api/rest_v1/media/math/render/svg/3b151927c99a2a93d0357d22dce8ba67c88bb14b)
  ![](https://wikimedia.org/api/rest_v1/media/math/render/svg/c8f916ca60d21f8aca2150614e01cde5d7ae72de)
  ![](https://wikimedia.org/api/rest_v1/media/math/render/svg/faedc76d62657278fc36551465bf189d4fb5da8a)
@@ -85,6 +94,7 @@ $$ A_{mn} = U_{mm} D_{mn} V_{nn}^T $$
   根据特征值和特征向量的定义：   $Bv= \lambda v$，则v是B的特征向量，而$\lambda$是对应的特征值。
   
   那么矩阵$AA^T$的特征向量是U中的列向量，特征值就是$D^2$中的对角线上相应的值。
+  那么矩阵$A^TA$的特征向量是V中的列向量，特征值就是$D^2$中的对角线上相应的值。
 
 参考：
 
