@@ -34,7 +34,7 @@ tags:
  0 & 0 & &1 & & & \\
  0 & 1 & &0 & & & \\
  0 &  & & & &\ddots & \\
- &  & & & & &1\\ 
+ &  & & & & &1
  \end{bmatrix}$$
 
  ![](https://wikimedia.org/api/rest_v1/media/math/render/svg/3b151927c99a2a93d0357d22dce8ba67c88bb14b)
