@@ -14,6 +14,10 @@ tags:
 
 **请在chrome浏览器安装mathjax插件浏览博客的公式**
 
+公式显示不正确？试试下面链接：
+[奇异值分解Singular Value Decomposition (SVD)](https://github.com/hwdong-net/hwdong-net.github.io/blob/master/_posts/2019-08-01-%E5%A5%87%E5%BC%82%E5%80%BC%E5%88%86%E8%A7%A3Singular%20Value%20Decomposition%20(SVD).md)
+
+
 ### 初等变换
 
 对矩阵的行初等变换可以分为以下三类：
@@ -97,9 +101,6 @@ $$ A_{mn} = U_{mm} D_{mn} V_{nn}^T $$
   
   $$A^T = VSU^T$$
 
-公式看不清楚。试试下面链接：
-
-[奇异值分解Singular Value Decomposition (SVD)](https://github.com/hwdong-net/hwdong-net.github.io/blob/master/_posts/2019-08-01-%E5%A5%87%E5%BC%82%E5%80%BC%E5%88%86%E8%A7%A3Singular%20Value%20Decomposition%20(SVD).md)
 
 参考：
 
