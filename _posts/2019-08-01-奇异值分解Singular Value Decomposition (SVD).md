@@ -18,7 +18,7 @@ tags:
 
 对矩阵的行初等变换可以分为以下三类：
 
--1）对调矩阵的两行，记为 $r_i \\nleftrightarrow r_j$
+-1）对调矩阵的两行，记为 $r_i \nleftrightarrow r_j$
 
 -2）将某一行的元素乘以非零常数，记为[公式]
 
