@@ -27,19 +27,11 @@ tags:
 
 **定理1**： 
  - 对一个矩阵$A_{mn}$进行初等行变换相对于用相应的初等矩阵$T_{mm}$左乘矩阵A。
- 
- $$\begin{bmatrix}
- 1 &  & & & & & \\
- 0&\ddots& & & & & \\
- 0 & 0 & &1 & & & \\
- 0 & 1 & &0 & & & \\
- 0 &  & & & &\ddots & \\
- &  & & & & &1
- \end{bmatrix}$$
 
- ![](https://wikimedia.org/api/rest_v1/media/math/render/svg/3b151927c99a2a93d0357d22dce8ba67c88bb14b)
- ![](https://wikimedia.org/api/rest_v1/media/math/render/svg/c8f916ca60d21f8aca2150614e01cde5d7ae72de)
- ![](https://wikimedia.org/api/rest_v1/media/math/render/svg/faedc76d62657278fc36551465bf189d4fb5da8a)
+
+ ![](/img2/1.png)
+ ![](/img2/2.png)
+ ![](/img2/3.png)
  
  - 对一个矩阵$A_{mn}$进行初等列变换相对于用相应的初等矩阵$T_{nn}$右乘矩阵A。
 
