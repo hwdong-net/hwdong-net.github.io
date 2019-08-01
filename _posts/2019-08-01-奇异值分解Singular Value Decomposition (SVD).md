@@ -34,7 +34,7 @@ tags:
  
  - 对一个矩阵$A_{mn}$进行初等列变换相对于用相应的初等矩阵$T_{nn}$右乘矩阵A。
 
-**定理2**： 任何初等矩阵E都是正交矩阵，即 E^TE = EE^T = I。
+**定理2**： 任何初等矩阵E都是正交矩阵，即 $E^TE = EE^T = I$。
 
 **定理3**： 任何正交矩阵的乘积仍然是正交矩阵。
 
@@ -69,6 +69,17 @@ $$ A_{mn} = U_{mm} D_{mn} V_{nn}^T $$
   $$ U_{mm}^TU_{mm} = U_{mm}U_{mm}^T = I$$
   $$V_{nn}^TV_{nn} = V_{nn}V_{nn}^T = I$$
 
+因为 $ A_{mn}^T = V_{nn} D_{mn} U_{mm}^T $
+
+左右两边乘以 $U_{mm}$，得到：
+ $ A_{mn}^T  U_{mm}  = V_{nn} D_{mn} U_{mm}^T  U_{mm} =V_{nn} D_{mn} $
+ 
+ 左右两边再乘以 $A_{mn}$，得到：
+ $$ A_{mn}A_{mn}^T  U_{mm}  = A_{mn}V_{nn} D_{mn} = U_{mm} D_{mn} V_{nn}^TV_{nn} D_{mn} =  U_{mm} D_{mn}^2$$
+ 
+ 同理，可以得到：
+ $$A_{mn}^T  A_{mn} V_{nn} = V_{nn} D_{mn}^2$$
+ 
 
 参考：
 
