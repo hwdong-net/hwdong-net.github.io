@@ -103,3 +103,14 @@ deactivate
 source deactivate
 ```
 
+6)卸载或unstall已经安装的包
+
+同样先进入虚拟环境，然后执行"pip uninstall xxx"。如:
+```
+cd my_venv_dir
+.\my_venv\Scripts\activate
+pip uninstall tensorflow-gpu==2.0.0-beta1
+
+```
+
+
