@@ -59,25 +59,25 @@ $$ A_{mn} = U_{mm} D_{mn} V_{nn}^T $$
  
   $$ A  ={E_1}^T \cdots  {E_h}^TD{\hat{E_k}}^T \cdots {\hat{E_1}} $$
   
- 令 $U_{mm}  = {E_1}^T \cdots  {E_h}^T$, $V_{mn}^T = {\hat{E_k}}^T \cdots {\hat{E_1}} $。
+ 令 $U_{mm}  = {E_1}^T \cdots  {E_h}^T$, ${V_{mn}}^T = {\hat{E_k}}^T \cdots {\hat{E_1}} $。
  
-  即有：$ A_{mn} = U_{mm} D_{mn} V_{nn}^T $
+  即有：$ A_{mn} = U_{mm} D_{mn} {V_{nn}}^T $
   
   当然$U_{mm}$和 $V_{nn}^T$都是正交矩阵，因为它们是初等矩阵的乘积。 因此：
   
-  $$ U_{mm}^TU_{mm} = U_{mm}U_{mm}^T = I$$
-  $$V_{nn}^TV_{nn} = V_{nn}V_{nn}^T = I$$
+  $$ {U_{mm}}^TU_{mm} = U_{mm}{U_{mm}}^T = I$$
+  $${V_{nn}}^TV_{nn} = V_{nn}{V_{nn}}^T = I$$
 
-因为 $ A_{mn}^T = V_{nn} D_{mn} U_{mm}^T $
+因为 $ {A_{mn}}^T = V_{nn} D_{mn} {U_{mm}}^T $
 
 左右两边乘以 $U_{mm}$，得到：
- $ A_{mn}^T  U_{mm}  = V_{nn} D_{mn} U_{mm}^T  U_{mm} =V_{nn} D_{mn} $
+ $ {A_{mn}}^T  U_{mm}  = V_{nn} D_{mn} {U_{mm}}^T  U_{mm} =V_{nn} D_{mn} $
  
  左右两边再乘以 $A_{mn}$，得到：
- $$ A_{mn}A_{mn}^T  U_{mm}  = A_{mn}V_{nn} D_{mn} = U_{mm} D_{mn} V_{nn}^TV_{nn} D_{mn} =  U_{mm} D_{mn}^2$$
+ $$ A_{mn}{A_{mn}}^T  U_{mm}  = A_{mn}V_{nn} D_{mn} = U_{mm} D_{mn} {V_{nn}}^TV_{nn} D_{mn} =  U_{mm} {D_{mn}}^2$$
  
  同理，可以得到：
- $$A_{mn}^T  A_{mn} V_{nn} = V_{nn} D_{mn}^2$$
+ $${A_{mn}}^T  A_{mn} V_{nn} = V_{nn} {D_{mn}}^2$$
  
  省略下标，即有：
   $$ AA^TU = UD^2  = D^2U$$
