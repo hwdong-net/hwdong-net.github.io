@@ -106,6 +106,35 @@ $$ A_{mn} = U_{mm} D_{mn} V_{nn}^T $$
   $$A^T = VSU^T$$
 
 
+附录：
+
+$$ D = 
+  \begin{matrix}
+   d_{11} & 0     & 0 \\
+   0     & d_{22} & 0 \\
+  \end{matrix}$$
+  
+ $$ D^T = 
+  \begin{matrix}
+   d_{11} & 0 \\
+   0      & d_{22} \\ 
+   0      & 0 
+  \end{matrix}$$
+  
+  则： 
+  $$D D^T =  \begin{matrix}
+   {d_{11}}^2 & 0  \\
+   0 &{d_{22}}^2 \\
+  \end{matrix}
+  $$
+  
+    $$ D^T D =  \begin{matrix}
+   {d_{11}}^2 & 0& 0  \\
+   0 &{d_{22}}^2& 0 \\
+    0 0 & 0 
+  \end{matrix}
+  $$
+  
 参考：
 
 
