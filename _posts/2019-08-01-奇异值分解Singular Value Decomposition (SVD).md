@@ -15,6 +15,7 @@ tags:
 **请在chrome浏览器安装mathjax插件浏览博客的公式**
 
 公式显示不正确？试试下面链接：
+
 [奇异值分解Singular Value Decomposition (SVD)](https://github.com/hwdong-net/hwdong-net.github.io/blob/master/_posts/2019-08-01-%E5%A5%87%E5%BC%82%E5%80%BC%E5%88%86%E8%A7%A3Singular%20Value%20Decomposition%20(SVD).md)
 
 
@@ -26,7 +27,7 @@ tags:
 
 -2）将某一行的元素乘以非零常数，记为 $E_{s} =r_i\times s $
 
--3）将某一行的元素乘以非零常数后，加到另一行上，记为\\( E_{i,j(s)}r_i+r_j\times s \\)
+-3）将某一行的元素乘以非零常数后，加到另一行上，记为$ E_{i,j(s)}r_i+r_j\times s $
 
 
 **定理1**： 
@@ -108,3 +109,5 @@ $$ A_{mn} = U_{mm} D_{mn} V_{nn}^T $$
 1. [Singular Value Decomposition (SVD) tutorial](http://web.mit.edu/be.400/www/SVD/Singular_Value_Decomposition.htm)
 
 [Singular Value Decomposition (SVD) Tutorial: Applications, Examples, Exercises](https://blog.statsbot.co/singular-value-decomposition-tutorial-52c695315254)
+
+[https://yihui.name/en/2018/07/latex-math-markdown/](https://yihui.name/en/2018/07/latex-math-markdown/)
