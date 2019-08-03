@@ -20,6 +20,11 @@ tags:
 
 [奇异值分解Singular Value Decomposition (SVD)](https://github.com/hwdong-net/hwdong-net.github.io/blob/master/_posts/2019-08-01-%E5%A5%87%E5%BC%82%E5%80%BC%E5%88%86%E8%A7%A3Singular%20Value%20Decomposition%20(SVD).md)
 
+$$\begin{matrix}
+1 & x & x^2 \\
+1 & y & y^2 \\
+1 & z & z^2 \\
+\end{matrix}$$
 
 ### 初等变换
 
