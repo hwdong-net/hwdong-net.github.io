@@ -84,7 +84,7 @@ $$ A_{mn} = U_{mm} D_{mn} V_{nn}^T $$
  $$ A_{mn}{A_{mn}}^T  U_{mm}  = A_{mn}V_{nn} D_{mn} = U_{mm} D_{mn} {V_{nn}}^TV_{nn} D_{mn} =  U_{mm} {D_{mn}}^2$$
  
  同理，可以得到：
- $${A_{mn}}^T  A_{mn} V_{nn} = V_{nn} {{D_{mn}}T^}^2$$
+ $${A_{mn}}^T  A_{mn} V_{nn} = V_{nn} { {D_{mn}}^T}^2  $$
  
  省略下标，即有：
   $$ AA^TU = UD^2  $$
