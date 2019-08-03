@@ -116,26 +116,24 @@ $$ D =
   
   
 $$ D^T = 
-  \begin{matrix}
+  \begin{bmatrix}
    d_{11} & 0 \\
    0      & d_{22} \\ 
    0      & 0 
-  \end{matrix}$$
+  \end{bmatrix}$$
   
   则： 
   
-$$D D^T =  \begin{matrix}
+$$D D^T =  \begin{bmatrix}
    {d_{11}}^2 & 0  \\
    0 &{d_{22}}^2 \\
-  \end{matrix}
-  $$
+  \end{bmatrix}$$
   
-$$ D^T D =  \begin{matrix}
+$$ D^T D =  \begin{bmatrix}
    {d_{11}}^2 & 0& 0  \\
    0 &{d_{22}}^2& 0 \\
     0 0 & 0 
-  \end{matrix}
-  $$
+  \end{bmatrix}$$
   
 参考：
 
