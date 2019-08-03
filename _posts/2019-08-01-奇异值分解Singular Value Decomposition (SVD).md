@@ -80,7 +80,7 @@ $$ A_{mn} = U_{mm} D_{mn} V_{nn}^T $$
 左右两边乘以 \\(U_{mm}\\)，得到：
  $$ {A_{mn}}^T  U_{mm}  = V_{nn} D_{mn} {U_{mm}}^T  U_{mm} =V_{nn} D_{mn} $$
  
- 左右两边再乘以 $A_{mn}$，得到：
+ 左右两边再乘以  \\(A_{mn} \\)，得到：
  
  $$ A_{mn}{A_{mn}}^T  U_{mm}  = A_{mn}V_{nn} D_{mn} = U_{mm} D_{mn} {V_{nn}}^TV_{nn} D_{mn} =  U_{mm} {D_{mn}}^2$$
  
