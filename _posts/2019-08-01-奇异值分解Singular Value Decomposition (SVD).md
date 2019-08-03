@@ -106,21 +106,15 @@ $$ A_{mn} = U_{mm} D_{mn} V_{nn}^T $$
   $$A^T = VSU^T$$
 
 
-附录：
-
-
-  
-$$ D = \left(\begin{array}{ccc}
+假设  
+$ D = \left(\begin{array}{ccc}
    d_{11}&0&0\\
    0&d_{22}&0\\
- \end{array}\right)$$
-  
-  
-$$ D^T = \left(\begin{array}{cc}
+ \end{array}\right)$，$ D^T = \left(\begin{array}{cc}
    d_{11}&0\\
    0&d_{22}\\ 
    0&0 
-  \end{array}\right)$$
+  \end{array}\right)$
   
   则： 
   
