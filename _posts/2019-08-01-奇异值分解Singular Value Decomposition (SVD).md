@@ -112,8 +112,6 @@ $$ D = \left(\begin{array}{ccc}
    d_{11}&0&0\\
    0&d_{22}&0\\
  \end{array}\right)$$
- 
-
   
   
 $$ D^T = \left(\begin{array}{cc}
