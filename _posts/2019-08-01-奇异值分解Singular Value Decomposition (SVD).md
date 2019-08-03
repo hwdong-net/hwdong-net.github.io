@@ -108,11 +108,10 @@ $$ A_{mn} = U_{mm} D_{mn} V_{nn}^T $$
 
 附录：
 
-$$ D = 
-  \begin{matrix}
+$$ D = \begin{bmatrix}
    d_{11}&0&0\\
-   0&d_{22} & 0 \\
-  \end{matrix}$$
+   0&d_{22}&0\\
+  \end{bmatrix}$$
  
   
 $$ D^T = 
