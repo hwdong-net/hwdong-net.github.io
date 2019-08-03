@@ -87,8 +87,8 @@ $$ A_{mn} = U_{mm} D_{mn} V_{nn}^T $$
  $${A_{mn}}^T  A_{mn} V_{nn} = V_{nn} {D_{mn}}^2$$
  
  省略下标，即有：
-  $$ AA^TU = UD^2  = D^2U$$
-  $$ A^TAV = VD^2 = D^2V$$
+  $$ AA^TU = UD^2  $$
+  $$ A^TAV = VD^2 $$
   
   根据特征值和特征向量的定义：   $Bv= \lambda v$，则v是B的特征向量，而$\lambda$是对应的特征值。
   
