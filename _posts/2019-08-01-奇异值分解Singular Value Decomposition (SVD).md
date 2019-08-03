@@ -123,7 +123,7 @@ $$ D^T D =  \begin{bmatrix}
    
    同样，因为：
  
-  $$AA^TV = AA^T (V_1,V_2,\cdots, V_n) = (V_1 {d_{11}}^2,V_2{d_{22}}^2,\cdots, V_n{d_{nn}}^2 ) $$
+  $$A^TAV = A^TA (V_1,V_2,\cdots, V_n) = (V_1 {d_{11}}^2,V_2{d_{22}}^2,\cdots, V_n{d_{nn}}^2 ) $$
   
 所以，矩阵$A^TA$的特征向量是V中的列向量，特征值就是$\hat{S_nn}$ 中的对角线上相应的值。
   
