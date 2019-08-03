@@ -90,9 +90,10 @@ $$ A_{mn} = U_{mm} D_{mn} V_{nn}^T $$
  令 $ \hat{S_{nn}} = {D_{mn}}^T D_{mn} $，这是一个对角矩阵，其中对角线上的值 $s_{ii} = d_{ii}^2$ ( i<=m)或0(i>0)
  
  省略下标，即有：
+ 
   $$ AA^TU = U D_{mn}{D_{mn}}^T = US_{mm}  $$
   
-  $$ A^TAV = VD^2  = = V \hat{S}_{nn} $$
+  $$ A^TAV = V {D_{mn}}^T D_{mn} = = V \hat{S}_{nn} $$
   
   根据特征值和特征向量的定义：  $ Bv= \lambda v$，则v是B的特征向量，而$\lambda$是对应的特征值。
   
