@@ -104,7 +104,7 @@ $$ A_{mn} = U_{mm} D_{mn} V_{nn}^T $$
   
   $$U = AVD^{-1} $$
   
-  $$A^T = VSU^T$$
+  $$A^T = VDU^T$$
 
 
 假设  
