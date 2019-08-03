@@ -14,11 +14,7 @@ tags:
 
 
 
-**请在chrome浏览器安装mathjax插件浏览博客的公式**
-
-公式显示不正确？试试下面链接：
-
-[奇异值分解Singular Value Decomposition (SVD)](https://github.com/hwdong-net/hwdong-net.github.io/blob/master/_posts/2019-08-01-%E5%A5%87%E5%BC%82%E5%80%BC%E5%88%86%E8%A7%A3Singular%20Value%20Decomposition%20(SVD).md)
+**如果不能正确显示公式，请在chrome浏览器安装mathjax插件浏览博客的公式**
 
 
 ### 初等变换
