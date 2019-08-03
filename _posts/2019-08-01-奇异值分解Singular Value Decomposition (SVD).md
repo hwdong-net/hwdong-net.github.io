@@ -108,15 +108,15 @@ $$ A_{mn} = U_{mm} D_{mn} V_{nn}^T $$
 
 附录：
 
-\begin{equation*}
-A=\begin{bmatrix}
-a_{11} &a_{12}&\dots & a_{1n}\\
-a_{21} &\hdotsfor{2} & a_{2n}\\
-\hdotsfor{4}\\
-a_{m1} &a_{m2}&\dots & a_{mn}
-\end{bmatrix}
-\end{equation*}
-
+$$
+ \left\{
+ \begin{matrix}
+   1 & 2 & 3 \\
+   4 & 5 & 6 \\
+   7 & 8 & 9
+  \end{matrix}
+  \right\} \tag{2}
+$$
 
 $$\left(\begin{array}{ccc}
           1 & 2&3\\
