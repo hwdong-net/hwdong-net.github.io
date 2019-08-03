@@ -87,7 +87,7 @@ $$ A_{mn} = U_{mm} D_{mn} V_{nn}^T $$
  同理，可以得到：
  $${A_{mn}}^T  A_{mn} V_{nn} =  V_{nn} {D_{mn}}^T {U_{mm}}^T U_{mm} D_{mn} {V_{nn}}^T V_{nn} =         V_{nn}{D_{mn}}^T D_{mn}  $$
  
- 令 $ \hat{S}_{nn} ={D_{mn}}^T D_{mn} $，这是一个对角矩阵，其中对角线上的值 $s_{ii} = d_{ii}^2$ ( i<=m)或0(i>0)
+ 令 $ \hat{S_{nn}} = {D_{mn}}^T D_{mn} $，这是一个对角矩阵，其中对角线上的值 $s_{ii} = d_{ii}^2$ ( i<=m)或0(i>0)
  
  省略下标，即有：
   $$ AA^TU = U D_{mn}{D_{mn}}^T = US_{mm}  $$
@@ -114,7 +114,8 @@ $$ D =
    0     & d_{22} & 0 \\
   \end{matrix}$$
   
- $$ D^T = 
+  
+$$ D^T = 
   \begin{matrix}
    d_{11} & 0 \\
    0      & d_{22} \\ 
@@ -122,13 +123,14 @@ $$ D =
   \end{matrix}$$
   
   则： 
-  $$D D^T =  \begin{matrix}
+  
+$$D D^T =  \begin{matrix}
    {d_{11}}^2 & 0  \\
    0 &{d_{22}}^2 \\
   \end{matrix}
   $$
   
-    $$ D^T D =  \begin{matrix}
+$$ D^T D =  \begin{matrix}
    {d_{11}}^2 & 0& 0  \\
    0 &{d_{22}}^2& 0 \\
     0 0 & 0 
