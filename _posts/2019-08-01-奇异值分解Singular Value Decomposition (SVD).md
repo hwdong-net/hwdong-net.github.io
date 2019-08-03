@@ -108,6 +108,11 @@ $$ A_{mn} = U_{mm} D_{mn} V_{nn}^T $$
 
 附录：
 
+$$\left(\begin{array}{ccc}
+          1 & 2&3\\
+          4 & 5&6
+  \end{array}\right)$$
+  
 $$ D = \left(\begin{array}{ccc}
    d_{11}&0&0\\
    0&d_{22}&0\\
