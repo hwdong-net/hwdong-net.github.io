@@ -138,9 +138,3 @@ $$ D^T D =  \begin{bmatrix}
 1. [Singular Value Decomposition (SVD) tutorial](http://web.mit.edu/be.400/www/SVD/Singular_Value_Decomposition.htm)
 
 [Singular Value Decomposition (SVD) Tutorial: Applications, Examples, Exercises](https://blog.statsbot.co/singular-value-decomposition-tutorial-52c695315254)
-
-数学公式的显示：
-
-[https://hiltmon.com/blog/2017/01/28/mathjax-in-markdown/](https://hiltmon.com/blog/2017/01/28/mathjax-in-markdown/)
-
-[https://yihui.name/en/2018/07/latex-math-markdown/](https://yihui.name/en/2018/07/latex-math-markdown/)
