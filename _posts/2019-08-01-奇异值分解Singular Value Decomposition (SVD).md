@@ -117,13 +117,13 @@ $$ D^T D =  \begin{bmatrix}
   
   
   
-  因为 $$AA^TU = AA^T (U_1,N_2,\cdots, U_m) = (U_1 {d_{11}}^2,U_2{d_{22}}^2,\cdots, U_m){d_{mm}}^2 $$
+  因为 $$AA^TU = AA^T (U_1,N_2,\cdots, U_m) = (U_1 {d_{11}}^2,U_2{d_{22}}^2,\cdots, U_m{d_{mm}}^2 ) $$
   
   所以，矩阵$AA^T$的特征向量是U中的列向量，特征值就是$S_{mm}$中的对角线上相应的值。
    
    同样，因为：
  
-  $$AA^TV = AA^T (V_1,V_2,\cdots, V_n) = (V_1 {d_{11}}^2,V_2{d_{22}}^2,\cdots, V_){d_{nn}}^2 $$
+  $$AA^TV = AA^T (V_1,V_2,\cdots, V_n) = (V_1 {d_{11}}^2,V_2{d_{22}}^2,\cdots, V_n{d_{nn}}^2 ) $$
   
 所以，矩阵$A^TA$的特征向量是V中的列向量，特征值就是$\hat{S_nn}$ 中的对角线上相应的值。
   
