@@ -108,8 +108,7 @@ $$ A_{mn} = U_{mm} D_{mn} V_{nn}^T $$
 
 附录：
 
-$$
- \left\{
+$$\left \{
  \begin{matrix}
    1 & 2 & 3 \\
    4 & 5 & 6 \\
