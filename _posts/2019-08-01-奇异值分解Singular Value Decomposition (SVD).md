@@ -20,11 +20,6 @@ tags:
 
 [奇异值分解Singular Value Decomposition (SVD)](https://github.com/hwdong-net/hwdong-net.github.io/blob/master/_posts/2019-08-01-%E5%A5%87%E5%BC%82%E5%80%BC%E5%88%86%E8%A7%A3Singular%20Value%20Decomposition%20(SVD).md)
 
-$$\begin{matrix}
-1 & x & x^2 \\
-1 & y & y^2 \\
-1 & z & z^2 \\
-\end{matrix}$$
 
 ### 初等变换
 
@@ -114,21 +109,6 @@ $$ A_{mn} = U_{mm} D_{mn} V_{nn}^T $$
 附录：
 
 
-$$
-\begin{align*}
-  \left( \begin{array}{c}
-      y_1 \\
-      \vdots \\
-      y_n
-    \end{array} \right)
-\end{align*}
-$$
-
-
-$$\left(\begin{array}{ccc}
-          1 & 2&3\\
-          4 & 5&6
-  \end{array}\right)$$
   
 $$ D = \left(\begin{array}{ccc}
    d_{11}&0&0\\
@@ -152,7 +132,7 @@ $$D D^T =  \begin{bmatrix}
 $$ D^T D =  \begin{bmatrix}
    {d_{11}}^2 & 0& 0  \\
    0 &{d_{22}}^2& 0 \\
-    0 0 & 0 
+    0 &0 & 0 
   \end{bmatrix}$$
   
 参考：
