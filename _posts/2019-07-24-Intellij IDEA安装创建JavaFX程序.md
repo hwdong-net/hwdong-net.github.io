@@ -64,8 +64,9 @@ tags:
     + doto **Templates** and select **Application**
      
       Paste the following in VM options:
-      
+  ```   
      --module-path ${PATH_TO_FX} --add-modules=javafx.controls,javafx.fxml
+  ```
      
      Click **OK**
      
