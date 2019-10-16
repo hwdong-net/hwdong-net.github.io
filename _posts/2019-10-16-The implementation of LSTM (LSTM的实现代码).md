@@ -57,9 +57,7 @@ def lstm_forward(params,Xs, state):
     for t in range(len(Xs)): 
         X = Xs[t]
         XH = np.column_stack((X, H))
-        #print("XH.shape",XH.shape)
-        #print("Wi.shape",Wi.shape)
-        #break
+       
         I = sigmoid(np.dot(XH, Wi)+bi)
         F = sigmoid(np.dot(XH, Wf)+bf)
         O = sigmoid(np.dot(XH, Wo)+bo)
