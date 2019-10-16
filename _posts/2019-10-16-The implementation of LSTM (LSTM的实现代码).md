@@ -14,6 +14,8 @@ tags:
 
 The Equations for LSTM 
 
+[](https://weibo.com/u/6762417916?refer_flag=1005055010_&is_all=1)
+
 ![](https://wx1.sinaimg.cn/mw690/007nEpOIgy1g806asij70j311u0kwac5.jpg)
 
 ```python
