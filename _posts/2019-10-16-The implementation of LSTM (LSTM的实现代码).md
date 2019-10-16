@@ -99,7 +99,7 @@ def lstm_backward(params,Xs,Hs,Cs,dZs,cache): # Ys,loss_function):
     x = Xs
     
     T = len(Xs)  
-    for t in reversed(range(T)):  #reversed(range(len(x))):
+    for t in reversed(range(T)):  
         I = Is[t]
         F = Fs[t]
         O = Os[t]
