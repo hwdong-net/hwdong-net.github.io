@@ -61,7 +61,7 @@ def lstm_forward(params,Xs, state):
         I = sigmoid(np.dot(XH, Wi)+bi)
         F = sigmoid(np.dot(XH, Wf)+bf)
         O = sigmoid(np.dot(XH, Wo)+bo)
-        C_tilda = sigmoid(np.dot(XH, Wc)+bc)
+        C_tilda = np.tanh(np.dot(XH, Wc)+bc)
     
         C = F * C + I * C_tilda
         H = O*np.tanh(C)       #O * C.tanh()  #输出状态 
