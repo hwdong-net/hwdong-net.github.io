@@ -80,6 +80,8 @@ def lstm_forward(params,Xs, state):
         C_tildas.append(C_tilda)
     return Zs,Hs,Cs,(Is,Fs,Os,C_tildas)
     
+def dtanh(x):
+    return 1 - np.tanh(x) * np.tanh(x)
     
 def lstm_backward(params,Xs,Hs,Cs,dZs,cache): # Ys,loss_function):
     [Wi, bi,Wf, bf, Wo,bo,Wc, bc,Wy,by] = params
@@ -127,6 +129,7 @@ def lstm_backward(params,Xs,Hs,Cs,dZs,cache): # Ys,loss_function):
         # do
         
         dO = np.tanh(C) *dH              # H = O * C.tanh()  
+        
         dOZ = O * (1-O)*dO               
         dWo += np.dot(XH_.T,dOZ)
         dbo += np.sum(dOZ, axis=0, keepdims=True)              
