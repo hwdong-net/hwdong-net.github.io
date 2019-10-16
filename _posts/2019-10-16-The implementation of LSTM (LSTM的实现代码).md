@@ -1,7 +1,7 @@
 ---
 layout:       post
-title:        "LSTM的实现代码"
-subtitle:     "LSTM的实现代码.md"
+title:        "The implementation of LSTM（LSTM的实现代码）"
+subtitle:     "The implementation of LSTM（LSTM的实现代码）.md"
 date:         2019-10-16 18:38:00
 author:       "xuepro"
 header-img:   "img/home_bg.jpg"
@@ -11,6 +11,10 @@ multilingual: true
 tags:
     - DL
 ---
+
+The Equations for LSTM 
+
+![](https://wx1.sinaimg.cn/mw690/007nEpOIgy1g806asij70j311u0kwac5.jpg)
 
 ```python
 def lstm_init_params(input_dim,hidden_dim,output_dim,scale=0.01):
