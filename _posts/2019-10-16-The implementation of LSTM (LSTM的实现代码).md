@@ -1,7 +1,7 @@
 ---
 layout:       post
 title:        "The implementation of LSTM（LSTM的实现代码）"
-subtitle:     "The implementation of LSTM（LSTM的实现代码）.md"
+subtitle:     "The implementation of LSTM（LSTM的实现代码）"
 date:         2019-10-16 18:38:00
 author:       "xuepro"
 header-img:   "img/home_bg.jpg"
@@ -21,12 +21,12 @@ def lstm_init_params(input_dim,hidden_dim,output_dim,scale=0.01):
     normal = lambda m,n : np.random.randn(m, n)*scale
     two = lambda : (normal(input_dim+hidden_dim, hidden_dim),np.zeros((1,hidden_dim)))
     
-    Wi, bi = two()  # Input gate parameters
-    Wf, bf = two()  # Forget gate parameters
-    Wo, bo = two()  # Output gate parameters
-    Wc, bc = two()  # Candidate cell parameters
+    Wi, bi = two() 
+    Wf, bf = two()  
+    Wo, bo = two()  
+    Wc, bc = two()  
     
-      Wy = normal(hidden_dim, output_dim)
+    Wy = normal(hidden_dim, output_dim)
     by = np.zeros((1,output_dim))
    
     params = [Wi, bi,Wf, bf, Wo,bo,Wc, bc,Wy,by]
@@ -39,7 +39,7 @@ def lstm_state_init(batch_size, hidden_size):
 def lstm_forward(params,Xs, state):
     [Wi, bi,Wf, bf, Wo,bo,Wc,bc,Wy,by] = params   
     
-    (H, C) = state         #初始状态
+    (H, C) = state         
     Hs = {}
     Cs = {}
     Zs = []
@@ -52,8 +52,7 @@ def lstm_forward(params,Xs, state):
     Os = []
     C_tildas = []
     
-    for t in range(len(Xs)):
-   # for X in Xs:
+    for t in range(len(Xs)): 
         X = Xs[t]
         XH = np.column_stack((X, H))
         #print("XH.shape",XH.shape)
@@ -97,11 +96,8 @@ def lstm_backward(params,Xs,Hs,Cs,dZs,cache): # Ys,loss_function):
     h = Hs
     x = Xs
     
-    T = len(Xs)  #序列长度（时刻长度）  
+    T = len(Xs)  
     for t in reversed(range(T)):  #reversed(range(len(x))):
-        #dz = np.copy(f[t])
-        #dz[y[t]] -= 1      # backprop into y. see http://cs231n.github.io/neural-networks-case-study/#grad if confused here
-
         I = Is[t]
         F = Fs[t]
         O = Os[t]
@@ -117,36 +113,45 @@ def lstm_backward(params,Xs,Hs,Cs,dZs,cache): # Ys,loss_function):
         dZ = dZs[t]  
     
         #输出f的模型参数的idu
+        
         dWy += np.dot(H.T,dZ)      
         dby += np.sum(dZ, axis=0, keepdims=True)   
         
         #隐状态h的梯度
-        dH = np.dot(dZ, Wy.T) + dH_next  # backprop into h        
+        
+        dH = np.dot(dZ, Wy.T) + dH_next     
         dC = dH_next*O*dtanh(C) +dC_next    #* H = O*np.tanh(C)
                        
         # do
+        
         dO = np.tanh(C) *dH              # H = O * C.tanh()  
-        dOZ = O * (1-O)*dO               # O = sigma(OZ) 
+        dOZ = O * (1-O)*dO               
         dWo += np.dot(XH_.T,dOZ)
         dbo += np.sum(dOZ, axis=0, keepdims=True)              
         
-        # dC_bar       
+        # dC_bar  
+        
         dC_tilda = dC*I                         #C = F * C + I * C_tilda
-        dC_tilda_Z =(1-np.square(dC_tilda))*dC_tilda    # C_tilda = sigmoid(np.dot(XH, Wc)+bc)         
+        
+        dC_tilda_Z =(1-np.square(dC_tilda))*dC_tilda    # C_tilda = sigmoid(np.dot(XH, Wc)+bc)    
+        
         dWc += np.dot(XH_.T,dC_tilda_Z)       
         dbc += np.sum(dC_tilda_Z, axis=0, keepdims=True)
         
-        #di                         
+        #di  
+        
         di = dC * C_tilda
         diZ = I*(1-I) * di
         dWi += np.dot(XH_.T,diZ)
         dbi += np.sum(diZ, axis=0, keepdims=True)  
         
         #df
+        
         df = dC*C_prev 
         dfZ = F*(1-F) * df
         dWf += np.dot(XH_.T,dfZ)
         dbf += np.sum(dfZ, axis=0, keepdims=True)  
+        
         
         dXH_ = (np.dot(dfZ, Wf.T)
              + np.dot(diZ, Wi.T)
@@ -162,6 +167,8 @@ def lstm_backward(params,Xs,Hs,Cs,dZs,cache): # Ys,loss_function):
         
     
     #for dparam in [dWi, dbi,dWf, dbf, dWo,dbo,dWc, dbc,dWy,dby]:
+    
     #    np.clip(dparam, -5, 5, out=dparam) # clip to mitigate exploding gradients
+    
     return [dWi, dbi,dWf, dbf, dWo,dbo,dWc, dbc,dWy,dby]
 ```
