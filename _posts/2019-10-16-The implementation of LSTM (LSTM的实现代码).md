@@ -136,7 +136,7 @@ def lstm_backward(params,Xs,Hs,Cs,dZs,cache): # Ys,loss_function):
         
         dC_tilda = dC*I                         #C = F * C + I * C_tilda
         
-        dC_tilda_Z =(1-np.square(dC_tilda))*dC_tilda    # C_tilda = sigmoid(np.dot(XH, Wc)+bc)    
+        dC_tilda_Z =(1-np.square(C_tilda))*dC_tilda    # C_tilda = sigmoid(np.dot(XH, Wc)+bc)    
         
         dWc += np.dot(XH_.T,dC_tilda_Z)       
         dbc += np.sum(dC_tilda_Z, axis=0, keepdims=True)
