@@ -122,7 +122,7 @@ def lstm_backward(params,Xs,Hs,Cs,dZs,cache): # Ys,loss_function):
         #隐状态h的梯度
         
         dH = np.dot(dZ, Wy.T) + dH_next     
-        dC = dH_next*O*dtanh(C) +dC_next    #* H = O*np.tanh(C)
+        dC = dH*O*dtanh(C) +dC_next    #* H = O*np.tanh(C)
                        
         # do
         
