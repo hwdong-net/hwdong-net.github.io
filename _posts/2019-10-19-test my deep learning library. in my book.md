@@ -1,7 +1,7 @@
 ---
 layout:       post
-title:        "The implementation of LSTM from scratch（LSTM的实现代码）"
-subtitle:     "The implementation of LSTM from scratch（LSTM的实现代码）"
+title:        "test the deep learning library. in my book"
+subtitle:     "test the deep learning library. in my book"
 date:         2019-10-19 15:38:00
 author:       "xuepro"
 header-img:   "img/home_bg.jpg"
