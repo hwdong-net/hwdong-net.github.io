@@ -97,8 +97,7 @@ for epoch in range(epochs):
     F = nn.forward(X)
     loss,loss_grad = util.loss_grad_least(F,Y)
      
-    optimizer.zero_grad() 
-    nn.zero_grad()
+    optimizer.zero_grad()    
     nn.backward(loss_grad,reg)               
     loss += nn.reg_loss(reg)         
     
