@@ -20,25 +20,25 @@ google Colaboratory（简称 google colab）是谷歌提供的免费的云端的
 
 然后在google drive页面左上角的"My Drive（我的硬盘）"处点鼠标右键，出现弹出菜单，选择其中的“New Folder(新建文件夹)”：
 
-<div align="center"><img  style="zoom:70%;" src="imgs/colab_2.png"/></div>
+<div align="center"><img  style="zoom:70%;" src="../imgs/colab_2.png"/></div>
 
 在出现的创建文件夹对话框中输入要创建的文件夹的名字，如“App”：
 
-<div align="center"><img  style="zoom:70%;" src="imgs/colab_3.png"/></div>
+<div align="center"><img  style="zoom:70%;" src="../imgs/colab_3.png"/></div>
 
 在左侧导航选择这个App文件夹，然后在其右侧窗口里点击鼠标右键：
 
-<div align="center"><img  style="zoom:70%;" src="imgs/colab_4.png"/></div>
+<div align="center"><img  style="zoom:70%;" src="../imgs/colab_4.png"/></div>
 
 在右键菜单里选择“More” -> “Colaboratory”，colab将自动创建一个名字为“Untitled0.ipynb”的jupyter notebook文档。
-<div align="center"><img  style="zoom:70%;" src="imgs/colab_5.png"/></div>
+<div align="center"><img  style="zoom:70%;" src="../imgs/colab_5.png"/></div>
 
 可以将这个文档命令为你感兴趣的名字。
 
-<div align="center"><img  style="zoom:70%;" src="imgs/colab_6.png"/></div>
+<div align="center"><img  style="zoom:70%;" src="../imgs/colab_6.png"/></div>
 
 要使用GPU，请在"runtime"的子菜单里选择“change runtime type”：
-<div align="center"><img  style="zoom:70%;" src="imgs/colab_7.png"/></div>
+<div align="center"><img  style="zoom:70%;" src="../imgs/colab_7.png"/></div>
 
 在弹出菜单的第二项“Hardware accelerator”的下拉菜单里选择“GPU”。
 
