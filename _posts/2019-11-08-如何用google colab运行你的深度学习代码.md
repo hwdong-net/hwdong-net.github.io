@@ -16,7 +16,7 @@ google Colaboratory（简称 google colab）是谷歌提供的免费的云端的
 
 使用colab非常简单，首先进入gmail账户（没有的可以免费注册一个），然后进入google drive（硬盘）:
 
-<div align="center"><img  style="zoom:70%;" src="imgs/colab_1.png"/></div>
+<div align="center"><img  style="zoom:70%;" src="../imgs/colab_1.png"/></div>
 
 然后在google drive页面左上角的"My Drive（我的硬盘）"处点鼠标右键，出现弹出菜单，选择其中的“New Folder(新建文件夹)”：
 
