@@ -43,7 +43,7 @@ google Colaboratory（简称 google colab）是谷歌提供的免费的云端的
 
 在弹出菜单的第二项“Hardware accelerator”的下拉菜单里选择“GPU”。
 
-<div align="center"><img  style="zoom:70%;" src="https://hwdong-net.github.ioimgs/colab_8.png"/></div>
+<div align="center"><img  style="zoom:70%;" src="https://hwdong-net.github.io/imgs/colab_8.png"/></div>
 现在你可以利用谷歌提供的GPU运行你的深度学习代码了。
 
 更详细的使用说明，请参考本书作者的网址：[https://hwdong-net.github.io](https://hwdong-net.github.io) 。
