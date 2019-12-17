@@ -48,4 +48,4 @@ google Colaboratory（简称 google colab）是谷歌提供的免费的云端的
 
 更详细的使用说明，请参考本书作者的网址：[https://hwdong-net.github.io](https://hwdong-net.github.io) 。
 
-觉得文章对您有用，帮忙点击博客上面的广告哦！谢谢！
+#### 觉得文章对您有用，帮忙点击博客上面的广告哦！谢谢！
