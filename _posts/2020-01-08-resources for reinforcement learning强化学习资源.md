@@ -1,7 +1,7 @@
 ---
 layout:       post
-title:        "resources for reinforcement learning强化学习资源"
-subtitle:     "resources for reinforcement learning强化学习资源"
+title:        Resources for reinforcement learning强化学习资源
+subtitle:     Resources for reinforcement learning强化学习资源
 date:         2020-01-08 12:08:00
 author:       "xuepro"
 header-img:   "img/home_bg.jpg"
