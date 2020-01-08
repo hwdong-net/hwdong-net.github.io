@@ -1,3 +1,18 @@
+---
+layout:       post
+title:        "resources for reinforcement learning强化学习资源"
+subtitle:     "resources for reinforcement learning强化学习资源"
+date:         2020-01-08 12:08:00
+author:       "xuepro"
+header-img:   "img/home_bg.jpg"
+header-mask:  0.3
+catalog:      true
+multilingual: true
+tags:
+    - Python 
+    
+---    
+
 [Awesome Reinforcement Learning](https://github.com/aikorea/awesome-rl)
 
 [https://github.com/ZhiqiangHo/awesome-reinforcement-learning](https://github.com/ZhiqiangHo/awesome-reinforcement-learning)
