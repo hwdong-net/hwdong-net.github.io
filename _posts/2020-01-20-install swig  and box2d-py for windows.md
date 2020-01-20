@@ -12,6 +12,12 @@ tags:
     - C
 ---
 
+I encountered an error when I want to use the lunar_lander environment in gym. The error is :
+
+error: "module 'gym.envs.box2d' has no attribute 'LunarLander'"
+
+I searched on internet and found the solution:
+
 1. download [swig for windows](https://netix.dl.sourceforge.net/project/swig/swigwin/swigwin-3.0.12/swigwin-3.0.12.zip), 
 unzip to a folder and add the  folder to the PATH environment variable.
 
