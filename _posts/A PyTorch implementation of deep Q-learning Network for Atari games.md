@@ -174,8 +174,7 @@ class ReplayMemory_2(object):
 
         
         mini_batch = np.array(mini_batch).transpose()  # (batch_size,4) to (4,batch_size)
-        print(mini_batch.shape)
-
+      
         history = np.stack(mini_batch[0], axis=0)      # stack all states: [[frame1,...,frame5],[frame1,...,frame5],...  ]
                                                        # history.shape:(32, 5, 84, 84)
               
