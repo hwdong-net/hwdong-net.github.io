@@ -18,6 +18,8 @@ tags:
 
 [https://guide.v2fly.org/en_US/advanced/wss_and_web.html](https://guide.v2fly.org/en_US/advanced/wss_and_web.html)
 
+[v2ray基于caddy的VMESS+WS+TLS+Website+CDN豪华配置](http://csuncle.com/2019/06/05/v2ray%E5%9F%BA%E4%BA%8Ecaddy%E7%9A%84VMESS-WS-TLS-Website-CDN%E8%B1%AA%E5%8D%8E%E9%85%8D%E7%BD%AE/)
+
 1. 申请域名+配置解析+验证
 
 2.  安装Caddy
@@ -27,3 +29,4 @@ tags:
 [Debian 9 安装配置 Caddy Server](https://cloud.tencent.com/developer/article/1375370)
 
 [Install V2Ray + WebSocket + TLS + Caddy + CDN Using 233boy Script](https://armazopu.github.io/v2ray+websocket+tls+caddy+cdn.html)
+
