@@ -16,6 +16,8 @@ tags:
 
 ### 2. WebSocket+TLS+Web
 
+[https://guide.v2fly.org/en_US/advanced/wss_and_web.html](https://guide.v2fly.org/en_US/advanced/wss_and_web.html)
+
 1. 申请域名+配置解析+验证
 
 2.  安装Caddy
@@ -23,3 +25,5 @@ tags:
 [Install Caddy with PHP & HTTPS using Let’s Encrypt on Ubuntu](https://www.cloudbooklet.com/install-caddy-with-php-https-using-letsencrypt-on-ubuntu/)
 
 [Debian 9 安装配置 Caddy Server](https://cloud.tencent.com/developer/article/1375370)
+
+[Install V2Ray + WebSocket + TLS + Caddy + CDN Using 233boy Script](https://armazopu.github.io/v2ray+websocket+tls+caddy+cdn.html)
