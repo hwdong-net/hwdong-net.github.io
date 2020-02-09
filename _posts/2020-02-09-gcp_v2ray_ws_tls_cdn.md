@@ -46,6 +46,14 @@ tags:
   yum update
   yum install curl
 ```
+check:
+```
+which curl
+```
+output:
+```
+/usr/bin/curl
+```
 
 2.2  install Caddy.
 
@@ -56,7 +64,10 @@ check:
 ```
 which caddy
 ```
-
+output:
+```
+/usr/local/bin/caddy
+```
 
 2.3 Configure Caddy
 
