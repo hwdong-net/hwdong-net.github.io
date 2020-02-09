@@ -129,11 +129,10 @@ https://domain.com {
      tls on
      gzip
 
-     fastcgi / /run/php/php7.4-fpm.sock {
-         ext .php
-         split .php
-         index index.php
-     }
+    proxy /ray localhost:10000 {
+      websocket
+      header_upstream -Origin
+    }
 }
 ```
 
