@@ -24,6 +24,8 @@ tags:
 
 1. 申请域名+配置解析+验证
 
+
+
 2.  安装Caddy
 
 [Install Caddy with PHP & HTTPS using Let’s Encrypt on Ubuntu](https://www.cloudbooklet.com/install-caddy-with-php-https-using-letsencrypt-on-ubuntu/)
@@ -31,4 +33,44 @@ tags:
 [Debian 9 安装配置 Caddy Server](https://cloud.tencent.com/developer/article/1375370)
 
 [Install V2Ray + WebSocket + TLS + Caddy + CDN Using 233boy Script](https://armazopu.github.io/v2ray+websocket+tls+caddy+cdn.html)
+
+2.1 install curl
+  For **Debian** or **Ubuntu** users, update your system and install curl like this:
+  ```
+  apt update
+  apt upgrade
+  apt install curl
+  ```
+  For **CentOS** users, update your system and install curl like this:
+  ```
+  yum update
+  yum install curl
+```
+
+2.2  install Caddy.
+
+```
+curl https://getcaddy.com | sudo bash -s personal
+```
+check:
+```
+which caddy
+```
+
+
+2.3 Configure Caddy
+
+Setup directories for Caddy.
+```
+sudo mkdir /etc/caddy
+sudo mkdir /etc/ssl/caddy 
+sudo mkdir /var/log/caddy 
+```
+Configure correct permissions.
+```
+sudo chown -R root:root /etc/caddy
+sudo chown -R root:www-data /etc/ssl/caddy
+sudo chown -R root:www-data /var/log/caddy 
+sudo chmod 0770 /etc/ssl/caddy
+```
 
