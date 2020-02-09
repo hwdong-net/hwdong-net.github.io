@@ -20,6 +20,8 @@ tags:
 
 [v2ray基于caddy的VMESS+WS+TLS+Website+CDN豪华配置](http://csuncle.com/2019/06/05/v2ray%E5%9F%BA%E4%BA%8Ecaddy%E7%9A%84VMESS-WS-TLS-Website-CDN%E8%B1%AA%E5%8D%8E%E9%85%8D%E7%BD%AE/)
 
+[用Caddy配合Docker搭建V2Ray的(vmess+ws)+tls，可选套cdn](https://ssu.tw/index.php/archives/6/)
+
 1. 申请域名+配置解析+验证
 
 2.  安装Caddy
