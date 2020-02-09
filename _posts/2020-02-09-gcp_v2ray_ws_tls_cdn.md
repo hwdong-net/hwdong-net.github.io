@@ -10,6 +10,16 @@ catalog:      true
 multilingual: true
 tags:
     - Life     
----    
+---   
 
-!. [Install Caddy with PHP & HTTPS using Let’s Encrypt on Ubuntu](https://www.cloudbooklet.com/install-caddy-with-php-https-using-letsencrypt-on-ubuntu/)
+### 1. 申请谷歌云（或购买其他VPS）+安装v2ray
+
+### 2. WebSocket+TLS+Web
+
+1. 申请域名+配置解析+验证
+
+2.  安装Caddy
+
+[Install Caddy with PHP & HTTPS using Let’s Encrypt on Ubuntu](https://www.cloudbooklet.com/install-caddy-with-php-https-using-letsencrypt-on-ubuntu/)
+
+[Debian 9 安装配置 Caddy Server](https://cloud.tencent.com/developer/article/1375370)
