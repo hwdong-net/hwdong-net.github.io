@@ -97,3 +97,9 @@ sudo chown -R root:www-data /var/log/caddy
 sudo chmod 0770 /etc/ssl/caddy
 ```
 
+
+
+### 参考：
+[The Beginner’s Guide to Nano, the Linux Command-Line Text Editor](https://www.howtogeek.com/howto/42980/the-beginners-guide-to-nano-the-linux-command-line-text-editor/)
+
+[Nano简单使用](https://www.jianshu.com/p/e9384af07d66) 
