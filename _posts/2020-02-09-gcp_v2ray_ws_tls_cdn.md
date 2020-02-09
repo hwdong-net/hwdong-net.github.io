@@ -22,11 +22,11 @@ tags:
 
 [用Caddy配合Docker搭建V2Ray的(vmess+ws)+tls，可选套cdn](https://ssu.tw/index.php/archives/6/)
 
-1. 申请域名+配置解析+验证
+#### 1. 申请域名+配置解析+验证
 
 
 
-2.  安装Caddy
+#### 2.  安装Caddy
 
 [Install Caddy with PHP & HTTPS using Let’s Encrypt on Ubuntu](https://www.cloudbooklet.com/install-caddy-with-php-https-using-letsencrypt-on-ubuntu/)
 
@@ -34,7 +34,8 @@ tags:
 
 [Install V2Ray + WebSocket + TLS + Caddy + CDN Using 233boy Script](https://armazopu.github.io/v2ray+websocket+tls+caddy+cdn.html)
 
-2.1 install curl
+**2.1 install curl**
+
   For **Debian** or **Ubuntu** users, update your system and install curl like this:
   ```
   apt update
@@ -58,7 +59,7 @@ output:
 
 
 
-2.2  install Caddy.
+**2.2  install Caddy**
 
 ```
 curl https://getcaddy.com | sudo bash -s personal
@@ -81,7 +82,7 @@ Caddy v1.0.4 (h1:wwuGSkUHo6RZ3oMpeTt7J09WBB87X5o+IZN4dKeh
 cQE=)
 ```
 
-2.3 Configure Caddy
+**2.3 Configure Caddy**
 
 Setup directories for Caddy.
 ```
@@ -96,8 +97,49 @@ sudo chown -R root:www-data /etc/ssl/caddy
 sudo chown -R root:www-data /var/log/caddy 
 sudo chmod 0770 /etc/ssl/caddy
 ```
+** 2.4  Configure Caddy Systemd service unit **
+ow you can create a systemd service file for Caddy which is available in the official repository and reload the demon for the changes to be available.
+```
+wget https://raw.githubusercontent.com/caddyserver/caddy/master/dist/init/linux-systemd/caddy.service
+sudo cp caddy.service /etc/systemd/system/
+sudo chown root:root /etc/systemd/system/caddy.service
+sudo chmod 644 /etc/systemd/system/caddy.service
+sudo systemctl daemon-reload
+```
+** 2.5 Configure Domain and Webroot in Caddy**
 
+```
+sudo mkdir /var/www
+sudo chown www-data:www-data /var/www
+sudo nano /var/www/index.html
+```
 
+Create a Caddy file named Caddyfile inside /etc/caddy/ and configure your domain name with HTTPS.
+```
+sudo nano /etc/caddy/Caddyfile 
+```
+
+Copy the below configuration and paste it inside this file.
+```
+https://domain.com {
+     root /var/www/
+
+     log /var/log/caddy/domain.log
+
+     tls on
+     gzip
+
+     fastcgi / /run/php/php7.4-fpm.sock {
+         ext .php
+         split .php
+         index index.php
+     }
+}
+```
+
+Hit **CTRL + X** followed by **Y** and **ENTER** to save and exit the file.
+
+ 
 
 ### 参考：
 [The Beginner’s Guide to Nano, the Linux Command-Line Text Editor](https://www.howtogeek.com/howto/42980/the-beginners-guide-to-nano-the-linux-command-line-text-editor/)
