@@ -46,14 +46,17 @@ tags:
   yum update
   yum install curl
 ```
-check:
+**check(检查安装是否正确)**:
 ```
 which curl
 ```
+
 output:
 ```
 /usr/bin/curl
 ```
+
+
 
 2.2  install Caddy.
 
@@ -67,6 +70,15 @@ which caddy
 output:
 ```
 /usr/local/bin/caddy
+```
+check version(检查安装的caddy版本)
+```
+caddy -version
+```
+output(输出)：
+```
+Caddy v1.0.4 (h1:wwuGSkUHo6RZ3oMpeTt7J09WBB87X5o+IZN4dKeh
+cQE=)
 ```
 
 2.3 Configure Caddy
