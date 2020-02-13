@@ -27,6 +27,9 @@ Policy_Evaluation(输入：环境$p(s',r \lvert s,a )$，策略$\pi$)
     
 + 返回$V\sim V^{\pi}$
 
+
+![](../imgs/rl/iterative_policy_evaluation-1.png)
+
 下面的函数value_by_bellman_equation根据贝尔曼方程通过迭代更新状态价值进行策略的评估，其中参数env、policy、gamma分别表示环境对象、策略和折扣因子。
 
 ```python
