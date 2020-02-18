@@ -186,3 +186,15 @@ modify v2ray confiture file:
 1. https://guide.v2fly.org/advanced/wss_and_web.html#%E9%85%8D%E7%BD%AE
 2. https://www.cloudbooklet.com/install-caddy-with-php-https-using-letsencrypt-on-ubuntu/
 3. https://melty.land/blog/caddy-and-cloudflare
+
+### CDN 
+
+sudo nano /etc/systemd/system/caddy.service
+
+一个坑（参考[https://github.com/caddyserver/caddy/issues/2775](https://github.com/caddyserver/caddy/issues/2775)）： 要删除"Environment=CADDYPATH=/etc/ssl/caddy"
+然后添加：
+Environment=CLOUDFLARE_EMAIL=hwdong.net@gmail.com
+Environment=CLOUDFLARE_API_KEY=699a911c62c0b90d254fa1d34fd53499a57e5
+sudo systemctl daemon-reload
+sudo systemctl restart caddy
+sudo systemctl status caddy.service
