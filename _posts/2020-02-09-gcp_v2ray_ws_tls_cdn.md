@@ -104,7 +104,8 @@ sudo chown -R root:www-data /etc/ssl/caddy
 sudo chown -R root:www-data /var/log/caddy 
 sudo chmod 0770 /etc/ssl/caddy
 ```
-**2.4  Configure Caddy Systemd service unit **
+**2.4 Configure Caddy Systemd service unit**
+
 ow you can create a systemd service file for Caddy which is available in the official repository and reload the demon for the changes to be available.
 
 ```
