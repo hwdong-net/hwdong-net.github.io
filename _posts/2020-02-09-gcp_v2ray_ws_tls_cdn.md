@@ -106,6 +106,7 @@ sudo chmod 0770 /etc/ssl/caddy
 ```
 **2.4  Configure Caddy Systemd service unit **
 ow you can create a systemd service file for Caddy which is available in the official repository and reload the demon for the changes to be available.
+
 ```
 wget https://raw.githubusercontent.com/caddyserver/caddy/master/dist/init/linux-systemd/caddy.service
 sudo cp caddy.service /etc/systemd/system/
@@ -113,7 +114,8 @@ sudo chown root:root /etc/systemd/system/caddy.service
 sudo chmod 644 /etc/systemd/system/caddy.service
 sudo systemctl daemon-reload
 ```
-** 2.5 Configure Domain and Webroot in Caddy **
+
+**2.5 Configure Domain and Webroot in Caddy**
 
 ```
 sudo mkdir /var/www
@@ -180,7 +182,7 @@ modify v2ray confiture file:
 ```
 
 
-### 参考：
-[The Beginner’s Guide to Nano, the Linux Command-Line Text Editor](https://www.howtogeek.com/howto/42980/the-beginners-guide-to-nano-the-linux-command-line-text-editor/)
-
-[Nano简单使用](https://www.jianshu.com/p/e9384af07d66) 
+ ### 参考：
+1. https://guide.v2fly.org/advanced/wss_and_web.html#%E9%85%8D%E7%BD%AE
+2. https://www.cloudbooklet.com/install-caddy-with-php-https-using-letsencrypt-on-ubuntu/
+3. https://melty.land/blog/caddy-and-cloudflare
