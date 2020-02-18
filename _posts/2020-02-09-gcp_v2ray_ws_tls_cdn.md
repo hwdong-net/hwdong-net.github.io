@@ -198,3 +198,22 @@ Environment=CLOUDFLARE_API_KEY=699a911c62c0b90d254fa1d34fd53499a57e5
 sudo systemctl daemon-reload
 sudo systemctl restart caddy
 sudo systemctl status caddy.service
+
+CaddyFile shoube be modified as following :
+```
+```
+yourdomain.com {
+     root /var/www/
+     tls     23232@qq.com
+      tls {
+        dns cloudflare
+     }
+     gzip 
+
+ proxy /ray localhost:10000 {
+         websocket
+        header_upstream -Origin
+   }
+} 
+```
+```
