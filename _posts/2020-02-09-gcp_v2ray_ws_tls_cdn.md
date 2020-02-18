@@ -60,11 +60,10 @@ output:
 ```
 
 
-
 **2.2  install Caddy**
 
 ```
-curl https://getcaddy.com | sudo bash -s personal
+curl https://getcaddy.com | sudo bash -s personal  tls.dns.cloudflare
 ```
 check:
 ```
@@ -82,6 +81,12 @@ output(输出)：
 ```
 Caddy v1.0.4 (h1:wwuGSkUHo6RZ3oMpeTt7J09WBB87X5o+IZN4dKeh
 cQE=)
+```
+设置权限：
+
+```
+sudo apt-get install libcap2-bin
+sudo setcap cap_net_bind_service=+ep /usr/local/bin/caddy
 ```
 
 **2.3 Configure Caddy**
@@ -123,24 +128,57 @@ sudo nano /etc/caddy/Caddyfile
 
 Copy the below configuration and paste it inside this file.
 ```
-https://domain.com {
+yourdomain.com {
      root /var/www/
-
-     log /var/log/caddy/domain.log
-
-     tls on
+     tls     23232@qq.com
      gzip
+ protocols tls1.2 tls1.3
+  ciphers ECDHE-ECDSA-AES128-GCM-SHA256 ECDHE-RSA-AES128-GCM-SHA256 ECDHE-ECDSA-AES256-GCM-SHA384 ECDHE-RSA-AES256-GCM-SHA384 ECDHE-ECDSA-WITH-CHACHA20-POLY1305 ECDHE-RSA-WITH-CHACHA20-POLY1305 
 
-    proxy /ray localhost:10000 {
-      websocket
-      header_upstream -Origin
-    }
-}
+ proxy /ray localhost:10000 {
+         websocket
+        header_upstream -Origin
+   }
+} 
 ```
 
 Hit **CTRL + X** followed by **Y** and **ENTER** to save and exit the file.
 
- 
+modify v2ray confiture file:
+
+```
+{
+  "inbounds": [
+    {
+      "port": 10000,
+      "listen":"127.0.0.1",
+      "protocol": "vmess",
+      "settings": {
+        "clients": [
+          {
+            "id": "b831381d-6324-4d53-ad4f-8cda48b30811",
+            "alterId": 64
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "wsSettings": {
+        "path": "/ray"
+        }
+      }
+    }
+  ],
+  "outbounds": [
+    {
+      "protocol": "freedom",
+      "settings": {}
+    }
+  ]
+}
+
+```
+
 
 ### 参考：
 [The Beginner’s Guide to Nano, the Linux Command-Line Text Editor](https://www.howtogeek.com/howto/42980/the-beginners-guide-to-nano-the-linux-command-line-text-editor/)
