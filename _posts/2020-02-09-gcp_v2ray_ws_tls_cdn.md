@@ -201,7 +201,6 @@ sudo systemctl status caddy.service
 
 CaddyFile shoube be modified as following :
 ```
-```
 yourdomain.com {
      root /var/www/
      tls     23232@qq.com
@@ -215,5 +214,4 @@ yourdomain.com {
         header_upstream -Origin
    }
 } 
-```
 ```
