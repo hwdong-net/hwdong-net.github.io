@@ -23,6 +23,9 @@ or download the mingW version [x86_64-win32-seh](https://sourceforge.net/project
 
 #### 1.2 extracted the 7z compressed file to a foler using [7z](https://www.7-zip.org/download.html)
 
+####  1.3  add the bin folder of mingw-64 to Windows PATH environment variable.
+
+
 ```cpp
 #include <array>
 #include <iostream>
@@ -53,3 +56,7 @@ int main()
     return 0;
 }
 ```
+
+Refer to 
+
+1. [https://code.visualstudio.com/docs/cpp/config-mingw](https://code.visualstudio.com/docs/cpp/config-mingw)
