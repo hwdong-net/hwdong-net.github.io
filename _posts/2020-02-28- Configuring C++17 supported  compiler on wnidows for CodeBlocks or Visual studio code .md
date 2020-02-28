@@ -1,7 +1,7 @@
 ---
 layout:       post
-title:        Configuring C++17 supported  compiler on wnidows for CodeBlocks
-subtitle:      Configuring C++17 supported  compiler on wnidows for CodeBlocks
+title:        Configuring C++17 supported  compiler on wnidows for CodeBlocks and Visual Studio Code 
+subtitle:      Configuring C++17 supported  compiler on wnidows for CodeBlocks and Visual Studio Code 
 date:         2020-02-28 15:40:00
 author:       "xuepro"
 header-img:   "img/home_bg.jpg"
