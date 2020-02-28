@@ -18,4 +18,4 @@ goto download link to download the install program: [mingw-w64-install ](https:/
 
 or download the mingW version [x86_64-win32-seh](https://sourceforge.net/projects/mingw-w64/files/)
 
-![](imgs/mingw.png)
+![](../imgs/mingw.png)
