@@ -73,13 +73,20 @@ hello.exe
 
 ## 2. cofigure CodeBlocks for mingW-64 C++ compiler
 
-from the main menu to select "Settings → Compiler →Toolchain executables. 
+from the main menu to select "**Settings** → **Compiler** →**Toolchain executables**. 
 
 change from 
 ![](https://solarianprogrammer.com/images/2019/11/16/codeblocks_default_toolchain_settings.png)
 
 to 
 ![](https://solarianprogrammer.com/images/2019/11/16/codeblocks_modified_toolchain_settings.png)
+
+from the main menu to select "**Settings** → **Compiler** →**compiler setting**. click the "**compiler flag**" and check the box 
+"Have g++ follow the coming -std=c++1z  (aka C++17) ISO C++ language standard..."
+
+![](https://www.learncpp.com/images/CppTutorial/Chapter0/CB-C++11-min.png)
+
+Alternatively, you can go to the Other Compiler Options tab and type in -std=c++17.
 
 Refer to 
 
