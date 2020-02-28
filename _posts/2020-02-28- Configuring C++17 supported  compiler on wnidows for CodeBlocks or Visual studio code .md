@@ -9,7 +9,7 @@ header-mask:  0.3
 catalog:      true
 multilingual: true
 tags:
-    - RL    
+    - c++    
 ---    
 
 ## 1.  install mingw-64 on windows
