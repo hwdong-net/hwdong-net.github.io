@@ -71,6 +71,15 @@ g++ -std==c++17 hello.cpp -o hello.exe
 hello.exe
 ```
 
+## 2. cofigure CodeBlocks for mingW-64 C++ compiler
+
+from the main menu to select "Settings → Compiler →Toolchain executables. 
+
+change from 
+![](https://solarianprogrammer.com/images/2019/11/16/codeblocks_default_toolchain_settings.png)
+
+to 
+![](https://solarianprogrammer.com/images/2019/11/16/codeblocks_modified_toolchain_settings.png)
 
 Refer to 
 
