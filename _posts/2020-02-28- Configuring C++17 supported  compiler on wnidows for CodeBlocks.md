@@ -25,6 +25,14 @@ or download the mingW version [x86_64-win32-seh](https://sourceforge.net/project
 
 ####  1.3  add the bin folder of mingw-64 to Windows PATH environment variable.
 
+open a new Command Prompt and type:
+```
+g++ --version
+gdb --version
+```
+
+#### 1.4 compile and run a c++ program 
+use notepad++ or notepad  to edit a file "hello.cpp" as following:
 
 ```cpp
 #include <array>
@@ -56,6 +64,13 @@ int main()
     return 0;
 }
 ```
+
+in new Command Prompt and type:
+```
+g++ -std==c++17 hello.cpp -o hello.exe
+hello.exe
+```
+
 
 Refer to 
 
