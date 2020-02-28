@@ -91,3 +91,5 @@ Alternatively, you can go to the Other Compiler Options tab and type in -std=c++
 Refer to 
 
 1. [https://code.visualstudio.com/docs/cpp/config-mingw](https://code.visualstudio.com/docs/cpp/config-mingw)
+2. [Install Code::Blocks and GCC 9 on Windows - Build C, C++ and Fortran programs](https://solarianprogrammer.com/2019/11/16/install-codeblocks-gcc-windows-build-c-cpp-fortran-programs/)
+3. [https://www.learncpp.com/cpp-tutorial/configuring-your-compiler-choosing-a-language-standard/](https://www.learncpp.com/cpp-tutorial/configuring-your-compiler-choosing-a-language-standard/)
