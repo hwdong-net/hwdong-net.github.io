@@ -78,7 +78,7 @@ tags:
      
        + Go to **File** → **Project Structure... **(CTRL+ALT+SHIFT+S)
        + Select **Modules**
-       + Open the **Dependencies** tab and click **+*8
+       + Open the **Dependencies** tab and click **+**
        
           Select **JARs or directories...**
        
