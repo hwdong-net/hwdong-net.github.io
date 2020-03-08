@@ -212,3 +212,9 @@ yourdomain.com {
 [v2ray基于caddy的VMESS+WS+TLS+Website+CDN豪华配置](http://csuncle.com/2019/06/05/v2ray%E5%9F%BA%E4%BA%8Ecaddy%E7%9A%84VMESS-WS-TLS-Website-CDN%E8%B1%AA%E5%8D%8E%E9%85%8D%E7%BD%AE/)
 
 [用Caddy配合Docker搭建V2Ray的(vmess+ws)+tls，可选套cdn](https://ssu.tw/index.php/archives/6/)
+
+#### 适合小白的最简单的谷歌云+V2ray教程：
+
+[2020最新5分钟申请免费谷歌云搭建v2ray|(含bbr加速)|免费看油管|客户端可用SSR](https://www.youtube.com/watch?v=hscVmLJxPhc)
+
+2020年2月谷歌云申请+V2ray搭建补充说明|最简单教程官方命令非脚本安全无木马](https://www.youtube.com/watch?v=PKtmGgdVEas)
