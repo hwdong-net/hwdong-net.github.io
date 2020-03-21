@@ -14,9 +14,11 @@ tags:
 
 youtube视频教程：
 
-[Visual Studio 2019 安装和使用|C++17配置|C++17从入门到精通](https://www.youtube.com/watch?v=qQUeV1hnRcI)
+1. [Visual Studio 2019 安装和使用|C++17配置|C++17从入门到精通](https://www.youtube.com/watch?v=qQUeV1hnRcI)
 
-[install and configure mingW64 C++17 supporting on windows for Visual Studio and CodeBlocks](https://www.youtube.com/watch?v=lvt1QvywH-s)
+
+2. [install and configure mingW64 C++17 supporting on windows for Visual Studio and CodeBlocks](https://www.youtube.com/watch?v=lvt1QvywH-s)
+
 
 ## 1.  install mingw-64 on windows
 
