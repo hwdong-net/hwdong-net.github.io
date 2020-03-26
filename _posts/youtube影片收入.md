@@ -7,3 +7,5 @@
 [觀看次數=賺多少錢？　YouTube分潤大解密](https://www.mirrormedia.mg/story/20181123gameyoutuber02)
 
 [Youtuber 好赚钱、谷阿莫到底靠点阅率赚了多少钱？知名 YouTuber 公开收入算法](https://buzzorange.com/techorange/2017/04/26/youtuber-making-money/)
+
+[YouTube收入计算器：算算你能赚多少](https://www.mirrormedia.mg/story/20181123gameyoutuber02)
