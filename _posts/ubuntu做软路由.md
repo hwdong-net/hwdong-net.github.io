@@ -68,6 +68,8 @@ network:
     version: 2
 ```
 
+使用10.0.0.1/24作为内网ip，enp1s0作为外部网络（WAN）接口，其余接口作为局域网（LAN）接口
+
 
 
 创建 bridge, br0 （eth1 + wlan0）
