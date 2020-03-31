@@ -43,6 +43,7 @@ gateway 192.168.6.1
 ```
 
 
+[如何在 Linux 上使用网络配置工具 Netplan](https://zhuanlan.zhihu.com/p/46544606)
 
 [配置ubuntu搭建一个路由器](https://blog.csdn.net/u012174021/article/details/45369457?depth_1-utm_source=distribute.pc_relevant.none-task&utm_source=distribute.pc_relevant.none-task)
 
