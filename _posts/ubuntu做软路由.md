@@ -34,9 +34,7 @@ ip a
 ```
 再修改配置文件
 ```
-cd /etc/netplan
-ls
-sudo nano (默认配置文件)
+sudo nano /etc/netplan/01-netcfg.yaml
 ```
 修改为：
 ```
