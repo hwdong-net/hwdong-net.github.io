@@ -5,6 +5,13 @@
   1.2 用ubuntu安装u盘在工控机上安装ubuntu系统
 
 ### 2. 使ubuntu成为软路由
+  
+更新软件包列表
+
+```
+sudo apt-get update
+sudo apt-get upgrade -y
+```
 
   2.1 ppoe拨号: 
   
@@ -18,6 +25,52 @@
 ```
 
 2.2 配置网卡:
+
+Ubuntu 18.04使用netplan配置网络
+
+先查询网络设备有哪些？
+```
+ip a
+```
+再修改配置文件
+```
+cd /etc/netplan
+ls
+sudo nano (默认配置文件)
+```
+修改为：
+```
+network:
+    renderer: networkd
+    ethernets:
+        enp1s0:
+          dhcp4: no
+        enp2s0:
+          dhcp4: no
+        enp3s0:
+          dhcp4: no
+        enp4s0:
+          dhcp4: no
+        enp5s0:
+          dhcp4: no
+        enp6s0:
+          dhcp4: no
+    bridges:
+      br-lan:
+        addresses: [10.0.0.1/24,'ipv6全球路由前缀/64']
+        dhcp4: no
+        dhcp6: no
+        accept-ra: no
+        interfaces:
+          - enp6s0
+          - enp5s0
+          - enp4s0
+          - enp3s0
+          - enp2s0
+    version: 2
+```
+
+
 
 创建 bridge, br0 （eth1 + wlan0）
 
