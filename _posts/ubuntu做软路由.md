@@ -5,8 +5,9 @@
   1.2 用ubuntu安装u盘在工控机上安装ubuntu系统
 
 ### 2. 使ubuntu成为软路由
+
   2.1 ppoe拨号
-   sudo  install pppoeconf
+   sudo  install pppoeconf -y 
    pppoeconf
 
 
