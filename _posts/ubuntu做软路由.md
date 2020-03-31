@@ -6,9 +6,16 @@
 
 ### 2. 使ubuntu成为软路由
 
-  2.1 ppoe拨号
+  2.1 ppoe拨号: 
+  
+   安装软件包pppoeconf
+```
    sudo  install pppoeconf -y 
+```
+   配置拨号：输入账号名和密码
+```
    pppoeconf
+```
 
 
 
