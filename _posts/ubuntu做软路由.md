@@ -17,6 +17,31 @@
    pppoeconf
 ```
 
+2.2 配置网卡:
+
+创建 bridge, br0 （eth1 + wlan0）
+
+```
+apt-get install bridge-utils
+sudo vim /etc/network/interfaces
+```
+
+```
+auto lo
+iface lo inet loopback
+auto eth0
+iface eth0 inet static
+address 192.168.1.155
+netmask 255.255.255.0
+gateway 192.168.1.1
+
+auto eth1
+iface eth1 inet static
+address 192.168.6.1
+netmask 255.255.255.0
+gateway 192.168.6.1
+```
+
 
 
 [配置ubuntu搭建一个路由器](https://blog.csdn.net/u012174021/article/details/45369457?depth_1-utm_source=distribute.pc_relevant.none-task&utm_source=distribute.pc_relevant.none-task)
