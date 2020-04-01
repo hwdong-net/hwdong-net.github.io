@@ -123,7 +123,7 @@ $ sudo service networking restart
 此时，如果正确配置了所有设置，则您的客户端计算机应该正在从DHCP服务器自动接收IP地址。
 
 
-### PPPoE拨号
+### 3. PPPoE拨号
 
 安装pppoeconf：
 ```
@@ -143,7 +143,7 @@ auto eth1 iface eth1 inet static address 192.168.0.1 netmask 255.255.255.0 broad
 重启
 
 
-
+### 4. 搭建路由与防火墙
 
 ### 1. 安装ubuntu系统
   1.1 制作ubuntu安装u盘
