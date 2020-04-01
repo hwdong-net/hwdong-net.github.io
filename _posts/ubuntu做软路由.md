@@ -263,6 +263,7 @@ netmask 255.255.255.0
 gateway 192.168.6.1
 ```
 
+[使用 Debian 10 搭建旁路代理网关/透明代理](https://pengjiayou.com/debian-10-transparent-gateway)
 
 [Linux 将debian配置为软路由](https://www.hotbak.net/key/debian%20%E8%BD%AF%E8%B7%AF%E7%94%B1.html)
 
