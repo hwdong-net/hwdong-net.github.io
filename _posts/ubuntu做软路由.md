@@ -284,3 +284,5 @@ gateway 192.168.6.1
 [ss-redir+dnsmasq+iptables 透明代理](https://ivo-wang.github.io/2019/04/18/ss-redir+dnsmasq+iptables-%E9%80%8F%E6%98%8E%E4%BB%A3%E7%90%86/)
 
 [使用 bind9 配合 dnscrypt-proxy 搭建自己的无污染的DNS服务器](https://oing9179.github.io/blog/2016/201609-Clean-DNS-Server-Setup-Using-bind9-and-dnscrypt-proxy/)
+
+[DNSCrypt简明教程](https://jiajunhuang.com/articles/2019_10_31-dnscrypt.md.html)
