@@ -291,4 +291,6 @@ gateway 192.168.6.1
 
 [关于软路由的一些配置](https://darkof.me/2019/07/07/hulu-configuration/)
 
+[x86 软路由透明代理构建方案](https://0x01.io/2017/04/01/x86-%E8%BD%AF%E8%B7%AF%E7%94%B1%E9%80%8F%E6%98%8E%E4%BB%A3%E7%90%86%E6%9E%84%E5%BB%BA%E6%96%B9%E6%A1%88/#more)
+
 
