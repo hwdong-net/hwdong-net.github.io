@@ -266,6 +266,10 @@ gateway 192.168.6.1
 
 [Linux 将debian配置为软路由](https://www.hotbak.net/key/debian%20%E8%BD%AF%E8%B7%AF%E7%94%B1.html)
 
+[DNSCrypt简明教程](https://jiajunhuang.com/articles/2019_10_31-dnscrypt.md.html)
+
+[使用Debian9自己打造一个旁路由](https://lala.im/5727.html)
+
 [使用Ubuntu 18.04打造超级家庭网关（边缘路由器）](https://www.johnrosen1.com/ubuntu-router/)
 
 [如何在 Linux 上使用网络配置工具 Netplan](https://zhuanlan.zhihu.com/p/46544606)
@@ -285,4 +289,4 @@ gateway 192.168.6.1
 
 [使用 bind9 配合 dnscrypt-proxy 搭建自己的无污染的DNS服务器](https://oing9179.github.io/blog/2016/201609-Clean-DNS-Server-Setup-Using-bind9-and-dnscrypt-proxy/)
 
-[DNSCrypt简明教程](https://jiajunhuang.com/articles/2019_10_31-dnscrypt.md.html)
+
