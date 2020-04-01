@@ -6,10 +6,65 @@
       [debian 下载] (https://www.debian.org/distrib/netinst)
   [How to create a bootable Debian USB drive using Windows](https://unix.stackexchange.com/questions/263615/how-to-create-a-bootable-debian-usb-drive-using-windows)
   1.2 用debian安装u盘在工控机上安装debian系统
-###
   
+###   2 安装DNS和DHCP服务
+ 2.1  安装bind9 DNS服务器：
+ ```
+  sudo apt-get install bind9 bind9utils bind9-doc dnsutils
+ ```
+修改/etc/resolv.conf，
+```
+vim /etc/resolv.conf
+```
 
-  
+加上：
+```
+nameserver 127.0.0.1
+```  
+2.2 [安装和配置DHCP服务器](https://www.tecmint.com/install-dhcp-server-in-ubuntu-debian/)
+
+2.2.1 安装DHCP服务器
+```
+apt-get install isc-dhcp-server
+```
+编辑/etc/default/isc-dhcp-server，定义DHCPD用于服务DHCP请求的接口。
+
+如果您希望DHCPD守护程序监听eth0，则将其设置为：
+```
+INTERFACES =“ eth0”
+```
+
+2.2.2 在Ubuntu中配置DHCP服务器
+
+DHCP的主要配置文件是/etc/dhcp/dhcpd.conf，您必须在此处添加所有要发送到客户端的网络信息。并且，DHCP配置文件中定义了两种类型的语句，它们是：
+
++ 参数 –指定如何执行任务，是否执行任务或要发送到DHCP客户端的网络配置选项。
++ 声明 –定义网络拓扑，声明客户端，为客户端提供地址或将一组参数应用于一组声明。
+
+```
+sudo vi /etc/dhcp/dhcpd.conf
+```
+在文件顶部设置以下全局参数，它们将应用于下面的所有声明（请指定适用于您的方案的值）,如找到 option domain-name-servers，将其配置为本机地址：
+```
+option domain-name "tecmint.lan";
+option domain-name-servers 192.168.10.1, 8.8.8.8;
+default-lease-time 3600; 
+max-lease-time 7200;
+authoritative;
+```
+
+定义子网络,如为192.168.10.0/24 LAN网络设置DHCP
+```
+subnet 192.168.10.0 netmask 255.255.255.0 {
+        option routers                  192.168.10.1;
+        option subnet-mask              255.255.255.0;
+        option domain-search            "tecmint.lan";
+        option domain-name-servers      192.168.10.1;
+        range   192.168.10.10   192.168.10.100;
+        range   192.168.10.110   192.168.10.200;
+}
+```
+
 
 ### 1. 安装ubuntu系统
   1.1 制作ubuntu安装u盘
