@@ -89,7 +89,38 @@ $ sudo systemctl enable isc-dhcp-server.service
 $ sudo service isc-dhcp-server.service start
 $ sudo service isc-dhcp-server.service enable
 ```
+接下来，不要忘记允许防火墙上的DHCP服务（DHCPD守护程序侦听端口67 / UDP），如下所示：
+```
+$ sudo ufw allow  67/udp
+$ sudo ufw reload
+$ sudo ufw show
+```
 
+#### 步骤4：配置DHCP客户端计算机
+此时，您可以将网络上的客户端计算机配置为自动从DHCP服务器接收IP地址。
+
+登录到客户端计算机并按如下所示编辑以太网接口配置文件（注意接口名称/编号）：
+```
+$ sudo vi / etc / network / interfaces
+```
+并定义以下选项：
+```
+auto  eth0
+iface eth0 inet dhcp
+```
+保存文件并退出。然后重新启动网络服务（或重新启动系统）：
+```
+------------ SystemD ------------ 
+$ sudo systemctl restart networking
+
+------------ SysVinit ------------ 
+$ sudo service networking restart
+```
+
+或者，使用台式机上的GUI进行设置，将方法设置为自动（DHCP），如下面的屏幕截图所示（Fedora 25台式机）。
+
+![](https://www.tecmint.com/wp-content/uploads/2017/03/Set-DHCP-Network-in-Fedora.png)
+此时，如果正确配置了所有设置，则您的客户端计算机应该正在从DHCP服务器自动接收IP地址。
 
 
 ### 1. 安装ubuntu系统
