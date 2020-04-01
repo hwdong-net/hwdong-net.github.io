@@ -289,4 +289,6 @@ gateway 192.168.6.1
 
 [使用 bind9 配合 dnscrypt-proxy 搭建自己的无污染的DNS服务器](https://oing9179.github.io/blog/2016/201609-Clean-DNS-Server-Setup-Using-bind9-and-dnscrypt-proxy/)
 
+[关于软路由的一些配置](https://darkof.me/2019/07/07/hulu-configuration/)
+
 
