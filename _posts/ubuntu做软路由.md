@@ -5,6 +5,7 @@
   1.2 用ubuntu安装u盘在工控机上安装ubuntu系统
   
   [debian 下载](https://www.debian.org/distrib/netinst)
+  [How to create a bootable Debian USB drive using Windows](https://unix.stackexchange.com/questions/263615/how-to-create-a-bootable-debian-usb-drive-using-windows)
 
 ### 2. 使ubuntu成为软路由
   
