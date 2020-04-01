@@ -78,6 +78,20 @@ host fedora-node {
  }
 ```
 
+接下来，暂时启动DHCP服务，并使其从下一次系统启动时自动启动，如下所示：
+```
+----------- SystemD ------------ 
+$ sudo systemctl start isc-dhcp-server.service
+$ sudo systemctl enable isc-dhcp-server.service
+
+
+------------ SysVinit ------------ 
+$ sudo service isc-dhcp-server.service start
+$ sudo service isc-dhcp-server.service enable
+```
+
+
+
 ### 1. 安装ubuntu系统
   1.1 制作ubuntu安装u盘
   1.2 用ubuntu安装u盘在工控机上安装ubuntu系统
