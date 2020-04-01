@@ -278,3 +278,5 @@ gateway 192.168.6.1
 
 [使用 iptables 透明代理 TCP 与 UDP](https://blog.lilydjwg.me/2018/7/16/transparent-proxy-for-tcp-and-udp-with-iptables.213139.html)
 [基于Ubuntu的软路由教程（单臂）](基于Ubuntu的软路由教程（单臂）)
+
+[ss-redir+dnsmasq+iptables 透明代理](https://ivo-wang.github.io/2019/04/18/ss-redir+dnsmasq+iptables-%E9%80%8F%E6%98%8E%E4%BB%A3%E7%90%86/)
