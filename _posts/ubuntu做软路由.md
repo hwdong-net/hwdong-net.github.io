@@ -3,6 +3,8 @@
 ### 1. 安装ubuntu系统
   1.1 制作ubuntu安装u盘
   1.2 用ubuntu安装u盘在工控机上安装ubuntu系统
+  
+  [debian 下载](https://www.debian.org/distrib/netinst)
 
 ### 2. 使ubuntu成为软路由
   
