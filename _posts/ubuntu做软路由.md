@@ -96,6 +96,8 @@ gateway 192.168.6.1
 ```
 
 
+[Linux 将debian配置为软路由](https://www.hotbak.net/key/debian%20%E8%BD%AF%E8%B7%AF%E7%94%B1.html)
+
 [使用Ubuntu 18.04打造超级家庭网关（边缘路由器）](https://www.johnrosen1.com/ubuntu-router/)
 
 [如何在 Linux 上使用网络配置工具 Netplan](https://zhuanlan.zhihu.com/p/46544606)
