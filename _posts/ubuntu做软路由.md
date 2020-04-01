@@ -123,6 +123,28 @@ $ sudo service networking restart
 此时，如果正确配置了所有设置，则您的客户端计算机应该正在从DHCP服务器自动接收IP地址。
 
 
+### PPPoE拨号
+
+安装pppoeconf：
+```
+apt-get install pppoeconf
+```
+安装结束后执行
+```
+pppoeconf
+```
+该工具用来配置 `/etc/ppp/peers/dsl-provider, /etc/ppp/*ap-secrets 以及 /etc/network/interfaces`，这个时候一定要确保eth0是连到猫上的，否则执行的时候会提示无法找到可以PPPoE的设备的。
+
+接下来编辑/etc/network/interfaces，配置eth0的IP地址为 192.168.0.1：
+```
+auto eth1 iface eth1 inet static address 192.168.0.1 netmask 255.255.255.0 broadcast 192.168.0.255
+```
+
+重启
+
+
+
+
 ### 1. 安装ubuntu系统
   1.1 制作ubuntu安装u盘
   1.2 用ubuntu安装u盘在工控机上安装ubuntu系统
