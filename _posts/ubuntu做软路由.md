@@ -276,5 +276,5 @@ gateway 192.168.6.1
 
 [Linux 软路由单线多拨](https://www.zfl9.com/multi-wan-router.html)
 
-
+[使用 iptables 透明代理 TCP 与 UDP](https://blog.lilydjwg.me/2018/7/16/transparent-proxy-for-tcp-and-udp-with-iptables.213139.html)
 [基于Ubuntu的软路由教程（单臂）](基于Ubuntu的软路由教程（单臂）)
