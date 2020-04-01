@@ -65,6 +65,18 @@ subnet 192.168.10.0 netmask 255.255.255.0 {
 }
 ```
 
+要将固定（静态）IP地址分配给特定的客户端计算机，请在下面的部分中添加您需要显式指定其MAC地址和要静态分配的IP的部分：
+```
+host centos-node {
+	 hardware ethernet 00:f0:m4:6y:89:0g;
+	 fixed-address 192.168.10.105;
+ }
+
+host fedora-node {
+	 hardware ethernet 00:4g:8h:13:8h:3a;
+	 fixed-address 192.168.10.106;
+ }
+```
 
 ### 1. 安装ubuntu系统
   1.1 制作ubuntu安装u盘
