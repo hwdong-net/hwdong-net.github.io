@@ -68,9 +68,9 @@ vim /etc/dnsmasq.conf
 网关开启DHCP服务，给局域网内的设备自动分发IP地址，如下配置：
 ```
 interface=eth0
-listen-address=192.168.1.1
-dhcp-range=192.168.1.10,192.168.1.150,255.255.255.0,12h
-dhcp-option=3,192.168.1.1
+listen-address=192.168.3.1
+dhcp-range=192.168.3.10,192.168.3.150,255.255.255.0,12h
+dhcp-option=3,192.168.3.1
 ```
 重启 dnsmasq 服务使之生效：
 ```
