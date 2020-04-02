@@ -88,7 +88,18 @@ net.ipv4.ip_forward=1
 sudo iptables -t nat -A POSTROUTING -s 192.168.1.0/24 -j MASQUERADE
 ```
 
+#### 防火墙
 
+屏蔽掉除了 PING 和 SSH 服务以外的一切外部来源请求：
+```
+sudo iptables -A INPUT -p icmp -m icmp-type 8 -j ACCEPT
+sudo iptables -A INPUT -p tcp -m tcp --dport 22 -j ACCEPT
+sudo iptables -A INPUT -m state --state RELATED,ESTABLISHED -j ACCEPT
+sudo iptables -A INPUT -i lo -j ACCEPT
+sudo iptables -A INPUT -i ppp0 -j DROP
+```
+
+##  ubuntu 
 
  2.1  安装bind9 DNS服务器：
  ```
