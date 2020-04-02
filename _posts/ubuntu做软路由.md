@@ -8,6 +8,12 @@
   
   1.2 用debian安装u盘在工控机上安装debian系统
   
+  1.3 安装需要的软件：
+  ```
+  sudo apt-get install dnsmasq hostapd udhcpd pppoeconf
+  ```
+  
+  
   1.3 网络配置，设有2块网卡：enp2s0f0 和 enp2s0f1。enp2s0f0作为LAN(内网的网卡)，enp2s0f1作为WAN(外网的网卡)。需要给它们配置ip地址。
    
   LAN口需要拥有一个固定的内网IP地址，可设置为 192.168.1.1/24。外网可以是拨号或直接连到上级路由器获取ip地址。
