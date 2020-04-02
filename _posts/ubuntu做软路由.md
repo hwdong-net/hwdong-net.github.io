@@ -99,6 +99,11 @@ sudo iptables -A INPUT -i lo -j ACCEPT
 sudo iptables -A INPUT -i ppp0 -j DROP
 ```
 
+### 透明代理
+
+[debian 透明代理网关 – 木子](http://www.xuxiaobo.com/?p=5871)
+
+
 ##  ubuntu 
 
  2.1  安装bind9 DNS服务器：
