@@ -14,9 +14,9 @@
   ```
   
   
-  1.3 网络配置，设有2块网卡：enp2s0f0 和 enp2s0f1。enp2s0f0作为LAN(内网的网卡)，enp2s0f1作为WAN(外网的网卡)。需要给它们配置ip地址。
+  1.3 网络配置，设有2块网卡：eth0 和  eth1。 eth0作为LAN(内网的网卡)， eth1(外网的网卡)。需要给它们配置ip地址。
    
-  LAN口需要拥有一个固定的内网IP地址，可设置为 192.168.1.1/24。外网可以是拨号或直接连到上级路由器获取ip地址。
+    LAN口需要拥有一个固定的内网IP地址，可设置为 192.168.3.1/24。外网可以是拨号或直接连到上级路由器获取ip地址。
   
    外网如果需要拨号：  
   ```
@@ -24,13 +24,28 @@
    sudo pppoeconf
   ```
   
-  设置LAN的ip地址，编辑 /etc/network/interfaces，添加LAN口配置：
+  设置LAN的ip地址，编辑 
   ```
-   allow-hotplug enp2s0f0
-   auto enp2s0f0
-   iface enp2s0f0 inet static
-   address 192.168.3.1/24  
+  vim/etc/network/interfaces
   ```
+  添加LAN口配置：
+  
+```
+source /etc/network/interfaces.d/*
+auto lo
+iface lo inet loopback
+
+#WAN 
+allow-hotplug eth1
+iface eth1 inet dhcp
+
+#LAn
+auto eth0
+allow-hotplug eth0
+iface eth0 inet static
+address 192.168.2.1
+netmask 255.255.255.0
+ ```
   
   
  重启 networking 服务使之生效：
