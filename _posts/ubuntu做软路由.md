@@ -57,6 +57,22 @@ netmask 255.255.255.0
 
 [使用 Debian 服务器作为家庭网关](https://ichon.me/post/1033.html)
 
+dnsmasq，不仅可以作为DHCP服务器，还能作为DNS服务器。安装 dnsmasq：
+```
+sudo apt install dnsmasq
+```
+编辑配置
+```
+vim /etc/dnsmasq.conf
+```
+网关开启DHCP服务，给局域网内的设备自动分发IP地址，如下配置：
+```
+interface=eth0
+listen-address=192.168.1.1
+dhcp-range=192.168.1.10,192.168.1.150,255.255.255.0,12h
+dhcp-option=3,192.168.1.1
+```
+
 
  2.1  安装bind9 DNS服务器：
  ```
@@ -66,6 +82,7 @@ netmask 255.255.255.0
 ```
 vim /etc/resolv.conf
 ```
+
 
 加上：
 ```
