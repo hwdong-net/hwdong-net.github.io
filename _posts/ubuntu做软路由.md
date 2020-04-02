@@ -166,6 +166,7 @@ net.ipv4.ip_forward=1
 
 [Want Faster, Easier-to-Manage DNS? Use Dnsmasq](https://medium.com/linode-cube/want-faster-easier-to-manage-dns-use-dnsmasq-a02517234d5f)
 
+[shadowsocks透明代理](https://lala.im/6431.html)
 ### 1. 安装ubuntu系统
   1.1 制作ubuntu安装u盘
   1.2 用ubuntu安装u盘在工控机上安装ubuntu系统
