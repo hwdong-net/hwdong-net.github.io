@@ -72,6 +72,22 @@ listen-address=192.168.1.1
 dhcp-range=192.168.1.10,192.168.1.150,255.255.255.0,12h
 dhcp-option=3,192.168.1.1
 ```
+重启 dnsmasq 服务使之生效：
+```
+sudo systemctl restart dnsmasq
+```
+IP 转发和 NAT
+光有IP地址还不够，作为网关，必须要能够转发来自局域网的所有数据。编辑 /etc/sysctl.conf，将 net.ipv4.ip_forward这一行的注释去掉：
+```
+net.ipv4.ip_forward=1
+```
+然后执行 `sudo sysctl -f`, 使其生效。
+
+同时，为了使局域网内的设备能够访问外网，还需要配置NAT规则：
+```
+sudo iptables -t nat -A POSTROUTING -s 192.168.1.0/24 -j MASQUERADE
+```
+
 
 
  2.1  安装bind9 DNS服务器：
