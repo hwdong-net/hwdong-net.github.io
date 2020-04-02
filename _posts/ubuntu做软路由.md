@@ -33,6 +33,10 @@
  ```
   
 ###   2 安装DNS和DHCP服务
+
+[使用 Debian 服务器作为家庭网关](https://ichon.me/post/1033.html)
+
+
  2.1  安装bind9 DNS服务器：
  ```
   sudo apt-get install bind9 bind9utils bind9-doc dnsutils
