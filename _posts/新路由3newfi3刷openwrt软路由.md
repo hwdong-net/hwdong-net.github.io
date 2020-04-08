@@ -10,8 +10,24 @@
 
 [http://openwrt-dist.sourceforge.net/packages/luci](http://openwrt-dist.sourceforge.net/packages/luci)
 
-2.1 下载：
+重置路由器
+```
+1. 拔掉电源
+2. 按下电源旁按键
+3.插上电源
+4. 看见路由器灯亮可以放开（大约3秒）
+5.登录192.168.1.1
+```
 
+刷入openwrt
+```
+公版
+上传openwrt
+```
+
+## 3. 安装酸酸乳-透明代理
+
+2.1 下载：
 `
 ChinaDNS (openwrt-chinadns)
 DNS-forwarder (openwrt-dns-forwarder)
