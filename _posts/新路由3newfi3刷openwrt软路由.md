@@ -10,7 +10,7 @@
 
 [http://openwrt-dist.sourceforge.net/packages/luci](http://openwrt-dist.sourceforge.net/packages/luci)
 
-重置路由器
+2.1 重置路由器
 ```
 1. 拔掉电源
 2. 按下电源旁按键
@@ -19,11 +19,13 @@
 5.登录192.168.1.1
 ```
 
-刷入openwrt
+2.2 刷入openwrt
 ```
 公版
 上传openwrt
 ```
+2.3 配置LAN (或WAN)
+
 
 ## 3. 安装酸酸乳-透明代理
 
