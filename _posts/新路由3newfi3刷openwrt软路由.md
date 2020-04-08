@@ -1,10 +1,34 @@
-## 刷Breed
+## 1. 刷Breed
 
 [新路由3 (Newifi D2) 免拆机免解锁刷 Breed 教程](https://www.right.com.cn/forum/thread-342918-1-1.html)
 
 参考：[一步一步教你解锁newifi3(新路由3)并编译刷入最新官方OpenWrt](https://www.right.com.cn/forum/thread-365936-1-1.html)
 
-## 
+## 2. 官网openwrt
+
+[http://openwrt-dist.sourceforge.net/packages/base](http://openwrt-dist.sourceforge.net/packages/base)
+
+[http://openwrt-dist.sourceforge.net/packages/luci](http://openwrt-dist.sourceforge.net/packages/luci)
+
+2.1 下载：
+
+`
+ChinaDNS (openwrt-chinadns)
+DNS-forwarder (openwrt-dns-forwarder)
+shadowsocks-libev (openwrt-shadowsocks)
+luci-app-ChinaDNS
+luci-app-dns-forwarder
+luci-app-shadowsocks
+`
+
+2.2 用winscp上传到路由器某个目录（如ss）下
+
+2.3 安装
+
+```
+opkg install /ss/*.ipk
+```
+
 
 
 [一步一步教你解锁newifi3(新路由3)并编译刷入最新官方OpenWrt](https://www.right.com.cn/forum/thread-365936-1-1.html)
