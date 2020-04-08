@@ -6,9 +6,7 @@
 
 ## 2. 官网openwrt
 
-[http://openwrt-dist.sourceforge.net/packages/base](http://openwrt-dist.sourceforge.net/packages/base)
-
-[http://openwrt-dist.sourceforge.net/packages/luci](http://openwrt-dist.sourceforge.net/packages/luci)
+下载[https://downloads.openwrt.org/releases/](https://downloads.openwrt.org/releases/)
 
 2.1 重置路由器
 ```
@@ -32,14 +30,19 @@
 ## 3. 安装酸酸乳-透明代理
 
 2.1 下载：
-`
+
+```
 ChinaDNS (openwrt-chinadns)
 DNS-forwarder (openwrt-dns-forwarder)
 shadowsocks-libev (openwrt-shadowsocks)
 luci-app-ChinaDNS
 luci-app-dns-forwarder
 luci-app-shadowsocks
-`
+```
+
+[http://openwrt-dist.sourceforge.net/packages/base](http://openwrt-dist.sourceforge.net/packages/base)
+
+[http://openwrt-dist.sourceforge.net/packages/luci](http://openwrt-dist.sourceforge.net/packages/luci)
 
 2.2 用winscp上传到路由器某个目录（如ss）下
 
