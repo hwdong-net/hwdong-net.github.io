@@ -12,6 +12,8 @@ tags:
     - IT    
 ---  
 
+**[youtube视频](https://www.youtube.com/watch?v=dADM1nx2E-c)**
+
 ## 1. 刷Breed
 
 [新路由3 (Newifi D2) 免拆机免解锁刷 Breed 教程](https://www.right.com.cn/forum/thread-342918-1-1.html)
