@@ -8,21 +8,51 @@
 
 下载[https://downloads.openwrt.org/releases/](https://downloads.openwrt.org/releases/)
 
-2.1 重置路由器
+#### 2.1 重置路由器
+
 ```
 1. 拔掉电源
 2. 按下电源旁按键
 3.插上电源
 4. 看见路由器灯亮可以放开（大约3秒）
-5.登录192.168.1.1
+5.用网线直连newfi3和pc，登录192.168.1.1。输入密码：password
 ```
 
-2.2 刷入openwrt
+#### 2.2 刷入openwrt
+
+在breed Web界面中:
+
 ```
 恢复出厂设置-公版
 更新固件-上传openwrt
 ```
-2.3 配置LAN (或WAN)
+#### 2.3 配置LAN (或WAN)
+
+静态ip地址：
+
+```
+ip:  192.168.2.242
+
+网关：192.168.2.1
+
+DNs：192.168.2.1
+
+144.144.144.144
+```
+
+![](C:\Users\hwdon\Downloads\mipsel_24kc\LAN_ip.png)
+
+禁用ipv6
+
+#### 2.4 检查能否连到路由器
+
+用网线直连盒子和主路由，并让盒子重新上电
+
+PC端ping 192.168.2.242，正常后，浏览器登陆盒子web界面192.168.2.242
+
+
+
+
 
 
 [N1 OpenWRT 当旁路由设置教程](https://www.hotbak.net/key/n1%E5%81%9A%E6%97%81%E8%B7%AF%E7%94%B1%E7%9A%84%E7%94%A8%E5%A4%84.html)
