@@ -27,6 +27,8 @@
 2.3 配置LAN (或WAN)
 
 
+[N1 OpenWRT 当旁路由设置教程](https://www.hotbak.net/key/n1%E5%81%9A%E6%97%81%E8%B7%AF%E7%94%B1%E7%9A%84%E7%94%A8%E5%A4%84.html)
+
 ## 3. 安装酸酸乳-透明代理
 
 2.1 下载：
