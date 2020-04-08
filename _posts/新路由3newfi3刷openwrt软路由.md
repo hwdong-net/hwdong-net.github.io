@@ -29,7 +29,11 @@
 
 ## 3. 安装酸酸乳-透明代理
 
-2.1 下载：
+3.0 检查CPU架构：
+```
+opkg print-architecture | awk '{print $2}'
+```
+3.1 下载：
 
 ```
 ChinaDNS (openwrt-chinadns)
@@ -44,9 +48,9 @@ luci-app-shadowsocks
 
 [http://openwrt-dist.sourceforge.net/packages/luci](http://openwrt-dist.sourceforge.net/packages/luci)
 
-2.2 用winscp上传到路由器某个目录（如ss）下
+3.2 用winscp上传到路由器某个目录（如ss）下
 
-2.3 安装
+3.3 安装
 
 ```
 opkg install /ss/*.ipk
