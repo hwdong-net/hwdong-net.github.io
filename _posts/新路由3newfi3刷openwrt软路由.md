@@ -21,8 +21,8 @@
 
 2.2 刷入openwrt
 ```
-公版
-上传openwrt
+恢复出厂设置-公版
+更新固件-上传openwrt
 ```
 2.3 配置LAN (或WAN)
 
