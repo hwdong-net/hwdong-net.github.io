@@ -1,3 +1,16 @@
+---
+layout:       post
+title:        主路由、旁路由、二级路由搭建，硬路由刷openwrt透明代理上网以新路由3 newfi3为例
+subtitle:     硬路由刷openwrt透明代理上网以新路由3 newfi3为例
+date:         2020-04-08 16:40:00
+author:       "xuepro"
+header-img:   "img/home_bg.jpg"
+header-mask:  0.3
+catalog:      true
+multilingual: true
+tags:
+    - IT    
+---  
 
 ## 1. 刷Breed
 
