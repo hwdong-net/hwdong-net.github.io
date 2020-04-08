@@ -1,3 +1,4 @@
+
 ## 1. 刷Breed
 
 [新路由3 (Newifi D2) 免拆机免解锁刷 Breed 教程](https://www.right.com.cn/forum/thread-342918-1-1.html)
@@ -39,8 +40,7 @@ DNs：192.168.2.1
 
 144.144.144.144
 ```
-
-![](C:\Users\hwdon\Downloads\mipsel_24kc\LAN_ip.png)
+![](..\imgs\LAN_ip.png)
 
 禁用ipv6
 
@@ -50,8 +50,19 @@ DNs：192.168.2.1
 
 PC端ping 192.168.2.242，正常后，浏览器登陆盒子web界面192.168.2.242
 
+#### 2.5 
 
+```
+opkg update
+opkg remove dnsmasq
+rm -rf /etc/config/dhcp
+opkg install dnsmasq-full
+opkg install iptables-mod-nat-extra ipset libopenssl
+opkg install bash kmod-ipt-tproxy iptables-mod-tproxy bind-dig
 
+opkg install wget ca-certificates ca-bundle 
+opkg install libustream-mbedtls libustream-mbedtls
+```
 
 
 
@@ -83,10 +94,55 @@ luci-app-shadowsocks
 3.3 安装
 
 ```
+opkg update
+opkg install luci-compat
 opkg install /ss/*.ipk
+
 ```
 
+### DNS配置
+
+国内域名走国内 DNS 解析，国外域名走国外 DNS 解析，进行额外的 DNS 配置从而解决 DNS 污染和优化 DNS 解析。
+
+5) 生成中国IP列表：
+
+```
+wget -O /tmp/delegated-apnic-latest 'http://ftp.apnic.net/apnic/stats/apnic/delegated-apnic-latest' && awk -F\| '/CN\|ipv4/ { printf("%s/%d\n", $4, 32-log($5)/log(2)) }' /tmp/delegated-apnic-latest > /etc/chinadns_chnroute.txt
+```
+ 每周更新中国IP列表,运行
+ ```
+ crontab -e
+ ```
+ 添加
+ ```
+ 0 3 * * 1    wget http://ftp.apnic.net/apnic/stats/apnic/delegated-apnic-latest -O /tmp/delegated-apnic-latest && awk -F\| '/CN\|ipv4/ { printf("%s/%d\n", $4, 32-log($5)/log(2)) }' /tmp/delegated-apnic-latest > /etc/chinadns_chnroute.txt
+ ```
+启用：
+```
+/etc/init.d/cron start
+/etc/init.d/cron enable
+```
+
+#### 基本配置
+
+Luci 界面，`服务` > `DNS 转发`，选中「启用」。
+
+`服务` > `ChinaDNS`，选择「启用」，并将「上游服务器」改为 `114.114.114.114,127.0.0.1#5300`，`5300` 是 `DNS 转发` 配置项的 `监听端口`。
+
+`网络` > `DHCP/DNS`，在「DNS转发」中填入：`127.0.0.1#5353`，`5353` 是 `ChinaDNS` 配置项的 `本地端口`；然后切到 `HOSTS和解析文件` 选项卡，选中「忽略解析文件」。
+
+
+
+然后启动shadowsocks，并设置开机运行：
+
+```
+/etc/init.d/shadowsocks enable
+/etc/init.d/shadowsocks start
+```
 
 [一步一步教你解锁newifi3(新路由3)并编译刷入最新官方OpenWrt](https://www.right.com.cn/forum/thread-365936-1-1.html)
 
-[https://leamtrop.com/2017/05/14/shadowsocks-proxy-on-lede/](https://leamtrop.com/2017/05/14/shadowsocks-proxy-on-lede/)
+[https://leamtrop.com/2017/05/14/shadowsocks-proxy-on-lede/](https://leamtrop.com/2017/05/14/shadowsocks-proxy-on-lede/)a
+
+
+
