@@ -1,5 +1,18 @@
 
-（转）增加反向链接的101种方法
+---
+layout:       post
+title:        "（转）增加反向链接的101种方法"
+subtitle:     "101 Ways to Build back Link"
+date:         2020-04-30 21:08:00
+author:       "xuepro"
+header-img:   "img/home_bg.jpg"
+header-mask:  0.3
+catalog:      true
+multilingual: true
+tags:
+    - IT
+---
+
 
 
 今天读到一篇文字，其中有“反向链接”的术语，搜索了一下才明白其含义。
