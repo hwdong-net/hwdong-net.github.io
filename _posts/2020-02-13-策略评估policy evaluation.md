@@ -17,11 +17,11 @@ tags:
 Policy_Evaluation(输入：环境$p(s',r | s,a )$，策略$\pi$)
 
 + 初始化所有状态的价值为0：$V(s), s\in S$
-+ for $k = 0,1, $:
++ for $k = 0,1,\cdots $:
     - 初始化逼近误差 $\delta \leftarrow 0$
     - for 每个$s\in S$:
       - 保存$V_{k}(s)$：$v\leftarrow V(s)$
-      - 根据策略$\pi(a| s)$更新 $V_{k+1}(s)$: $V(s)\leftarrow \sum_\limits{a} \pi (a | s) \sum_\limits{s',r}  p(s',r | s,a ) [r+\gamma V(s')]$
+      - 根据策略$\pi(a| s)$ 更新 $V_{k+1}(s)$: $V(s)\leftarrow \sum_\limits{a} \pi (a | s) \sum_\limits{s',r}  p(s',r | s,a ) [r+\gamma V(s')]$
       - 计算最大误差：$\delta \leftarrow max(\delta,|v- V(s)|)$
     - 如果 $\delta$足够小，则跳出for循环
     
