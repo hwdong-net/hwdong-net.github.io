@@ -309,3 +309,258 @@ tags:
 100.将咖啡倒在人们身上，或者找到创造性的方式来侮辱人们以诱使他们在您的站点进行链接。
 
 101.起诉其他网站管理员以[深入链接到您的网站](http://www.computerworld.com/news/2000/story/0,11280,43732,00.html)。好吧，这比“糟糕的链接习惯”更“有趣”。
+
+
+### [101 Ways to Build Link Popularity](http://www.seobook.com/archives/001792.shtml)
+
+By Aaron Wall and Andy Hagans.
+
+Link Building... Time-intensive. Frustrating. Sometimes confusing. Yet Unavoidable. Because ultimately, it's still the trump card for higher rankings.
+
+Many of us have been hoping that it would go away. In Brett Tabke's 5/18 Robots.txt entry, he echoed a sentiment that many, many webmasters hold on to as a hope:
+
+What happens to all those Wavers that think [i]Getting Links = SEO[/i] when that majority of the Google algo is devalued in various ways? Wavers built their fortunes on "links=seo". When that goes away, the Wavers have zero to hold on to.
+The pertinent questions:
+
+Will link building still be very important for rankings in the medium term?
+When will link popularity be devalued in favor of other algo elements (that are less tedious, from a webmaster's point of view)?
+The answers:
+
+Sorry, but link building is still going to be the SEO trump card for the foreseeable future.
+I wouldn't hold your breath for search engine algorithms to place less importance on link popularity until the Semantic Web arrives, or maybe when HTTP gets replaced by a new protocol. Because links are still the basic connector, the basic relationship, on the Web. And for the forseeable future they're going to be the easiest way for a computer program to judge the importance and trustworthiness of a Web page.
+What will happen to the way search algorithms score links is already happening. The Google algo has become much more elegant and advanced, devaluing staggering amount of links that shouldn't count, and placing more emphasis on trusted links. And the trust and juice given by those links is then verified by elements like user data, domain age, and other relatively hard-to-spoof factors.
+
+But please, don't fool yourself. Links that should count are still the key to rankings (in Google, at least — and MSN and Yahoo! are only a few short years behind). In that spirit, Aaron and I have created our 101 Ways to Build (and Not Build) Links. (Yeah, it just so happened that there were exactly 101!)
+
+Oh, and mad props to our inspiration, 131 Legitimate Link Building Strategies, one of the original authority documents on link building. It was just getting a bit rusty, that's all ("Host your own Web Ring"?). Anyway, enjoy the update.
+
+71 Good Ways to Build Links
+Love for Lists
+1. Build a "101 list". These get Dugg all the time, and often become "authority documents". People can't resist linking to these (hint, hint).
+
+2. Create 10 easy tips to help you [insert topic here] articles. Again, these are exceptionally easy to link to.
+
+3. Create extensive resource lists for a specific topic (see Mr Ploppy for inspiration).
+
+4. Create a list of the top 10 myths for a specific category.
+
+5. Create a list of gurus/experts. If you impress the people listed well enough, or find a way to make your project look somewhat official, the gurus may end up linking to your site or saying thanks. (Sometimes flattery is the easiest way to strike up a good relationship with an "authority".)
+
+Hire Help
+This list is of course quite long, because there are many ways to build links & link building can be a tiresome, expensive & arduous task. If you have plenty of cash but are scarce on time outsourcing all or part of your link building campaigns can prove to be a quite profitable business strategy.
+
+6. Hire a publicist. Good old fashioned 'PR' (not PageRank) can still work wonders. Paul Graham wrote a great article titled The Submarine which highlights how PR firms get media exposure. Be warned that many PR firms can be quite hit or miss with their promotions & even some of the "successes" may not stick around long. If permanent links are your main goal, make sure that is clearly articulated to the PR firm in advance, as some PR firms sponsor temporary payola content that disappears about a month after your check clears. ;)
+
+7. Hire a consultant. Yes, you can outsource link building. Just make sure to go with someone good. If you want low-risk high-quality links Jim Boykin's Internet Marketing Ninjas& Garrett French's Citations Labs are probably the only SEOs firms doing it at scale. Their link building packages start at $5,000 a month and up. If you can't afford to fully outsource your link building, you may want to hire Debra Mastler to train your in house staff.
+
+Developing Authority & Being Easy to Link At
+8. Make your content easy to understand so many people can understand and spread your message. (It's an accessibility thing.)
+
+9. Put some effort in to minimize grammatical or spelling errors, especially if you need authoritative people like librarians to link to your site.
+
+10. Have an easily accessible privacy policy and about section so your site seems more trustworthy. Including a picture of yourself may also help build your authority.
+
+PPC as a Link Building Tool
+11. Buy relevant traffic with a pay per click campaign. Relevant traffic will get your site more visitors and brand exposure. When people come to your site, regardless of the channel in which they found it, there is a possibility that they will link to you.
+
+News & Syndication
+12. Syndicate articles to trusted blogs & business news websites like Business Insider & TechCruch. Also consider promoting your content on niche industry websites & on social sites like Facebook, Instagram, Twitter, Medium, LinkedIn & SlideShare, etc. The great thing about good article sites is that their article pages actually rank highly and send highly qualified traffic. (Update: about a half-decade after publishing this article many of these article directories were penalized by the Google Panda algorithm & Google has grown to take a more dubious view of these sites as link sources - even though Google still syndicates their ads to these very same sites.)
+
+13. Submit an article to industry news site. Have an SEO site? Write an article and submit to WebProNews. Have a site about BLANK? Submit to BLANKinformationalsite.com.
+
+14. Syndicate a press release. Take the time to make it GOOD (compelling, newsworthy). Email it to some handpicked journalists and bloggers. Personalize the email message. For good measure, submit it to PRWeb, PRLeap, etc. While many press release sites now add nofollow to press releases, you can also compliment your press releases with media centers on your own site & have custom graphics, data and features on your site so that people who see the release may link directly at the associated pages on your site.
+
+15. Track who picks up your articles or press releases. Offer them exclusive news or content.
+
+16. Trade articles with other webmasters.
+
+17. Email a few friends when you have important relevant news asking them for their feedback and/or if they would mind referencing it if they find your information useful.
+
+18. Write about, and link to, companies with "in the news" pages. They link back to stories and blog posts which cover their developments. This is obviously easiest if you have a news section or blog. Do a Google search for [your industry + "in the news"].
+
+19. Perform surveys and studies that make people feel important. If you can make other people feel important they will help do your marketing for you for free. Salary.com did a study on how underpaid mothers were, and they got many high quality links. Even if you do not have a "feel good" angle, you can still get mentions by leveraging data from your surveys as a hook for a story. When we surveyed searchers the survey was later mentioned by an important governmental body. Services like AYTM and Google Surveys are quite affordable.
+
+Directories, Meme Trackers & Social Bookmarking
+20. This tip is an oldie but goodie: submit your site to DMOZ and other directories that allow free submissions.
+
+21. Submit your site to paid directories. Another oldie. Just remember that quality matters.
+
+22. Create your own topical directory about your field of interest. Obviously link to your own site, deeplinking to important content where possible. Of course, if you make it into a truly useful resource, it will attract links on its own.
+
+23. Tag related sites on sites like Del.icio.us. If people find the sites you tag to be interesting, emotionally engaging, or timely they may follow the trail back to your site.
+
+24. If you create something that is of great quality make sure you ask a few friends to tag it for you. If your site gets on the front page of Digg or on the Del.icio.us popular list, hundreds more bloggers will see your site, and potentially link to it.
+
+25. Look at meme trackers to see what ideas are spreading. If you write about popular spreading ideas with plenty of original content (and link to some of the original resources), your site may get listed as a source on the meme tracker site. Or if you track companies which are frequently covered on meme trackers you can send a tip to the TechMeme editors and get a thank you mention of your Twitter account.
+
+Local & Business Links
+26. Join the Better Business Bureau.
+
+27. Get a link from your local chamber of commerce.
+
+28. Submit your link to relevant city and state governmental resources. (Easier in some countries than in others.)
+
+29. List your site at the local library's Web site.
+
+30. See if your manufacturers or retailers or other business partners might be willing to link to your site.
+
+31. Develop business relationships with non-competing businesses in the same field. Leverage these relationships online and off, by recommending each other via links and distributing each other's business cards. As an example, we've worked with Wordtracker to promote a co-produced keyword strategies guide.
+
+32. Launch an affiliate program. Most of the links you pick up will not have SEO value, but the added exposure will almost always lead to additional "normal" links from people asking about your site on social media and web forums.
+
+Easy Free Links
+33. Depending on your category and offer, you will find Craigslist to be a cheap or free classified service.
+
+34. It is pretty easy to ask or answer questions on Yahoo! Answers or Quora and provide links to relevant resources.
+
+35. It is pretty easy to ask or answer questions on Google Groups and provide links to relevant resources.
+
+36. If you run a fairly reputable company, create a page about it in the Wikipedia or in topic specific wikis. Getting added is only half the battle. Make sure you regularly monitor your page for zealot editors who may decide to arbitrarily delete it. If it is hard to list your site directly, try to add links to other pages that link to your site.
+
+37. It takes about 15 minutes to set up a topical Squidoo page, which you can use to look like an industry expert. Link to expert documents and popular useful tools in your fields, and also create a link back to your site.
+
+38. Submit a story to Digg that links to an article on your site. You can also submit other content and have some of its link authority flow back to your profile page.
+
+39. If you publish an RSS feed and your content is useful and regularly updated, some people will syndicate your RSS content (and some of those will provide links; unfortunately, some will not).
+
+40. Most forums allow members to leave signature links or personal profile links. If you make quality contributions some people will follow these links and potentially read your site, link at your site, and/or buy your products. The key is to be relevant and have links seem more incidental or complimentary rather than having it look like you are posting just for the links.
+
+Have a Big Heart for Reviews
+41. Most smaller businesses are not well established online, so if your site has much authority, your review related content often ranks well.
+
+42. Review relevant products on Amazon.com. We have seen this draw in direct customer enquiries and secondary links.
+
+43. Create product lists on Amazon.com that review top products and also mention your background (LINK!).
+
+44. Review related sites on Alexa to draw in related traffic streams.
+
+45. Review products and services on shopping search engines like ePinions to help build your authority. Amazon looks at reviewers who are well liked by other Amazon customers & offers some of them the opportunity to get free products to review via their Vine program.
+
+46. If you buy a product or service you really like and are good at leaving testimonials, many of those turn into links. Two testimonial writing tips — make them believable, and be specific where possible.
+
+Blogs & the Blogosphere
+47. Start a blog. Not just for the sake of having one. Post regularly and post great content. Good execution is what gets the links.
+
+48. Link to other blogs from your blog. Outbound links are one of the cheapest forms of marketing available. Many bloggers also track who is linking to them or where their traffic comes from, so linking to them is an easy way to get noticed by some of them.
+
+49. Comment on other blogs. Most of these comments will not provide much direct search engine value, but if your comments are useful, insightful, and relevant they can drive direct traffic. They also help make the other bloggers become aware of you, and they may start reading your blog and/or linking to it.
+
+50. Technorati tag pages rank well in Yahoo! and MSN (now Bing), and to a lesser extent in Google. Even if your blog is fairly new you can have your posts featured on the Technorati tag pages by tagging your posts with relevant tags.
+
+51. If you create a blog make sure you list it in a few of the best blog directories.
+
+Design as a Linking Element
+52. Web 2.0-ify your site. People love to link to anything with AJAX. Even in the narrowest of niches, there is some kind of useful functionality you can build with AJAX, then promote these features on design blogs.
+
+53. Validate and 508 your site. This (indirect) method makes your site more trustworthy and linkable, especially from governmental sites or design-oriented communities. There are even a few authoritative directories of standards-compliant sites.
+
+54. Order a beautiful CSS redesign. A nice design can get links from sites like CSS Vault.
+
+Link Trading
+55. Swap some links. What?! Did we really just recommend reciprocal link building? Yes, on a small scale, and with relevant partners that will send you traffic. Stay away from the link trading hubs and networks which are full of low quality sites & hide the links section in a back alley nobody (other than GoogleBot) sees.
+
+56. In case you didn't get the memo — when swapping links, try to get links from within the content of relevant content pages. Do not try to get links from pages that list hundreds of off topic link partners. Only seek link exchanges that you would consider pursuing even if search engines did not exist. Instead of thinking just about your topic when exchanging links, think about demographic audience sets.
+
+Buying Sites, Renting Links & Advertisements
+57. Rent some high quality links from a broker. Text Link Ads was the most reputable firm in this niche when we originally published this list, but Google has certainly cracked down on paid links over the years.
+
+58. Rent some high quality links directly from Web sites. Sometimes the most powerful rented links come direct from sites not actively renting links. Don't ask to buy links, ask to advertise.
+
+59. Become a sponsor. All sorts of charities, contests, and conferences link to their sponsors. This can be a great way to gain visibility, links, and a warm feeling in your heart.
+
+60. Sell items on eBay and offer to donate the profits to a charity. Many charities will link both to the eBay auction and to your site.
+
+61. Many search algorithms seem biased toward older established sites. It may be faster to buy an old site with a strong link profile, and link it to your own site, than to try to start building authority links from scratch.
+
+Use the Courts (Proceed with Caution)
+62. Sue Google.
+
+63. Get sued by a company people hate. When Aaron was sued by Traffic Power, he got hundreds or thousands of links, including links from sites like Wired and The Wall Street Journal.
+
+Freebies & Giveaways
+64. Hold a contest. Contests make great link bait. A few-hundred-dollar prize can result in thousands of dollars worth of editorial quality links. Enough said.
+
+65. Build a tool collection. Original and useful tools (and collections of tools) get a lot of link love. What do you think rankings for terms like football betting odds, keyword tool or mortgage estimator are worth?
+
+66. Create and release open source site design templates for content management systems like Wordpress. Don't forget the "Designed by example.com" bit in the footer! To mitigate some risks one can point links at a page other than the home page.
+
+67. Offer free samples in exchange for feedback.
+
+68. Release a Firefox extension. Make sure you have a download and/or support page on your site which people can link to.
+
+Conferences & Social Interaction
+69. It is easy to take pictures of important events and tell narratives about why they are important. Pictures of (drunk?) "celebrities" in your industry make great link bait.
+
+70. Leverage new real world relationships into linking relationships. If you go to SEO related conferences, people like Tim Mayer, Matt Cutts, and Danny Sullivan are readily accessible. Similarly, in other industries, people who would normally seem inaccessible are exceptionally accessible at trade conferences. It is much easier to seem "real" in person. Once you create social relationships in person, it is easy to extend that onto the web.
+
+71. Engaging, useful, and interesting interviews are an easy way to create original content. And they spread like wildfire.
+
+30 Bad Ways to Build Links
+Here are a few link buiding methods that may destroy your brand or get your site banned/penalized/filtered from major search engines, or both.
+
+Directories
+72. Submit your site to 200 cheesy paid directories (averaging $15 a pop) that send zero traffic and sell offtopic run-of-site links.
+
+Forum Spam
+73. List 100 Web sites in your signature file.
+
+74. Exclusively post only when you can add links to your sites in the post area.
+
+75. Post nothing but "me too" posts to build your post count. Use in combination with a link-rich signature file.
+
+76. Ask questions about who provides the best [WIDGET], where [WIDGET] is an item that you sell. From the same IP address create another forum account and answer your own question raving about how great your own site is.
+
+77. As a new member to various forums, ask the same question at 20 different forums on the same day.
+
+78. Post on forum threads that are years outdated exclusively to link to your semi-related website.
+
+79. Sign up for profiles on forums you never intend on commenting on.
+
+Blog Spam
+80. Instead of signing blog comments with your real name, sign them with spammy keywords.
+
+81. Start marketing your own site hard on your first blog comment. Add no value to the comment section. Mention nothing other than you recently posted on the same subject at _____ and everyone should read it. Carpet bomb dozens of blogs with this message.
+
+82. Say nothing unique or relevant to the post at hand. Make them assume an automated bot hit their comments.
+
+83. Better yet, use automated bots to hit their comments. List at least 30 links in each post. Try to see if you can hit any servers hard enough to make them crash.
+
+84. Send pings to everyone talking about a subject. In your aggregation post, state nothing of interest. Only state that other people are talking about the topic.
+
+85. Don't even link to any of the sites you are pinging. Send them pings from posts that do not even reference them.
+
+Garbage Link Exchanges
+86. Send out link exchange requests mentioning PageRank.
+
+87. Send link exchange emails which look like an automated bot sent them (little or no customization, no personal names, etc.).
+
+88. Send link exchange requests to Matt Cutts, Tim Mayer, Tim Converse, Google, and Yahoo!.
+
+89. Get links from nearly-hidden sections of websites listing hundreds or thousands of off topic sites.
+
+Spam People in Person
+90. Go to webmaster conferences and rave about how rich you are, and how your affiliates make millions doing nothing.
+
+91. Instead of asking people what their name is, ask what their URL is. As soon as you get their URL ask if they have linked to your site yet and if not, why not.
+
+Be Persistant
+92. Send a webmaster an alert to every post you make on your website.
+
+93. Send a webmaster an email every single day asking for them to link to your website.
+
+94. Send references to your site to the same webmaster from dozens of different email accounts (you sly dog).
+
+95. If the above do not work to get you a free link, offer them $1 for their time. Increase your offer by a dollar each day until they give in.
+
+Getting Links by Being a Jerk
+96. Emulate the RIAA. When in doubt, file a lawsuit against a 12-year-old girl. (Failing that, obtain bad press by any means necessary.)
+
+97. Steal content published by well known names. Strip out any attribution. Aggregate many popular channels and just wait for them to start talking about you.
+
+98. Send thousands of fake referrals at every top ranking Web site, guaranteeing larger boobs, a 14-inch penis (is that length or girth?), or millions of dollars in free, unclaimed money.
+
+99. Wear your URL on your t-shirt. Walk or drive your car while talking on a cell phone or reading a book. When you run into other people say "excuse you, jerk".
+
+100. Spill coffee on people or find creative ways to insult people to coax them into linking at your site.
+
+101. Sue other webmasters for deep linking to your site. Well, this is more "hilariously dumb" than it is a "bad linking practice".
