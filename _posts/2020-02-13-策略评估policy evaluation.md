@@ -27,6 +27,7 @@ Policy_Evaluation(输入：环境$p(s',r | s,a )$，策略$\pi$)
     
 + 返回$V\sim V^{\pi}$
 
+![](https://hwdong-net.github.io/imgs/policy_evaluation.png)
 
 ![](../imgs/rl/iterative_policy_evaluation-1.png)
 
