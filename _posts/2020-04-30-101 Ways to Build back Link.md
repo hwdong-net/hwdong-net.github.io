@@ -30,7 +30,7 @@ tags:
 [原文英文链接]([http://www.seobook.com/archives/001792.shtml](http://www.seobook.com/archives/001792.shtml)
 )
 
-#### 增加反向链接的101种方法
+## 增加反向链接的101种方法
 
 链接构建...耗时。令人沮丧 有时会令人困惑。但这是不可避免的。因为最终，它仍然是更高排名的王牌。
 
