@@ -18,3 +18,5 @@ To push your changes into your remote repo execute the **git push <remote> <bran
 ```python
 git push <your_remote_name>
 ```
+
+[How to remove git account from local machine and add new account](https://stackoverflow.com/questions/43573790/how-to-remove-git-account-from-local-machine-and-add-new-account)
