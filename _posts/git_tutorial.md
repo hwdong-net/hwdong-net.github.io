@@ -7,6 +7,8 @@ The git remote add command takes two arguments:
 - A unique remote name, for example, “my_remote_repo”
 - A remote URL, which you can find on the Source sub-tab of your Git repo
 
+![](https://hwdong-github.io/imgs/git/imgs/git_add_remote.png)
+
 ```python
 git remote add my_remote_repo https://github.com/hwdong-net/cplusplus17.git
 ```
