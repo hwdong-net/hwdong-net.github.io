@@ -101,14 +101,16 @@ staged, but notcommited
 git log
 ```
 
-8. Viewing the changes of a commit: 
+8. Viewing the changes of a commit:  **git show**
 
 ```python
 git show
 ```
-9. Revert changes in files in the working tree: 
+9. Revert changes in files in the working tree: **git checkout**
+
 ```python
-git checkout
+git branch
+git checkout -b new_breanch
 ```
 
 
