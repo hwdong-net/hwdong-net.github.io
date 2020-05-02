@@ -12,13 +12,13 @@ The **git config** command allows you to configure your Git settings. These sett
 You have to configure at least your user and email address to be able to commit to a Git repository because this information is stored in each commit.
 
 ```
-$git config --global user.name “your name" 
-$git config --global user.email "your.email”
+git config --global user.name “your name" 
+git config --global user.email "your.email”
 ```
 For example:
 ```python
-$git config --global user.name “hwdong.net" 
-$git config --global user.email "hwdong@gmail.com”
+git config --global user.email "john@example.com"
+git config --global user.name "john"
 ```
 
 unset
@@ -47,10 +47,43 @@ mkdir myproject
 cd myproject
 ```
 
-2. Create a Git repository in the current directory: *git init*
+2. Create a Git repository in the current directory: 
+```python
+git init
+```
+
 3. Create new file or modify content of some file
-4. Add change to Stage(Index):  *git add . *
-5. Commit staged changes to the repository ： *git commit –m*”comments”
+```python
+ls
+touch A.txt
+ls
+```
+
+check stasus
+```
+git status
+```
+
+4. Add change to Stage(Index):  
+```python
+git add . 
+```
+
+check stasus
+```
+git status
+```
+
+5. Commit staged changes to the repository ：
+```python
+c
+```
+
+check stasus
+```
+git status
+```
+
 6. See the current status of your repository: *git status*
     untracked,  staged,  commited
 7. Commit staged changes to the repository: *git log*
@@ -63,9 +96,7 @@ cd myproject
 
 
 2. 
-```python
-git init
-```
+
 
 
 ##  Remote repositories
