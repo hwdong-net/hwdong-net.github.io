@@ -53,8 +53,11 @@ git remote add my_remote_repo_name https://github.com/hwdong-net/myproj.git
 
 ```python
 git remote add origin https://github.com/hwdong-net/cplusplus17.git
+git remote -v
 git push -u origin master
 ```
+
+The git push command allows you to send (or push) the commits from your local branch in your local Git repository to the remote repository.
 
 To push your changes into your remote repo execute the **git push <remote> <branch>** command:
 
