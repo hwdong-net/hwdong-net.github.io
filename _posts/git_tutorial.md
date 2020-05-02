@@ -51,7 +51,9 @@ $git config --global --list
 8. Viewing the changes of a commit: *git show*
 9. Revert changes in files in the working tree: *git check*
 
+
 1. Create a directory and enter the directory
+
 ```python
 cd ../..
 mkdir myproject
