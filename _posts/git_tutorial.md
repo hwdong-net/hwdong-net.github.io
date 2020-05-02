@@ -37,7 +37,7 @@ $git config --global --list
 9. Revert changes in files in the working tree: *git check*
 
 
-## Remote repositories
+##  Remote repositories
 
 ![](https://hwdong-net.github.io/imgs/git/git_add_remote.png)
 
