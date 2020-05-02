@@ -56,6 +56,8 @@ To push your changes into your remote repo execute the **git push <remote> <bran
 git push <your_remote_name>
 ```
 
+[An Intro to Git and GitHub for Beginners (Tutorial)](https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners)
+
 [How to remove git account from local machine and add new account](https://stackoverflow.com/questions/43573790/how-to-remove-git-account-from-local-machine-and-add-new-account)
 
 
