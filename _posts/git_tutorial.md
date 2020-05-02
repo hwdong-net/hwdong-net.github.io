@@ -36,23 +36,31 @@ $git config --global --list
 8. Viewing the changes of a commit: *git show*
 9. Revert changes in files in the working tree: *git check*
 
+### Remote repositories
 
-
-To add a new remote, use the **git remote add** command on the terminal, in the directory your repository is stored at.
+Use  the **git remote add** command to add a new remote, in the directory your repository is stored at.
 
 The git remote add command takes two arguments:
 
 - A unique remote name, for example, “my_remote_repo”
 - A remote URL, which you can find on the Source sub-tab of your Git repo
 
-```python
-git remote add my_remote_repo_name https://github.com/hwdong-net/myproj.git
-```
-
 ![](https://hwdong-net.github.io/imgs/git/git_add_remote.png)
+
+For example:
+```python
+$ git remote add origin https://github.com/user/repo.git
+# Set a new remote
+
+$ git remote -v
+# Verify new remote
+> origin  https://github.com/user/repo.git (fetch)
+> origin  https://github.com/user/repo.git (push)
+```
 
 
 The **git push** command allows you to send (or push) the commits from your local branch in your local Git repository to the remote repository.
+
 ```
 git push <repo name> <branch name>
 ```
