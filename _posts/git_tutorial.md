@@ -47,7 +47,7 @@ mkdir myproject
 cd myproject
 ```
 
-2. Create a Git repository in the current directory: 
+2. Create a Git repository in the current directory: **git init**
 ```python
 git init
 ```
@@ -60,18 +60,18 @@ ls
 ```
 
 
-4. Add change to Stage(Index):  
+4. Add change to Stage(Index):  **git add . **
 ```python
 git add . 
 ```
 
 
-5. Commit staged changes to the repository ：
+5. Commit staged changes to the repository ： **git commit**
 ```python
 git commit -m"create A.txt"
 ```
 
-6. See the current status of your repository:
+6. See the current status of your repository: **git status**
 
 modify the A.txt file
 ```python
@@ -111,6 +111,7 @@ git show
 ```python
 git branch
 git checkout -b new_breanch
+git branch
 ```
 
 
