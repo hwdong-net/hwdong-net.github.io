@@ -1,5 +1,28 @@
 # git tutorial
 
+## install git
+
+
+Linux(Debian, Ubuntu)
+```
+     sudo apt-get install git
+```
+Linux(Fedora, CentOS)
+```
+     sudo dnf install git-all
+```
+Mac
+```
+     https://git-scm.com/download/mac
+```
+Windows
+```
+     https://desktop.github.com/
+```
+
+
+
+
 ## [git config](https://www.vogella.com/tutorials/Git/article.html)
 
 The **git config** command allows you to configure your Git settings. These settings can be *system wide*, *user* or *repository specific*.
