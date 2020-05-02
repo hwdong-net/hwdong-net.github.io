@@ -113,7 +113,7 @@ git branch
 git checkout -b new_breanch
 git branch
 ```
-
+The branch name with the asterisk next to it indicates which branch you're pointed to at that given time. 
 
 
 
