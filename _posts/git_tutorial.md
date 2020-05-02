@@ -59,43 +59,58 @@ touch A.txt
 ls
 ```
 
-check stasus
-```
-git status
-```
 
 4. Add change to Stage(Index):  
 ```python
 git add . 
 ```
 
-check stasus
-```
-git status
-```
 
 5. Commit staged changes to the repository ：
 ```python
-c
+git commit -m"create A.txt"
 ```
 
-check stasus
+6. See the current status of your repository:
+
+modify the A.txt file
+```python
+vim A.txt
+```
+run the **git status**
 ```
 git status
 ```
+Changes **not staged** for commit:
 
-6. See the current status of your repository: *git status*
-    untracked,  staged,  commited
-7. Commit staged changes to the repository: *git log*
-8. Viewing the changes of a commit: *git show*
-9. Revert changes in files in the working tree: *git check*
+```
+touch B.txt
+git status
+```
+**untracked**,
 
+```
+git commit - m"Add B.txt"
+git status
+```
+staged, but notcommited
 
-1. Create a directory and enter the directory
+   
+7. Commit staged changes to the repository: 
+```python
+git log
+```
 
+8. Viewing the changes of a commit: 
 
+```python
+git show
+```
+9. Revert changes in files in the working tree: 
+```python
+git checkout
+```
 
-2. 
 
 
 
