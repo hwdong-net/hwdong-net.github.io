@@ -41,6 +41,12 @@ $git config --global --list
 ## local Git workflow 
 
 1. Create a directory and enter the directory
+```python
+cd ../..
+mkdir myproject
+cd myproject
+```
+
 2. Create a Git repository in the current directory: *git init*
 3. Create new file or modify content of some file
 4. Add change to Stage(Index):  *git add . *
@@ -54,10 +60,11 @@ $git config --global --list
 
 1. Create a directory and enter the directory
 
+
+
+2. 
 ```python
-cd ../..
-mkdir myproject
-cd myproject
+git init
 ```
 
 
