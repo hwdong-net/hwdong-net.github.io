@@ -108,6 +108,9 @@ git show
 ```
 9. Revert changes in files in the working tree: **git checkout**
 
+[Git Checkout](atlassian.com/git/tutorials/using-branches/git-checkout):
+![](https://wac-cdn.atlassian.com/dam/jcr:389059a7-214c-46a3-bc52-7781b4730301/hero.svg?cdnVersion=989)
+
 ```python
 git branch
 git checkout -b new_breanch
@@ -115,7 +118,14 @@ git branch
 ```
 The branch name with the asterisk next to it indicates which branch you're pointed to at that given time. 
 
+Now, if you switch back to the master branch and make some more commits, your new branch won't see any of those changes until you merge those changes onto your new branch.
 
+```python
+git checkout master
+git branch
+```
+
+The -b option is a convenience flag that tells Git to run git branch <new-branch> before running git checkout <new-branch>.
 
 ##  Remote repositories
 
