@@ -145,6 +145,7 @@ git commit -m "Finish a feature"
 # Merge in the new-feature branch
 git checkout master
 git merge new-feature
+# delete branch new-feature
 git branch -d new-feature
 ```
 
