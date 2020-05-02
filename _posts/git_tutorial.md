@@ -108,6 +108,8 @@ git show
 ```
 9. Revert changes in files in the working tree: **git checkout**
 
+[**git branch**](https://wac-cdn.atlassian.com/dam/jcr:746be214-eb99-462c-9319-04a4d2eeebfa/01.svg?cdnVersion=989)
+
 [Git Checkout](atlassian.com/git/tutorials/using-branches/git-checkout):
 ![](https://wac-cdn.atlassian.com/dam/jcr:389059a7-214c-46a3-bc52-7781b4730301/hero.svg?cdnVersion=989)
 
