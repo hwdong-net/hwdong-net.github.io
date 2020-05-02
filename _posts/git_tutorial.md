@@ -128,6 +128,27 @@ git branch
 ```
 
 The -b option is a convenience flag that tells Git to run git branch <new-branch> before running git checkout <new-branch>.
+   
+10. Merge one branch to another branch: **git merge**
+
+![](https://wac-cdn.atlassian.com/dam/jcr:b87df050-2a3a-4f17-bb80-43c5217b4947/07%20(1).svg?cdnVersion=989)
+
+```python
+# Start a new feature
+git checkout -b new-feature master
+# Edit some files
+git add <file>
+git commit -m "Start a feature"
+# Edit some files
+git add <file>
+git commit -m "Finish a feature"
+# Merge in the new-feature branch
+git checkout master
+git merge new-feature
+git branch -d new-feature
+```
+
+
 
 ##  Remote repositories
 
