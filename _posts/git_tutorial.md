@@ -37,6 +37,7 @@ $git config --global --list
 9. Revert changes in files in the working tree: *git check*
 
 
+
 To add a new remote, use the **git remote add** command on the terminal, in the directory your repository is stored at.
 
 The git remote add command takes two arguments:
@@ -44,10 +45,15 @@ The git remote add command takes two arguments:
 - A unique remote name, for example, “my_remote_repo”
 - A remote URL, which you can find on the Source sub-tab of your Git repo
 
+```python
+git remote add my_remote_repo_name https://github.com/hwdong-net/myproj.git
+```
+
 ![](https://hwdong-net.github.io/imgs/git/git_add_remote.png)
 
 ```python
-git remote add my_remote_repo https://github.com/hwdong-net/cplusplus17.git
+git remote add origin https://github.com/hwdong-net/cplusplus17.git
+git push -u origin master
 ```
 
 To push your changes into your remote repo execute the **git push <remote> <branch>** command:
