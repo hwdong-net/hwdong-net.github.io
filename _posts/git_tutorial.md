@@ -11,11 +11,26 @@ The **git config** command allows you to configure your Git settings. These sett
 
 You have to configure at least your user and email address to be able to commit to a Git repository because this information is stored in each commit.
 
-```python
+```
 $git config --global user.name “your name" 
 $git config --global user.email "your.email”
-
 ```
+For example:
+```python
+$git config --global user.name “hwdong.net" 
+$git config --global user.email "hwdong@gmail.com”
+```
+
+unset
+```
+# Remove repository configuration
+git config --unset [key]
+# Remove global configuration
+git config --global --unset [key]
+# Remove system configuration
+git config --system --unset [key]
+```
+
 ### Query Git settings
 
 ```python
@@ -36,10 +51,25 @@ $git config --global --list
 8. Viewing the changes of a commit: *git show*
 9. Revert changes in files in the working tree: *git check*
 
+1. Create a directory and enter the directory
+```python
+cd ../..
+mkdir myproject
+cd myproject
+```
+
 
 ##  Remote repositories
 
 ![](https://hwdong-net.github.io/imgs/git/git_add_remote.png)
+
+### git clone
+creates a new git repository by copying an existing one located at the URI you specify.
+```python
+   git clone git://github.com/user/test.git
+```
+
+
 
 ### 1. create a bare repository
 
