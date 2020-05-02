@@ -38,6 +38,8 @@ $git config --global --list
 
 ### Remote repositories
 
+![](https://hwdong-net.github.io/imgs/git/git_add_remote.png)
+
 Use  the **git remote add** command to add a new remote, in the directory your repository is stored at.
 
 The git remote add command takes two arguments:
@@ -45,7 +47,7 @@ The git remote add command takes two arguments:
 - A unique remote name, for example, “my_remote_repo”
 - A remote URL, which you can find on the Source sub-tab of your Git repo
 
-![](https://hwdong-net.github.io/imgs/git/git_add_remote.png)
+
 
 For example:
 ```python
@@ -70,7 +72,6 @@ git remote add origin https://github.com/hwdong-net/cplusplus17.git
 git remote -v
 git push -u origin master
 ```
-
 
 
 To push your changes into your remote repo execute the **git push <remote> <branch>** command:
