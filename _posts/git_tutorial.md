@@ -73,6 +73,8 @@ git push <your_remote_name>
 
 [An Intro to Git and GitHub for Beginners (Tutorial)](https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners)
 
+[The Git Push Command Explained](https://www.freecodecamp.org/news/the-git-push-command-explained/)
+
 [How to remove git account from local machine and add new account](https://stackoverflow.com/questions/43573790/how-to-remove-git-account-from-local-machine-and-add-new-account)
 
 
