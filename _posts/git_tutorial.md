@@ -16,6 +16,25 @@ $git config --global user.name “your name"
 $git config --global user.email "your.email”
 
 ```
+#### Query Git settings
+
+```python
+$git config --list
+$git config --global --list
+```
+
+### local Git workflow 
+
+1. Create a directory and enter the directory
+2. Create a Git repository in the current directory: git init
+3. Create new file or modify content of some file
+4. Add change to Stage(Index):  git add . 
+5. Commit staged changes to the repository ： git commit –m”comments”
+6. See the current status of your repository: git status
+    untracked,  staged,  commited
+7. Commit staged changes to the repository: git log
+8. Viewing the changes of a commit: git show
+9. Revert changes in files in the working tree: git check
 
 
 To add a new remote, use the **git remote add** command on the terminal, in the directory your repository is stored at.
