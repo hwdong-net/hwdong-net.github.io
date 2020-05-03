@@ -267,6 +267,8 @@ git push <your_remote_name>
 
 [The Git Push Command Explained](https://www.freecodecamp.org/news/the-git-push-command-explained/)
 
+[https://www.atlassian.com/git/tutorials/](https://www.atlassian.com/git/tutorials/)
+
 [How to remove git account from local machine and add new account](https://stackoverflow.com/questions/43573790/how-to-remove-git-account-from-local-machine-and-add-new-account)
 
 
