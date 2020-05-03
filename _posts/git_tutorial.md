@@ -261,6 +261,8 @@ To push your changes into your remote repo execute the **git push <remote> <bran
 git push <your_remote_name>
 ```
 
+[What is Git and why should I use it?](https://www.quora.com/What-is-Git-and-why-should-I-use-it)
+
 [An Intro to Git and GitHub for Beginners (Tutorial)](https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners)
 
 [The Best Git Tutorials](https://www.freecodecamp.org/news/best-git-tutorial/)
