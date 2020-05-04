@@ -453,12 +453,15 @@ The git remote add command takes two arguments:
 
 For example:
 
-```python
-$ git remote add origin https://github.com/user/repo.git
+```
+git remote add origin https://github.com/user/repo.git
 # Set a new remote
 
-$ git remote -v
+git remote -v
 # Verify new remote
+```
+output:
+```
 > origin  https://github.com/user/repo.git (fetch)
 > origin  https://github.com/user/repo.git (push)
 ```
