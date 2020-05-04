@@ -230,11 +230,15 @@ git commit -m"modified A"
 git merge another #CONFLICT (content): Merge conflict in A.txt
 ```
 
+you need to modifed the conflicted file in the master branch and the merge
+```python
+git add .
+git commit -m"coflict solved"
+git merge another
+git branch -d another
+```
 
-11. Revert changes in files in the working tree: **git checkout**
 
-
-[**git branch**](https://wac-cdn.atlassian.com/dam/jcr:746be214-eb99-462c-9319-04a4d2eeebfa/01.svg?cdnVersion=989)
 
 [Git Checkout](atlassian.com/git/tutorials/using-branches/git-checkout):
 ![](https://wac-cdn.atlassian.com/dam/jcr:389059a7-214c-46a3-bc52-7781b4730301/hero.svg?cdnVersion=989)
@@ -274,6 +278,8 @@ git merge new-feature
 # delete branch new-feature
 git branch -d new-feature
 ```
+
+
 
 
 ##  working with github (Remote repositories)
