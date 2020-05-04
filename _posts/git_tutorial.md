@@ -347,6 +347,16 @@ git branch -d new-feature
 
 ##  working with github (Remote repositories)
 
+A remote repository on a server typically does not require a working tree
+A Git repository without a working tree is called a bare repository.
+ You can create a bare repository with the --bare option. 
+ 
+ ```python
+ git init --bare
+```
+
+If you use github as server,you can create a git repository with you github account.
+
 ![](https://hwdong-net.github.io/imgs/git/git_add_remote.png)
 
 ### 1. git clone
@@ -391,13 +401,41 @@ you can do modify the repository directly in github, for example modify the A.tx
 
 click the **submit** button. 
 
+### 4. git pull 
+
 Then you can use **git pull** in your local machine to pull the modification from the github repository.
 ```python
 git pull
 cat A.txt
 ```
 
+### 5. Adding remote repositories
 
+Use  the **git remote add** command to add a new remote, in the directory your repository is stored at.
+
+The git remote add command takes two arguments:
+
+- A unique remote name, for example, “my_remote_repo”
+- A remote URL, which you can find on the Source sub-tab of your Git repo
+
+For example:
+```python
+$ git remote add origin https://github.com/user/repo.git
+# Set a new remote
+
+$ git remote -v
+# Verify new remote
+> origin  https://github.com/user/repo.git (fetch)
+> origin  https://github.com/user/repo.git (push)
+```
+
+After some work on this local git repository,you can pull it to github server.
+
+```python
+git push -u origin master
+```
+
+ 
  
 ### 1. create a bare repository
 
@@ -423,25 +461,7 @@ If you clone a repository, Git implicitly creates a remote named **origin** by d
 
 
 
-### Adding remote repositories
 
-Use  the **git remote add** command to add a new remote, in the directory your repository is stored at.
-
-The git remote add command takes two arguments:
-
-- A unique remote name, for example, “my_remote_repo”
-- A remote URL, which you can find on the Source sub-tab of your Git repo
-
-For example:
-```python
-$ git remote add origin https://github.com/user/repo.git
-# Set a new remote
-
-$ git remote -v
-# Verify new remote
-> origin  https://github.com/user/repo.git (fetch)
-> origin  https://github.com/user/repo.git (push)
-```
 
 The **git push** command allows you to send (or push) the commits from your local branch in your local Git repository to the remote repository.
 
