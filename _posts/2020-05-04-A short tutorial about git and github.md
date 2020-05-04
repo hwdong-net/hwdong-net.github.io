@@ -20,7 +20,7 @@ tags:
 
 How to track the modification history of a file?
 
-you may use different renamed files to track different version of a file. For example:
+You might be tracking the revision history of a file with a different filename. For example:
 ```
 work.doc
 Work_2019_3_8.doc
@@ -28,7 +28,7 @@ Work_2019_9_5.doc
 Work_2020_1_23_john.doc
 Work_2020_2_1_smith.doc
 ```
-If there are many modofication,there wiil be many files and you hard to know difference between them.
+If a file is modified many times, it is difficult to tell the difference between these different versions of the file
 
 ###  What git can do?
 
