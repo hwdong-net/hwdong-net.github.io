@@ -109,12 +109,36 @@ modify the A.txt file
 ```python
 vim A.txt
 ```
+
+you can type i in keyboard to enter **insert** or **edit** mode and type something such as "first" in the file.
+
+to save youe modification, type ":" colon and "wq" .
+
 run the **git status**
 ```
 git status
 ```
 Changes **not staged** for commit:
 
+run 
+```
+git add .
+git status
+```
+you will see message such as "Changes to be committed:".
+
+run:
+```python
+git commit -m"first modification"
+```
+
+7. **git show**
+
+```python
+git show
+```
+
+8. Now we add  another file
 ```
 touch B.txt
 git status
@@ -122,16 +146,28 @@ git status
 **untracked**,
 
 ```
-git commit - m"Add B.txt"
+git commit - m"create B.txt"
 git status
 ```
-staged, but notcommited
 
    
-7. Commit staged changes to the repository: 
+9. **git log** to see all version history
 ```python
 git log
 ```
+
+10. **git reset** to roll back the  version of any time
+```python
+git reset --hard HEAD^2
+```
+to check if we roll back to the first version
+```
+cat A.txt
+git log
+```
+
+11. 
+
 
 8. Viewing the changes of a commit:  **git show**
 
@@ -284,3 +320,5 @@ git push <your_remote_name>
 
 
 [Git & GitHub Crash Course For Beginners](https://www.youtube.com/watch?v=SWYqp7iY_Tc)
+
+[键盘上所有特殊符号的英文读法](https://www.douban.com/group/topic/12410327/)
