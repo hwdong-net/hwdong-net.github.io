@@ -451,14 +451,13 @@ The git remote add command takes two arguments:
 - A unique remote name, for example, “my_remote_repo”
 - A remote URL, which you can find on the Source sub-tab of your Git repo
 
-For example:
-
-```
+For example,to set a new remote:
+```python
 git remote add origin https://github.com/user/repo.git
-# Set a new remote
-
+```
+to Verify new remote
+```python
 git remote -v
-# Verify new remote
 ```
 output:
 ```
