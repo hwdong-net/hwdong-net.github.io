@@ -173,6 +173,10 @@ git log
 
 ## working with branchs
 
+
+![](https://hwdong-net.github.io/imgs/gitgit_branch_checkout.png)
+
+
 ```python
 # list all branches
 git branch
@@ -199,9 +203,17 @@ git check master
 git branch -d another  # error: The branch 'another' is not fully merged.
 git branch -D another  #Deleted branch another (was b98579f).
 ```
-
-
-![](https://hwdong-net.github.io/imgs/gitgit_branch_checkout.png)
+now breate and checkout a new branch
+```python
+git checkout -b another
+vim A.txt
+#do some modification
+git add .
+git commit -m"add: hwdong"
+git checkout master
+git merge another
+git branch -d branch #Deleted branch another (was 254366f).
+```
 
 
 11. Revert changes in files in the working tree: **git checkout**
