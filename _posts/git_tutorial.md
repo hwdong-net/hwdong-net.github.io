@@ -39,6 +39,15 @@ in 2005, the relationship between the community that developed the Linux kernel 
 
 The goal of git is :
 
+- Speed
+
+- Simple design
+
+- Strong support for non-linear development (thousands of parallel branches)
+
+- Fully distributed
+
+- Able to handle large projects like the Linux kernel efficiently (speed and data size)
 
 
 
