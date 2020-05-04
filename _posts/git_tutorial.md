@@ -387,16 +387,22 @@ git status
 
 ### 3. push changes to this repository
 
-You can push changes to this repository via **git push** as Git uses origin as default.
-
+The **git push** command allows you push changes to this repository to remote remote repository.
 ```
 git push <repo name> <branch name>
 ```
+<repo name> is the local git repository,<branch name> is the branch of remote remote repository
+     
 for example:
+```python
+git push -u origin master
+```
+You can simply use **git push** as Git uses origin as default <repo name> and master as default remote branch.
 
 ```python
 git push
 ```
+
 Of course, pushing to a remote repository requires write access to this repository.
 
 If there is a conflict related  with use account,you can delete github user account on windows.
@@ -443,52 +449,6 @@ After some work on this local git repository,you can pull it to github server.
 git push -u origin master
 ```
 
- 
- 
-### 1. create a bare repository
-
-```python
-git init --bare
-```
-
-### 2. switch to a new directory
-```python
-mkdir ~/online
-cd ~/online
-```
-
-### 2. clone online repository
-
-The **git clone** command copies an existing Git repository. This copy is a working Git repository with the complete history of the cloned repository. It can be used completely isolated from the original repository.
-
-```python
-# the following will clone via HTTP
-git clone http://github.com/hongwei-net/myproject.git
-```
-If you clone a repository, Git implicitly creates a remote named **origin** by default. The origin remote links back to the cloned repository.
-
-
-
-
-
-The **git push** command allows you to send (or push) the commits from your local branch in your local Git repository to the remote repository.
-
-```
-git push <repo name> <branch name>
-```
-    
-```python
-git remote add origin https://github.com/hwdong-net/cplusplus17.git
-git remote -v
-git push -u origin master
-```
-
-
-To push your changes into your remote repo execute the **git push <remote> <branch>** command:
-
-```python
-git push <your_remote_name>
-```
 
 [What is Git and why should I use it?](https://www.quora.com/What-is-Git-and-why-should-I-use-it)
 
