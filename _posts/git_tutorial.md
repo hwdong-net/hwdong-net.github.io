@@ -63,7 +63,8 @@ $git config --global --list
 
 ## local Git workflow 
 
-![](https://hwdong-net.github.io/imgs/git/imgs/git_local.png)
+![](https://hwdong-net.github.io/imgs/git/git_local.png)
+
 **add** adds your modified files to the queue to be committed later.
 **commit** commits the files in the index to the repository 
 
