@@ -173,6 +173,22 @@ git log
 
 ## working with branchs
 
+```python
+# list all branches
+git branch
+# breate a new branch
+git branch <branch>
+#delete a branch
+git branch -d <branch>
+git branch -D <branch>
+#switch between branches in a repository
+git checkout <branchname> 
+# you create and switch to a new branch
+git checkout -b <branchname>  
+```
+
+![](https://hwdong-net.github.io/imgs/gitgit_branch_checkout.png)
+
 
 11. Revert changes in files in the working tree: **git checkout**
 
