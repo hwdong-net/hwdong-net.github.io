@@ -186,6 +186,20 @@ git checkout <branchname>
 # you create and switch to a new branch
 git checkout -b <branchname>  
 ```
+For example:
+```python
+git branch
+git branch another
+git checkout another
+vim A.txt
+#do some modify ,such as add a new line
+git add .
+git commit - m"add a line:hwdong"
+git check master
+git branch -d another  # error: The branch 'another' is not fully merged.
+git branch -D another  #Deleted branch another (was b98579f).
+```
+
 
 ![](https://hwdong-net.github.io/imgs/gitgit_branch_checkout.png)
 
