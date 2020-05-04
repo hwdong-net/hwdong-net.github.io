@@ -1,5 +1,35 @@
 # git tutorial
 
+## What is git?
+
+### Why git?
+
+How to track the modification history of a file?
+
+you may use different renamed files to track different version of a file. For example:
+```
+work.doc
+Work_2019_3_8.doc
+Work_2019_9_5.doc
+Work_2020_1_23_john.doc
+Work_2020_2_1_smith.doc
+```
+If there are many modofication,there wiil be many files and you hard to know difference between them.
+
+###  What git can do?
+
+Git is a free and open source distributed **version control system(VCS)**. Git usae repositories to record all changes of all files of a project and can roll back to any verskion at any time. Every team member can clone a local copy called snapshot of a git repository and do work on local repository. Local repository can be pushed to remote repository on other place (shch as another machine or other place in his machine).
+
+- Track changes of all files of a project
+- Coordinates works among multiple developers
+- Who made  what changes and when
+- Roll back to the version of any time
+- Local snapshot and remote repository
+
+
+
+
+
 ## install git
 
 
