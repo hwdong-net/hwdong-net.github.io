@@ -360,9 +360,17 @@ If you use github as server,you can create a git repository with you github acco
 ![](https://hwdong-net.github.io/imgs/git/git_add_remote.png)
 
 ### 1. git clone
-creates a new git repository by copying an existing one located at the URI you specify.
+
+The **git clone** command creates a new git repository by copying an existing Git repository located at the URI you specify.
+This copy is a working Git repository with the complete history of the cloned repository. It can be used completely isolated from the original repository.
+
 ```python
 git clone https://github.com/hwdong-net/test.git
+
+```
+If you clone a repository, Git implicitly creates a remote named **origin** by default. The origin remote links back to the cloned repository.
+
+```python
 cd test
 ls
 ```
