@@ -215,6 +215,21 @@ git merge another
 git branch -d branch #Deleted branch another (was 254366f).
 ```
 
+continue:
+```python
+git checkout -b branch
+vim A.txt
+# do some modification
+git add .
+git commit -m"add: hwdong.net"
+git checkout master
+vim A.txt
+#do some modification
+git add .
+git commit -m"modified A"
+git merge another #CONFLICT (content): Merge conflict in A.txt
+```
+
 
 11. Revert changes in files in the working tree: **git checkout**
 
