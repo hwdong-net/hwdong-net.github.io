@@ -257,8 +257,18 @@ If there is a conflict related  with use account,you can delete github user acco
 start menu -> windows -> control panel -> User Accounts->Credential Manager ->Windows Credential ,delete the github account
 ```
 
+you can do modify the repository directly in github, for example modify the A.txt file,for example all a line "hello world" to the file.
+
+click the **submit** button. 
+
+Then you can use **git pull** in your local machine to pull the modification from the github repository.
+```python
+git pull
+cat A.txt
+```
 
 
+ 
 ### 1. create a bare repository
 
 ```python
