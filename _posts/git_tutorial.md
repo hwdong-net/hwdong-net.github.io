@@ -158,6 +158,9 @@ git log
 you will seee different version Id.
 
 10. **git reset** to roll back the  version of any time
+
+![](https://hwdong-net.github.io/imgs/git/git_reset.png)
+
 ```python
 git reset --hard HEAD^2
 ```
