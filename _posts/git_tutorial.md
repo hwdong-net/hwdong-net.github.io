@@ -63,6 +63,13 @@ $git config --global --list
 
 ## local Git workflow 
 
+**add** adds your modified files to the queue to be committed later.
+**commit** commits the files in the index to the repository 
+
+**reset** resets the index without touching the working tree,
+while **checkout** changes the working tree without touching the index.
+
+
 1. Create a directory and enter the directory
 ```python
 cd ../..
