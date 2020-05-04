@@ -97,7 +97,6 @@ ls
 git add . 
 ```
 
-
 5. Commit staged changes to the repository ： **git commit**
 ```python
 git commit -m"create A.txt"
@@ -118,18 +117,19 @@ run the **git status**
 ```
 git status
 ```
-Changes **not staged** for commit:
+you will see status message :   Changes **not staged** for commit:
 
 run 
 ```
 git add .
 git status
 ```
-you will see message such as "Changes to be committed:".
+you will see status message : "Changes to be committed:".
 
 run:
 ```python
 git commit -m"first modification"
+git status
 ```
 
 7. **git show**
@@ -143,18 +143,20 @@ git show
 touch B.txt
 git status
 ```
-**untracked**,
+you will seee Status: untracked,
 
 ```
+git add B.txt
+git status
 git commit - m"create B.txt"
 git status
 ```
-
    
 9. **git log** to see all version history
 ```python
 git log
 ```
+you will seee different version Id.
 
 10. **git reset** to roll back the  version of any time
 ```python
@@ -166,15 +168,9 @@ cat A.txt
 git log
 ```
 
-11. 
+11. Revert changes in files in the working tree: **git checkout**
 
 
-8. Viewing the changes of a commit:  **git show**
-
-```python
-git show
-```
-9. Revert changes in files in the working tree: **git checkout**
 
 [**git branch**](https://wac-cdn.atlassian.com/dam/jcr:746be214-eb99-462c-9319-04a4d2eeebfa/01.svg?cdnVersion=989)
 
