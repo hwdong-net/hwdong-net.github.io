@@ -1,3 +1,17 @@
+---
+layout:       post
+title:        "A short Git tutorial "
+subtitle:     "A short Git tutorial"
+date:         2020-05-04 19:09:00
+author:       "xuepro"
+header-img:   "img/home_bg.jpg"
+header-mask:  0.3
+catalog:      true
+multilingual: true
+tags:
+    - IT
+---
+
 # git tutorial
 
 ## What is git?
