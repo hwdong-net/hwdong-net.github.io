@@ -390,6 +390,7 @@ ls
 ```
 
 ### 2. do some work in local repository
+
 ```python
 touch A.txt
 git status
@@ -402,16 +403,19 @@ git status
 ### 3. push changes to this repository
 
 The **git push** command allows you push changes to this repository to remote remote repository.
-```
+
+```python
 git push <repo name> <branch name>
 ```
-<repo name> is the local git repository,<branch name> is the branch of remote remote repository
+`<repo name>` is the local git repository,`<branch name>` is the branch of remote remote repository
      
 for example:
+
 ```python
 git push -u origin master
 ```
-You can simply use **git push** as Git uses origin as default <repo name> and master as default remote branch.
+
+You can simply use **git push** as Git uses origin as default `<repo name>` and master as default remote branch.
 
 ```python
 git push
@@ -422,7 +426,8 @@ Of course, pushing to a remote repository requires write access to this reposito
 If there is a conflict related  with use account,you can delete github user account on windows.
 
 ```
-start menu -> windows -> control panel -> User Accounts->Credential Manager ->Windows Credential ,delete the github account
+start menu -> windows -> control panel -> User Accounts->Credential Manager
+                ->Windows Credential ,delete the github account
 ```
 
 you can do modify the repository directly in github, for example modify the A.txt file,for example all a line "hello world" to the file.
@@ -447,6 +452,7 @@ The git remote add command takes two arguments:
 - A remote URL, which you can find on the Source sub-tab of your Git repo
 
 For example:
+
 ```python
 $ git remote add origin https://github.com/user/repo.git
 # Set a new remote
