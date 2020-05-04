@@ -21,8 +21,6 @@ Windows
 ```
 
 
-
-
 ## [git config](https://www.vogella.com/tutorials/Git/article.html)
 
 The **git config** command allows you to configure your Git settings. These settings can be *system wide*, *user* or *repository specific*.
@@ -168,8 +166,10 @@ cat A.txt
 git log
 ```
 
-11. Revert changes in files in the working tree: **git checkout**
+## working with branchs
 
+
+11. Revert changes in files in the working tree: **git checkout**
 
 
 [**git branch**](https://wac-cdn.atlassian.com/dam/jcr:746be214-eb99-462c-9319-04a4d2eeebfa/01.svg?cdnVersion=989)
@@ -193,7 +193,7 @@ git branch
 
 The -b option is a convenience flag that tells Git to run git branch <new-branch> before running git checkout <new-branch>.
    
-10. Merge one branch to another branch: **git merge**
+12. Merge one branch to another branch: **git merge**
 
 ![](https://wac-cdn.atlassian.com/dam/jcr:b87df050-2a3a-4f17-bb80-43c5217b4947/07%20(1).svg?cdnVersion=989)
 
@@ -219,11 +219,38 @@ git branch -d new-feature
 
 ![](https://hwdong-net.github.io/imgs/git/git_add_remote.png)
 
-### git clone
+### 1. git clone
 creates a new git repository by copying an existing one located at the URI you specify.
 ```python
-   git clone git://github.com/user/test.git
+git clone https://github.com/hwdong-net/test.git
+cd test
+ls
 ```
+
+### 2. do some work in local repository
+```python
+touch A.txt
+git status
+git add . 
+git status
+git commit - m"create A.txt"
+git status
+```
+
+### 3. push changes to this repository
+
+You can push changes to this repository via **git push** as Git uses origin as default.
+
+```
+git push <repo name> <branch name>
+```
+for example:
+
+```python
+git push
+```
+Of course, pushing to a remote repository requires write access to this repository.
+
 
 
 
@@ -249,19 +276,7 @@ git clone http://github.com/hongwei-net/myproject.git
 ```
 If you clone a repository, Git implicitly creates a remote named **origin** by default. The origin remote links back to the cloned repository.
 
-### 3. push changes to this repository
 
-You can push changes to this repository via **git push** as Git uses origin as default.
-
-```
-git push <repo name> <branch name>
-```
-for example:
-
-```python
-git push
-```
-Of course, pushing to a remote repository requires write access to this repository.
 
 ### Adding remote repositories
 
