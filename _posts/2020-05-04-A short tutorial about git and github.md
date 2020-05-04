@@ -250,6 +250,7 @@ git log
 
 ## working with branchs
 
+Branch operation allows creating another line of development. We can use this operation to fork off the development process into two different directions.Branching means diverging from the mainline and continue to work separately without messing with the mainline. 
 
 ![](https://hwdong-net.github.io/imgs/gitgit_branch_checkout.png)
 
