@@ -120,6 +120,18 @@ $git config --global --list
 **reset** resets the index without touching the working tree,
 while **checkout** changes the working tree without touching the index.
 
+1. Create a directory and enter the directory
+2. Create a Git repository in the current directory: git init
+3. Create new file or modify content of some file
+4. Add change to Stage(Index):  git add . 
+5. Commit staged changes to the repository ： git commit –m”comments”
+6. See the current status of your repository: git status
+    untracked,  staged,  committed
+7. View commit history in the repository: git log
+8. Viewing the changes of a commit: git show
+9. Roll back to some submit : git reset
+
+
 ### An example of local Git workflow
 
 1. Create a directory and enter the directory
