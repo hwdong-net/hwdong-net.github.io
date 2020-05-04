@@ -251,6 +251,11 @@ git push
 ```
 Of course, pushing to a remote repository requires write access to this repository.
 
+If there is a conflict related  with use account,you can delete github user account on windows.
+
+```
+start menu -> windows -> control panel -> User Accounts->Credential Manager ->Windows Credential ,delete the github account
+```
 
 
 
