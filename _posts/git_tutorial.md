@@ -69,6 +69,7 @@ $git config --global --list
 **reset** resets the index without touching the working tree,
 while **checkout** changes the working tree without touching the index.
 
+### An example of local Git workflow
 
 1. Create a directory and enter the directory
 ```python
@@ -166,6 +167,7 @@ cat A.txt
 git log
 ```
 
+
 ## working with branchs
 
 
@@ -214,8 +216,7 @@ git branch -d new-feature
 ```
 
 
-
-##  Remote repositories
+##  working with github (Remote repositories)
 
 ![](https://hwdong-net.github.io/imgs/git/git_add_remote.png)
 
