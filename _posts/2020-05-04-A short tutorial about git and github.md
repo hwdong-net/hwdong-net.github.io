@@ -14,6 +14,8 @@ tags:
 
 # git tutorial
 
+[youtube Video 视频](https://youtu.be/5nSL-61mhRs)
+
 ## What is git?
 
 ### Why git?
