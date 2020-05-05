@@ -1,7 +1,7 @@
 ---
 layout:       post
-title:        "A short Git tutorial "
-subtitle:     "A short Git tutorial"
+title:        "A short Git&github tutorial for beginners"
+subtitle:     "A short Git&github tutorial for beginners"
 date:         2020-05-04 19:09:00
 author:       "xuepro"
 header-img:   "img/home_bg.jpg"
