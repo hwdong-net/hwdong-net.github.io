@@ -1,3 +1,18 @@
+---
+layout:       post
+title:        "input(),type conversion| python tutorial 2"
+subtitle:     "input(),type conversion| python tutorial 2"
+date:         2020-05-09 11:00:00
+author:       "xuepro"
+header-img:   "img/home_bg.jpg"
+header-mask:  0.3
+catalog:      true
+multilingual: true
+tags:
+    - python
+---
+
+
 ## 1. object and Variable
 
 every thing is an object, variable is a name of an object.
