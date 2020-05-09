@@ -49,6 +49,7 @@ https://www.freecodecamp.org/news/what-can-you-do-with-python-the-3-main-applica
 https://www.tableau.com/learn/articles/data-visualization
 
 ![](../imgs/python/Visual.png)
+
 One of the most popular libraries for data visualization is Matplotlib.
 Some other libraries such as seaborn is based on it
 
