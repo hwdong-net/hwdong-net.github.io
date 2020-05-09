@@ -353,9 +353,3 @@ print(r"hello\nworld")
     hello\nworld
     
 
-[https://www.tutorialsteacher.com/python/python-data-types](https://www.tutorialsteacher.com/python/python-data-types)
-
-
-```python
-
-```
