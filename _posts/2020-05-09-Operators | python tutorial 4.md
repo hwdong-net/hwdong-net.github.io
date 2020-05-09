@@ -1,3 +1,18 @@
+---
+layout:       post
+title:        "Operators | python tutorial 4"
+subtitle:     "Operators | python tutorial 4"
+date:         2020-05-09 19:04:00
+author:       "xuepro"
+header-img:   "img/home_bg.jpg"
+header-mask:  0.3
+catalog:      true
+multilingual: true
+tags:
+    - python
+---
+
+
 ## 1. operators
 
 Operators are used to perform operations on data object(variables and values).
