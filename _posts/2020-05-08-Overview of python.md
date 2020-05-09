@@ -1,3 +1,19 @@
+
+---
+layout:       post
+title:        "Overview of python| python tutorial 1"
+subtitle:     "Overview of python | python tutorial 1"
+date:         2020-05-08 11:00:00
+author:       "xuepro"
+header-img:   "img/home_bg.jpg"
+header-mask:  0.3
+catalog:      true
+multilingual: true
+tags:
+    - python
+---
+
+
 ## Overview of python
 + What and why
 + python interpreter 
