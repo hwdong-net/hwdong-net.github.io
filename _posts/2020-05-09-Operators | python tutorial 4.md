@@ -419,13 +419,3 @@ You don't remember Operator precedence. You can use parentheses to change the or
 
 
 
-[https://realpython.com/python-operators-expressions/](https://realpython.com/python-operators-expressions/)
-
-[https://www.w3schools.com/python/python_operators.asp](https://www.w3schools.com/python/python_operators.asp)
-
-[https://www.programiz.com/python-programming/operators](https://www.programiz.com/python-programming/operators)
-
-
-```python
-
-```
