@@ -1,7 +1,7 @@
 ---
 layout:       post
-title:        "Operators | python tutorial 3"
-subtitle:     "Operators | python tutorial 3"
+title:        "input(),type conversion| python tutorial 3"
+subtitle:     "input(),type conversion| python tutorial 3"
 date:         2020-05-09 12:04:00
 author:       "xuepro"
 header-img:   "img/home_bg.jpg"
