@@ -34,21 +34,21 @@ https://realpython.com/what-can-i-do-with-python/#1-automate-the-boring-stuff
 **web developing**: Web frameworks that are based on Python like Django and Flask have recently become very popular for web development.
 These web frameworks help you create server-side code (backend code) in Python. That’s the code that runs on your server, as opposed to on users’ devices and browsers (front-end code). 
 
-![](./imgs/Django.png)
+![](../imgs/python/Django.png)
 
-![](./imgs/Flask.png)
+![](../imgs/python/Flask.png)
 
 https://www.freecodecamp.org/news/what-can-you-do-with-python-the-3-main-applications-518db9a68a78/
 
 **Data analysis** is a process of inspecting, cleansing, transforming and modeling data with the goal of discovering useful information, informing conclusions and supporting decision-making. 
 
-![](./imgs/da.png)
+![](../imgs/python/da.png)
 
 
 **Data visualization** is the graphical representation of information and data. By using visual elements like charts, graphs, and maps, data visualization tools provide an accessible way to see and understand trends, outliers, and patterns in data.
 https://www.tableau.com/learn/articles/data-visualization
 
-![](./imgs/Visual.png)
+![](../imgs/python/Visual.png)
 One of the most popular libraries for data visualization is Matplotlib.
 Some other libraries such as seaborn is based on it
 
@@ -56,11 +56,11 @@ Some other libraries such as seaborn is based on it
 **Machine learning** is a method of data analysis that automates analytical model building. It is a branch of artificial intelligence based on the idea that systems can learn from data, identify patterns and make decisions with minimal human intervention.
 https://www.sas.com/en_us/insights/analytics/machine-learning.html
 
-![](./imgs/Face_reg.png)
+![](../imgs/python/Face_reg.png)
 
 **Deep learning** is an artificial intelligence function that imitates the workings of the human brain in processing data and creating patterns for use in decision making. Deep learning is a subset of machine learning in artificial intelligence (AI) that has networks capable of learning unsupervised from data that is unstructured or unlabeled. Also known as deep neural learning or deep neural network.
 
-![](./imgs/DeepFace.png)
+![](../imgs/python/DeepFace.png)
 
 https://www.investopedia.com/terms/d/deep-learning.asp
 
@@ -71,9 +71,9 @@ Python has many advantages,such as:
 + Widely used in different area and by different people, not only programmer
 + Top language
 
-![](./imgs/Tiob.png)
+![](../imgs/python/Tiob.png)
 
-![](./imgs/IEEE.png)
+![](../imgs/python/IEEE.png)
 
 ### python interpreter 
 An interpreter executes the statements of code “one-by-one”,  whereas the compiler executes the code entirely and lists all possible errors at a time.
