@@ -1,7 +1,7 @@
 ---
 layout:       post
-title:        "input(),type conversion| python tutorial 2"
-subtitle:     "input(),type conversion| python tutorial 2"
+title:        "object,variable,data type | python tutorial 2"
+subtitle:     "object,variable,data type | python tutorial 2"
 date:         2020-05-09 11:00:00
 author:       "xuepro"
 header-img:   "img/home_bg.jpg"
