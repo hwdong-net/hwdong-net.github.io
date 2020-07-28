@@ -180,8 +180,9 @@ sudo nano /etc/systemd/system/caddy.service
 
 一个坑（参考[https://github.com/caddyserver/caddy/issues/2775](https://github.com/caddyserver/caddy/issues/2775)）： 要删除"Environment=CADDYPATH=/etc/ssl/caddy"
 然后添加：
+```
 Environment=CLOUDFLARE_EMAIL=hwdong.net@gmail.com
-Environment=CLOUDFLARE_API_KEY=699a911c62c0b90d254fa1d34fd53499a57e5
+Environment=CLOUDFLARE_API_KEY=699a91dfssdfa1d34fd53499a57e5
 sudo systemctl daemon-reload
 sudo systemctl restart caddy
 sudo systemctl status caddy.service
