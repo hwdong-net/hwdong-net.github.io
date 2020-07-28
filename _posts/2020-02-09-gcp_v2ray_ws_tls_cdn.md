@@ -184,9 +184,11 @@ sudo nano /etc/systemd/system/caddy.service
 Environment=CLOUDFLARE_EMAIL=hwdong.net@gmail.com
 Environment=CLOUDFLARE_API_KEY=699a91dfssdfa1d34fd53499a57e
 ```
+```
 sudo systemctl daemon-reload
 sudo systemctl restart caddy
 sudo systemctl status caddy.service
+```
 CaddyFile shoube be modified as following :
 yourdomain.com {
      root /var/www/
