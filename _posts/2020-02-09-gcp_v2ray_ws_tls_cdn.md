@@ -186,9 +186,8 @@ Environment=CLOUDFLARE_API_KEY=699a91dfssdfa1d34fd53499a57e5
 sudo systemctl daemon-reload
 sudo systemctl restart caddy
 sudo systemctl status caddy.service
-
-CaddyFile shoube be modified as following :
 ```
+CaddyFile shoube be modified as following :
 yourdomain.com {
      root /var/www/
      tls     23232@qq.com
