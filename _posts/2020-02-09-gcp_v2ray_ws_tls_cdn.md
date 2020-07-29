@@ -184,6 +184,10 @@ sudo nano /etc/systemd/system/caddy.service
 Environment=CLOUDFLARE_EMAIL=hwdong.net@gmail.com
 Environment=CLOUDFLARE_API_KEY=699a91dfssdfa1d34fd53499a57e
 ```
+另外关于证书问题
+1） 如果让caddy自动申请证书，则cloudflare的加密云朵可以设置成灰色
+2）如果用cloudflare自动签发的证书，需要将cloudflare的加密云朵可以设置成黄色，并一定要设置SSL/TLS加密为Full(strict)
+3）免费域名freenom等的域名，似乎cloudflare不再支持自动生成证书，需要用购买的域名
 ```
 sudo systemctl daemon-reload
 sudo systemctl restart caddy
