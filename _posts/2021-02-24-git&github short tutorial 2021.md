@@ -91,4 +91,5 @@ $ git push origin master
     master                         pushes to master                         (up to date)
 ```
 
+更详细说明参考：
 [Git Basics - Working with Remotes](https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes)
