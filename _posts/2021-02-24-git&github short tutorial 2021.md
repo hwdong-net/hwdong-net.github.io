@@ -61,6 +61,12 @@ From https://github.com/paulboone/ticgit
 ```
 这个fetch命令获取了pb名关联的远程存储的2个分支pb/master和pb/ticgit。
 
+用push命令可将本地修改的内容push到远程Repo上，如：
+```bash
+$ git push origin master
+```
+将本地短名origin的修改内容push到它对应的那个远程Repo（即https://github.com/schacon/ticgit）的master分支上。
+
 
 
 [Git Basics - Working with Remotes](https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes)
