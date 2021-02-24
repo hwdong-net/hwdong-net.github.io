@@ -1,6 +1,6 @@
 ---
 layout:       post
-title:        "Git基础=远程仓库"
+title:        "Git基础:远程仓库"
 subtitle:     "git&github short tutorial 2021"
 date:         2021-02-24 16:16:00
 author:       "xuepro"
