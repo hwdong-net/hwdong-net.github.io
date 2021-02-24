@@ -34,7 +34,7 @@ If a file is modified many times, it is difficult to tell the difference between
 
 ###  What git can do?
 
-Git is a free and open source distributed **version control system(VCS)**. Git usae repositories to record all changes of all files of a project and can roll back to any verskion at any time. Every team member can clone a local copy called snapshot of a git repository and do work on local repository. Local repository can be pushed to remote repository on other place (shch as another machine or other place in his machine).
+Git is a free and open source distributed **version control system(VCS)**. Git use a repository to record all changes of all files of a project and can roll back to any verskion at any time. Every team member can clone a local copy called snapshot of a git repository and do work on local repository. Local repository can be pushed to remote repository on other place (shch as another machine or other place in his machine).
 
 - Track changes of all files of a project
 - Coordinates works among multiple developers
