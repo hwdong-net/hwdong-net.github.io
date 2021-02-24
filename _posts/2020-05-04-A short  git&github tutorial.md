@@ -276,12 +276,12 @@ git branch
 git branch another
 git checkout another
 vim A.txt
-#do some modify ,such as add a new line
+# do some modify ,such as add a new line
 git add .
 git commit - m"add a line:hwdong"
 git check master
 git branch -d another  # error: The branch 'another' is not fully merged.
-git branch -D another  #Deleted branch another (was b98579f).
+git branch -D another  # Deleted branch another (was b98579f).
 ```
 now breate and checkout a new branch
 ```python
@@ -299,7 +299,7 @@ continue:
 ```python
 git checkout -b branch
 vim A.txt
-# do some modification
+#do some modification
 git add .
 git commit -m"add: hwdong.net"
 git checkout master
@@ -317,8 +317,6 @@ git commit -m"coflict solved"
 git merge another
 git branch -d another
 ```
-
-
 
 [Git Checkout](atlassian.com/git/tutorials/using-branches/git-checkout):
 ![](https://wac-cdn.atlassian.com/dam/jcr:389059a7-214c-46a3-bc52-7781b4730301/hero.svg?cdnVersion=989)
