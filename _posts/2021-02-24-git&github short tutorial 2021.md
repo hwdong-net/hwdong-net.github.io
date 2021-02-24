@@ -59,6 +59,7 @@ From https://github.com/paulboone/ticgit
  * [new branch]      master     -> pb/master
  * [new branch]      ticgit     -> pb/ticgit
 ```
+这个fetch命令获取了pb名关联的远程存储的2个分支pb/master和pb/ticgit。
 
 
 
