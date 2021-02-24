@@ -360,7 +360,7 @@ git branch -d new-feature
 
 ##  working with github (Remote repositories)
 
-A remote repository on a server typically does not require a working tree,
+A remote repository on a server typically does not require a working tree.
 A Git repository without a working tree is called a bare repository.
  You can create a bare repository with the --bare option. 
  
@@ -464,7 +464,7 @@ output:
 > origin  https://github.com/user/repo.git (push)
 ```
 
-After some work on this local git repository,you can pull it to github server.
+After some work on this local git repository,you can push it to github server.
 
 ```python
 git push -u origin master
