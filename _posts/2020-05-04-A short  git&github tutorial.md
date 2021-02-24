@@ -358,11 +358,9 @@ git branch -d new-feature
 ```
 
 
-
-
 ##  working with github (Remote repositories)
 
-A remote repository on a server typically does not require a working tree
+A remote repository on a server typically does not require a working tree,
 A Git repository without a working tree is called a bare repository.
  You can create a bare repository with the --bare option. 
  
