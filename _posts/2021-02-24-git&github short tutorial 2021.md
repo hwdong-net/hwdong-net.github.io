@@ -38,7 +38,7 @@ origin	https://github.com/schacon/ticgit (push)
 ```
 
 **git remote add**可以添加其他远程Repo并为这些远程repo指定本地的短名字。如下面命令先查询当前有多少个远程的repo，然后添加一个新的名为pb的远程Repo：
-```bach
+```bash
 $ git remote
 origin
 $ git remote add pb https://github.com/paulboone/ticgit
@@ -47,6 +47,17 @@ origin	https://github.com/schacon/ticgit (fetch)
 origin	https://github.com/schacon/ticgit (push)
 pb	https://github.com/paulboone/ticgit (fetch)
 pb	https://github.com/paulboone/ticgit (push)
+```
+你可以通过**fetch**命令将pb的远程Repo内容拉取到本地来：
+```bash
+$ git fetch pb
+remote: Counting objects: 43, done.
+remote: Compressing objects: 100% (36/36), done.
+remote: Total 43 (delta 10), reused 31 (delta 5)
+Unpacking objects: 100% (43/43), done.
+From https://github.com/paulboone/ticgit
+ * [new branch]      master     -> pb/master
+ * [new branch]      ticgit     -> pb/ticgit
 ```
 
 
