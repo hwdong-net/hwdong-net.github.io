@@ -23,11 +23,18 @@ Receiving objects: 100% (1857/1857), 374.35 KiB | 268.00 KiB/s, done.
 Resolving deltas: 100% (772/772), done.
 Checking connectivity... done.
 ```
-用**git remote**命令查看本地repo关联了多少远程的Repo。
+用**git remote**命令查看本地repo有多少个短名（如origin）关联了远程的Repo，可以通过短名字去读（fetch/push）写远程的repo.
 ```bach
 $ cd ticgit
 $ git remote
 origin
+```
+
+可以通过选项参数"-v"显示本地git的远程repo的关联短名对应的远程Repo的URL地址，
+```bach
+$ git remote -v
+origin	https://github.com/schacon/ticgit (fetch)
+origin	https://github.com/schacon/ticgit (push)
 ```
 
 
