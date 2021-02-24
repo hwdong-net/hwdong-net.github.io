@@ -92,9 +92,9 @@ Windows
 
 The **git config** command allows you to configure your Git settings. These settings can be *system wide*, *user* or *repository specific*.
 
-+ **git config --system** store system setting in file "/etc/gitconfig"
-+ **git config --global** store user settings in the .gitconfig file located in the user home directory. This is also called the global Git configuration. Git stores the committer and author of a change in each commit.
-+ **git config --local**  store repository specific settings in the .git/config file of a repository
++ **git config --system** store system setting in file "**/etc/gitconfig**"
++ **git config --global** store user settings in the **.gitconfig** file located in the user home directory. This is also called the global Git configuration. Git stores the committer and author of a change in each commit.
++ **git config --local**  store repository specific settings in the **.git/config** file of a repository
 
 
 You have to configure at least your user and email address to be able to commit to a Git repository because this information is stored in each commit.
