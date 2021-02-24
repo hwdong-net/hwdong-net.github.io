@@ -15,7 +15,9 @@ tags:
 git可以先创建本地的Repo，然后push到远程Repo上，也可以直接先从一个远程的Repo通过**git clone**创建一个本地Repo，然后拉取（fetch或pull）远程Repo到本地或将本地的修改(push)推动到远程Repo中。并且可以用**git remote add**添加多个远程Repo并在本地给它们起一个短的名字。
 
 **git clone** 命令可将一个远程repo 克隆（clone）到本地文件夹并创建一个本地的repository，在本地的ticgit仓库中，为远程的repo创建一个默认名origin的关联。
-今后可以用过origin名字将修改push到远程repo或将远程repo内容拉到(pull)本地。
+今后可以通过名字origin对它对应的远程Repo进行操作，如用push将修改推动到远程Repo或pull(fetch)将这个远程Repo的内容拉到本地来。
+
+将修改push到远程repo或将远程repo内容拉到(pull)本地。
 ```bash
 $ git clone https://github.com/schacon/ticgit
 Cloning into 'ticgit'...
