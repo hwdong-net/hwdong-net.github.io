@@ -1,7 +1,7 @@
 ---
 layout:       post
-title:Resources for reinforcement learning强化学习资源
-subtitle:Resources for reinforcement learning强化学习资源
+title:        "强化学习资源"
+subtitle:     "Resources for reinforcement learning"
 date:         2020-01-08 12:08:00
 author:       "xuepro"
 header-img:   "img/home_bg.jpg"
@@ -9,9 +9,9 @@ header-mask:  0.3
 catalog:      true
 multilingual: true
 tags:
-    - RL
+    - Python 
     
----    
+---  
 
 [Awesome Reinforcement Learning](https://github.com/aikorea/awesome-rl)
 
