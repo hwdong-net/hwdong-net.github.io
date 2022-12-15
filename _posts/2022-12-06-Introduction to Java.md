@@ -1,7 +1,7 @@
 ---
 layout:       post
-title:        "1. Java语言介绍"
-subtitle:     "1. Introduction to Java"
+title:        "1-Java语言介绍"
+subtitle:     "1-Introduction to Java"
 date:         2022-12-06 12:01:00
 author:       "xuepro"
 header-img:   "img/home_bg.jpg"
