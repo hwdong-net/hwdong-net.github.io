@@ -13,4 +13,10 @@ tags:
 ---
 
 ### 听力
- 美剧： [Modern Family](https://www.youtube.com/watch?v=Fpdr_vSfDUI&list=PLVQlHq8dVV0uNwHF2ypaeI0rLO7-PMhGn) 、How I met your mother
+ 美剧： [Modern Family](https://www.youtube.com/watch?v=QFMHbHLNq2k&list=PLOedawwdgicQtabt9NnhQslDNf9CmDd0c) 、[How I met your] mother(https://www.youtube.com/watch?v=Y3biG3KR-Mw&list=PLro1hsqbtN3Fmy6XVZxo1obzgfZHvR644)
+ 
+ Talk Show: [ellen show](https://www.youtube.com/@TheEllenShow)
+ 
+ 教学网站: [Elllo.org](https://Elllo.org)
+ 
+ 
