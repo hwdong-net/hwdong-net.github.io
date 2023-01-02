@@ -17,8 +17,12 @@ tags:
  
  [老爸老妈浪漫史How I met your mother](https://www.youtube.com/watch?v=Y3biG3KR-Mw&list=PLro1hsqbtN3Fmy6XVZxo1obzgfZHvR644)
  
- Talk Show: [ellen show](https://www.youtube.com/@TheEllenShow)
+ Talk Show: 
+  - [ellen show](https://www.youtube.com/@TheEllenShow)
+  - [ James Corden](https://www.youtube.com/@TheLateLateShow)
+  - [The Graham Norton Show](https://www.youtube.com/@OfficialGrahamNorton)
+  - [Team Coco](https://www.youtube.com/@TeamCoco)
  
- 教学网站: [Elllo.org](https://Elllo.org)
+ 听力教学网站: [Elllo.org](https://Elllo.org)
  
  
