@@ -13,7 +13,9 @@ tags:
 ---
 
 ### 听力
- 美剧： [Modern Family](https://www.youtube.com/watch?v=QFMHbHLNq2k&list=PLOedawwdgicQtabt9NnhQslDNf9CmDd0c) 、[How I met your] mother(https://www.youtube.com/watch?v=Y3biG3KR-Mw&list=PLro1hsqbtN3Fmy6XVZxo1obzgfZHvR644)
+ 美剧： [摩登家庭Modern Family](https://www.youtube.com/watch?v=QFMHbHLNq2k&list=PLOedawwdgicQtabt9NnhQslDNf9CmDd0c) 、
+ 
+ [老爸老妈浪漫史How I met your mother](https://www.youtube.com/watch?v=Y3biG3KR-Mw&list=PLro1hsqbtN3Fmy6XVZxo1obzgfZHvR644)
  
  Talk Show: [ellen show](https://www.youtube.com/@TheEllenShow)
  
