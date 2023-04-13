@@ -16,6 +16,9 @@ tags:
 
 1. 打开浏览器的**隐私模式**窗口
 
+ ![](./ai_imgs/incognito_gmail.png)
+
+
 2. 浏览器里输入网址：gmail.com。 打开gmail登录界面
  ![](./ai_imgs/sign_in_gmail.png)
  
