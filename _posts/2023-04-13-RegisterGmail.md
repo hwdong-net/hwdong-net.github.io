@@ -17,10 +17,10 @@ tags:
 1. 打开浏览器的**隐私模式**窗口
 
 3. 浏览器里输入网址：gmail.com。 打开gmail登录界面
- ![](./Ai_imgs/sign_in_gmail.png)
+ ![](./ai_imgs/sign_in_gmail.png)
  
 3. 如果不习惯英文界面，可以在左下角将浏览器语言切换到中文。
-![](./Ai_imgs/sign_in_2_gmail.png)
+![](ai_imgs/sign_in_2_gmail.png)
 
 5. 选择 “creat account(创建账户)”。 在弹出的菜单中选择“For my personal Use (个人使用)”
 6. 输入 姓(First name)， 名(last_name)可以不输入
