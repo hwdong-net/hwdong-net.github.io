@@ -27,6 +27,7 @@ tags:
 
    （没有外国大师的语言文化差异、没有啰嗦的废话，通俗易懂、内容丰富）：
 + 《解剖深度学习原理-从0编写深度学习库》
+
 深度学习的书要么只有理论没有实践，要么就是平台使用教程，市场上缺少理论和代码实现结合的深入剖析深度学习的全面教材，
 本书从0代码实现深度学习框架、从底层剖析深度学习原理，看完这书，你会对许多似懂非懂的概念、原理豁然明白，发现深度学习如此简单。
 你在其他地方看不到对于转置卷积等深入易懂的分析和代码实现。强烈推荐！目前市场上没有比我这本更好的深度学习原理教材！
@@ -34,8 +35,10 @@ tags:
 ![](https://hwdong-net.github.io/imgs/dl_1.jpg)
 ![](https://hwdong-net.github.io/imgs/dl_2.jpg)
 
-**购买链接**：
-[https://leanpub.com/dl_0](https://leanpub.com/dl_0)  , 纸质书由电子工业出版社出版（国内平台购买）。
+**电子版购买链接**: [http://leanpub.com/dl_0](http://leanpub.com/dl_0) 
+
+纸质书, 纸质书由电子工业出版社出版（国内京东等平台购买）。
+
 + 《C++17从入门到精通》清华大学出版社，2009年9月出版）。还在学习传统的C++98标准吗？为什么看不懂工业界的C++代码？本书带小白轻松掌握现代C++17!
 ![](https://hwdong-net.github.io/imgs/c++17_0.jpg)
 ![](https://hwdong-net.github.io/imgs/c++17.jpg)
@@ -47,10 +50,14 @@ tags:
 
 #### 高质量收费课程
 
- - [解剖深度学习原理-从0实现深度学习库](https://study.163.com/course/introduction/1210746801.htm)   或[udemy](https://www.udemy.com/course/dl_hwdong/)
- - [算法设计与分析](http://t.csdn.cn/oqh3c)    或[udemy](https://www.udemy.com/course/hwdongdda/) 
- - [C语言版数据结构2019](https://study.163.com/course/introduction/1209184840.htm)   
- - [C++版数据结构2019](https://study.163.com/course/introduction/1209131812.htm) 或 [udemy](https://www.udemy.com/course/c-gxnkve/)
+ - [解剖深度学习原理-从0实现深度学习库](https://study.163.com/course/courseMain.htm?courseId=1210746801&share=2&shareId=400000000236023)  
+  或[udemy](https://udemy.com/course/dl_hwdong/?referralCode=60943453055D37DDB9A7)
+ - [算法设计与分析](https://study.163.com/course/courseMain.htm?courseId=1213159804&share=2&shareId=400000000236023)    
+ 或[udemy](https://udemy.com/course/hwdongdda/?referralCode=83E54D9C154313393A69) 
+ - [C语言版数据结构2019](https://study.163.com/course/courseMain.htm?
+courseId=1209184840&share=2&shareId=400000000236023)   
+ - [C++版数据结构2019](https://study.163.com/course/courseMain.htm?courseId=1209131812&share=2&shareId=400000000236023)
+  或 [udemy](https://udemy.com/course/c-gxnkve/?referralCode=631859C266324D94DB28)
  - [C语言版数据结构2018](https://study.163.com/course/introduction/1004703004.htm)
 
 #### YouTube频道列表：
