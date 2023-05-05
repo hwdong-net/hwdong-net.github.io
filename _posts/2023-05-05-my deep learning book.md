@@ -1,7 +1,7 @@
 ---
 layout:       post
-title:        "我的深度学习书“解剖深度学习原理-从零编写深度学习库”已经翻译成英文、日文，并且在leanpub.com和kdp.amazon.com上发布了"
-subtitle:     "My deep learning book "Anatomy of Deep Learning Principles - Writing a Deep Learning Library from Scratch" has been translated into English, Japanese and published on leanpub.com and www.amazon.com"
+title:        "我的深度学习书《解剖深度学习原理-从零编写深度学习库》已经翻译成英文、日文，并且在leanpub.com和kdp.amazon.com上发布了"
+subtitle:     "My deep learning book 《Anatomy of Deep Learning Principles - Writing a Deep Learning Library from Scratch》 has been translated into English, Japanese and published on leanpub.com and www.amazon.com"
 date:         2023-04-15 17:05:00
 author:       "xuepro"
 header-img:   "img/home_bg.jpg"
