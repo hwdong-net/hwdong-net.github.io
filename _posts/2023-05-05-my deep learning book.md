@@ -33,6 +33,8 @@ My deep learning book "Anatomy of Deep Learning Principles - Writing a Deep Lear
 - Amazon: [ekindle version](https://www.amazon.com/dp/B0C3XZZKY6) and [paperback](https://www.amazon.com/dp/B0C2SMM6NH)
 - 
     ![](https://m.media-amazon.com/images/I/41REwjy3gZL._SX390_BO1,204,203,200_.jpg)
-- d 
+- Traditional Chinese： [https://leanpub.com/dl_tw](https://leanpub.com/dl_tw)
+   ![](https://d2sofvawe08yqg.cloudfront.net/dl_tw/s_hero?1683280365)
+- Frech version: 
      
      
