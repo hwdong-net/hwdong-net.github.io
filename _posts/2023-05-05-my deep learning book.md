@@ -1,7 +1,7 @@
 ---
 layout:       post
 title:        "My deep learning book 《Anatomy of Deep Learning Principles - Writing a Deep Learning Library from Scratch》 has been translated into English, Japanese"
-subtitle:     "My deep learning book 《Anatomy of Deep Learning Principles - Writing a Deep Learning Library from Scratch》 has been translated into English, Japanese and published on leanpub.com and www.amazon.com"
+subtitle:     "and published on leanpub.com and www.amazon.com"
 date:         2023-04-15 17:05:00
 author:       "xuepro"
 header-img:   "img/home_bg.jpg"
