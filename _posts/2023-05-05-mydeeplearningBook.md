@@ -1,7 +1,7 @@
 ---
 layout:       post
 title:        "Anatomy of Deep Learning Principles-Writing a Deep Learning Library from Scratch "
-subtitle:     "has been translated into English, Japanese and published on leanpub.com and www.amazon.com"
+subtitle:     "has been translated into English, Japanese and published on leanpuband amazon"
 date:         2023-05-05 11:05:00
 author:       "xuepro"
 header-img:   "img/home_bg.jpg"
@@ -19,6 +19,8 @@ This book introduces the basic principles and implementation process of deep lea
 My deep learning book "Anatomy of Deep Learning Principles - Writing a Deep Learning Library from Scratch" has been translated into English, Japanese, and electronically published on leanpub.com and www.amazon.com. Friends are welcome to buy and provide suggestions and opinions, thank you.
 
 - English version:     [https://leanpub.com/dle](https://leanpub.com/dle)
+
+    [https://www.kobo.com/us/en/ebook/anatomy-of-deep-learning-principles](https://www.kobo.com/us/en/ebook/anatomy-of-deep-learning-principles)
 - 
     ![](https://d2sofvawe08yqg.cloudfront.net/dle/s_hero?1683118104)
     
