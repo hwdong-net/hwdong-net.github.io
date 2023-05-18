@@ -32,7 +32,7 @@ std::accumulate performs fold operation using op operation (function) on range [
 Effectively it's equivalent of:
 ```cpp
 T acc = init;
-for (auto it = first; first != last; ++it)
+for (auto it = first; it != last; ++it)
     acc = op(acc, *it);
 return acc;
 ```
