@@ -10,6 +10,7 @@ catalog:      true
 multilingual: true
 tags:
     -C++
+    
 ---    
 
 ## tutorial for std::accumulate and the solution for leetcode 2011 of "Final Value of Variable After Performing Operations"
