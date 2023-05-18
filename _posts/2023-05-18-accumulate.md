@@ -1,7 +1,7 @@
 ---
 layout:       post
-title:        "tutorial for std::accumulate and the solution for leetcode 2011 of Final Value of Variable After Performing Operations "
-subtitle:     "tutorial for std::accumulate and the solution for leetcode 2011 of Final Value of Variable After Performing Operations "
+title:        "tutorial for accumulate and the solution for leetcode 2011 of Final Value of Variable After Performing Operations "
+subtitle:     "tutorial for accumulate and the solution for leetcode 2011 of Final Value of Variable After Performing Operations "
 date:         2023-05-18 21:55:00
 author:       "xuepro"
 header-img:   "img/home_bg.jpg"
@@ -12,7 +12,7 @@ tags:
     - Python 
     
 ---    
-
+## tutorial for std::accumulate and the solution for leetcode 2011 of "Final Value of Variable After Performing Operations"
 
 ### std::accumulate
 
