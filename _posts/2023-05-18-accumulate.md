@@ -1,6 +1,20 @@
+---
+layout:       post
+title:        "tutorial for std::accumulate and leetcode 'Final Value of Variable After Performing Operations' "
+subtitle:     "tutorial for std::accumulate and leetcode 'Final Value of Variable After Performing Operations' "
+date:         2023-05-18 21:55:00
+author:       "xuepro"
+header-img:   "img/home_bg.jpg"
+header-mask:  0.3
+catalog:      true
+multilingual: true
+tags:
+    - Python 
+    
+---    
 
 
-### std: :accumulate
+### std::accumulate
 
 ```cpp
 template< class InputIt, class T >
