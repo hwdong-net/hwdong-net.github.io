@@ -1,7 +1,7 @@
 ---
 layout:       post
 title:        "A tutorial for c++ accumulate"
-subtitle:     "and the solution for leetcode 2011 of Final Value of Variable After Performing Operations "
+subtitle:     " leetcode final value after operators"
 date:         2023-05-18 21:55:00
 author:       "xuepro"
 header-img:   "img/home_bg.jpg"
