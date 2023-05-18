@@ -68,7 +68,7 @@ output:
 ```
 123
 ```
-Lambda express is more simple then defining a class digit2number:
+Lambda express is more simple than a class:
 ```cpp
 const std::vector<int> ds = {1, 2, 3};
 int n = std::accumulate(ds.begin(), ds.end(),
