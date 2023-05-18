@@ -64,6 +64,13 @@ const int ds[3] = {1, 2, 3};
 int n = std::accumulate(ds, ds + 3, 0, digit2number());
 std::cout << n << std::endl;
 ```
+the compute process is like:
+```
+acc = 0
+acc = acc*10+ 1  // 0*10+1
+acc = acc*10+ 2  // 1*10 +2 
+acc = acc*10+ 3  // 12*10 +3 
+```
 output:
 ```
 123
