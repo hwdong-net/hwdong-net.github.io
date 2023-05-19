@@ -152,7 +152,7 @@ int main() {
 }
 ```
 
-n this example, we allocate memory using ::operator new[] to hold an array of MyClass objects. We then use the placement new operator within a loop to construct each object in the allocated memory. After construction, we can access and use the objects as needed. Finally, we explicitly call the destructor for each object before releasing the memory using ::operator delete[].
+In this example, we allocate memory using ::operator new[] to hold an array of MyClass objects. We then use the placement new operator within a loop to construct each object in the allocated memory. After construction, we can access and use the objects as needed. Finally, we explicitly call the destructor for each object before releasing the memory using ::operator delete[].
 
 These examples highlight some situations where the placement new operator can be useful. Remember that placement new should be used judiciously and with caution, as it involves low-level memory management and requires explicit destructor calls when appropriate.
 
