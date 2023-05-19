@@ -2,7 +2,7 @@
 layout:       post
 title:        "A tutorial for c++ accumulate"
 subtitle:     " leetcode final value after operators"
-date:         2023-05-18 21:55:00
+date:         2023-05-17 21:55:00
 author:       "xuepro"
 header-img:   "img/home_bg.jpg"
 header-mask:  0.3
