@@ -2,7 +2,7 @@
 layout:       post
 title:        "Placement new operator in C++"
 subtitle:     "build a object in place with 'Placement new operator' "
-date:         2023-05-18 11:05:00
+date:         2023-05-18 01:05:00
 author:       "xuepro"
 header-img:   "img/home_bg.jpg"
 header-mask:  0.3
