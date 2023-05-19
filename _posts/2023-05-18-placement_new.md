@@ -1,7 +1,7 @@
 ---
 layout:       post
-title:        "Placement new operator in C++"
-subtitle:     "build a object in place with 'Placement new operator' "
+title:        "build a object in place with 'Placement new operator' in C++"
+subtitle:     "emplace_back() of vector is used to construct an element in-place at the end of the vector. "
 date:         2023-05-18 01:05:00
 author:       "xuepro"
 header-img:   "img/home_bg.jpg"
@@ -156,3 +156,26 @@ In this example, we allocate memory using '**::operator new[]**' to hold an arra
 
 These examples highlight some situations where the placement new operator can be useful. Remember that placement new should be used judiciously and with caution, as it involves low-level memory management and requires explicit destructor calls when appropriate.
 
+### emplace_back()   VS  push_back() 
+
+The emplace_back() of vector can avoid copy constructor in push_back() of vector.
+
+In C++, emplace_back() and push_back() are both member functions of the std::vector class that are used to add elements to the end of a vector. The main difference between them lies in how they construct or add elements to the vector.
+
+1. push_back(): 
+   This function is used to add an element to the end of the vector by making a copy or move of the provided object. It accepts an argument of the type that the vector holds and appends a copy of that object to the vector. If the object being added is an lvalue, it will be copied, and if it is an rvalue, it will be moved.
+```cpp
+std::vector<int> numbers;
+int x = 10;
+numbers.push_back(x); // Copy of x is added to the vector
+numbers.push_back(20); // Move the rvalue 20 into the vector
+```
+2. emplace_back(): 
+    This function is used to construct an element in-place at the end of the vector. It forwards the provided arguments to the constructor of the element type, which means it constructs the object directly inside the vector without making any additional copies. This can be more efficient than push_back() because it eliminates the need for unnecessary copies or moves.
+```cpp
+std::vector<std::string> words;
+words.emplace_back("hello"); // Construct the string "hello" in-place
+words.emplace_back(5, 'a'); // Construct a string with 5 'a' characters in-place
+```
+
+In summary, push_back() adds a copy or move of an existing object to the vector, while emplace_back() constructs an object directly inside the vector using provided arguments. emplace_back() is generally more efficient when constructing objects with multiple parameters, as it avoids unnecessary copying or moving.
