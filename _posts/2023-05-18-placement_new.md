@@ -161,8 +161,6 @@ These examples highlight some situations where the placement new operator can be
 
 ### emplace_back() vs push_back() in C++ Vectors
 
-The emplace_back() of vector can avoid copy constructor in push_back() of vector.
-
 In C++, emplace_back() and push_back() are both member functions of the std::vector class that are used to add elements to the end of a vector. The main difference between them lies in how they construct or add elements to the vector.
 
 **1. push_back():** Push_back adds a new element at the end. It first creates a temporary object by calling a constructor.
