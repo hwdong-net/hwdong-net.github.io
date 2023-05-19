@@ -1,9 +1,9 @@
 ---
 layout:       post
-title:        "A tutorial for c++ accumulate"
-subtitle:     " leetcode final value after operators"
+title:        "A tutorial for c++ std::accumulate"
+subtitle:     "leetcode final value after operators"
 date:         2023-05-17 21:55:00
-author:       "xuepro"
+author:       "hwdong"
 header-img:   "img/home_bg.jpg"
 header-mask:  0.3
 catalog:      true
