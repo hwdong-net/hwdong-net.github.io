@@ -12,13 +12,13 @@ tags:
     - AI
 ---
 
-In C++, when you create an object using the new keyword, the memory for the object is allocated on the heap, and the constructor is called to initialize the object. However, in some cases, you may want to allocate memory beforehand and then construct an object directly in that pre-allocated memory. This is where placement new comes into play.
+In C++, when you create an object using the '**new**' keyword, the memory for the object is allocated on the heap, and the constructor is called to initialize the object. However, in some cases, you may want to allocate memory beforehand and then construct an object directly in that pre-allocated memory. This is where placement new comes into play.
 
-Placement new is a technique that allows you to construct an object at a specific memory address. It is accomplished by using a specific form of the new operator along with the address where you want the object to be constructed. The syntax for placement new is as follows:
+Placement new is a technique that allows you to construct an object at a specific memory address. It is accomplished by using a specific form of the '**new**' operator along with the address where you want the object to be constructed. The syntax for 'placement **new**' is as follows:
 ```cpp
 new (address) Type(args);
 ```
-Here, address is the memory address where you want the object to be constructed, Type is the type of the object, and args are the arguments to be passed to the object's constructor.
+Here, **address** is the memory address where you want the object to be constructed, **Type** is the type of the object, and **args** are the arguments to be passed to the object's constructor.
 
 Here's an example to illustrate its usage:
 ```cpp
@@ -53,9 +53,9 @@ int main() {
 }
 ```
 
-In this example, we allocate memory for a MyClass object using a char buffer of the appropriate size. Then, we use the placement new syntax to construct a MyClass object directly in that memory address. The constructor is called, and we can access the object using the pointer. When we're done with the object, we can explicitly call the destructor using the ~MyClass() syntax.
+In this example, we allocate memory for a **MyClass** object using a '**char**' buffer of the appropriate size. Then, we use the placement new syntax to construct a **MyClass** object directly in that memory address. The constructor is called, and we can access the object using the pointer. When we're done with the object, we can explicitly call the destructor using the **~MyClass()** syntax.
 
-It's worth noting that if you use placement new to construct an object, you must ensure that you explicitly call the destructor (~MyClass()) before deallocating the memory or reusing it for other purposes.
+It's worth noting that if you use placement new to construct an object, you must ensure that you explicitly call the destructor (**~MyClass()**) before deallocating the memory or reusing it for other purposes.
 
 Please note that the usage of placement new requires caution and is generally more advanced. It should only be used when necessary, such as in low-level memory management scenarios or when dealing with specific requirements, such as custom memory allocators.
 
@@ -100,7 +100,7 @@ int main() {
     return 0;
 }
 ```
-In this example, the allocateMemory function represents a custom memory allocator that provides memory from a specific source, such as a memory pool. You can then use the placement new operator to construct a MyClass object directly in the allocated memory.
+In this example, the '**allocateMemory**' function represents a custom memory allocator that provides memory from a specific source, such as a memory pool. You can then use the placement new operator to construct a '**MyClass**' object directly in the allocated memory.
 
 2. Array of Objects:
 
@@ -152,7 +152,7 @@ int main() {
 }
 ```
 
-In this example, we allocate memory using ::operator new[] to hold an array of MyClass objects. We then use the placement new operator within a loop to construct each object in the allocated memory. After construction, we can access and use the objects as needed. Finally, we explicitly call the destructor for each object before releasing the memory using ::operator delete[].
+In this example, we allocate memory using '**::operator new[]**' to hold an array of '**MyClass**' objects. We then use the placement new operator within a loop to construct each object in the allocated memory. After construction, we can access and use the objects as needed. Finally, we explicitly call the destructor for each object before releasing the memory using '**::operator delete[]**'.
 
 These examples highlight some situations where the placement new operator can be useful. Remember that placement new should be used judiciously and with caution, as it involves low-level memory management and requires explicit destructor calls when appropriate.
 
