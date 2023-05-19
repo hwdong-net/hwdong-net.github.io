@@ -211,3 +211,70 @@ words.emplace_back("hello"); // Construct the string "hello" in-place
 words.emplace_back(5, 'a'); // Construct a string with 5 'a' characters in-place
 ```
 In summary, push_back() adds a copy or move of an existing object to the vector, while emplace_back() constructs an object directly inside the vector using provided arguments. emplace_back() is generally more efficient when constructing objects with multiple parameters, as it avoids unnecessary copying or moving.
+
+**Examples: leetcode 2007 "Find Original Array From Doubled Array"**
+
+leetcode 2007: "Find Original Array From Doubled Array"
+
+An integer array original is transformed into a doubled array changed by appending twice the value of every element in original, and then randomly shuffling the resulting array.
+
+Given an array changed, return original if changed is a doubled array. If changed is not a doubled array, return an empty array. The elements in original may be returned in any order.
+
+Example 1:
+```
+Input: changed = [1,3,4,2,6,8]
+Output: [1,3,4]
+Explanation: One possible original array could be [1,3,4]:
+- Twice the value of 1 is 1 * 2 = 2.
+- Twice the value of 3 is 3 * 2 = 6.
+- Twice the value of 4 is 4 * 2 = 8.
+Other original arrays could be [4,3,1] or [3,1,4].
+```
+
+Example 2:
+```
+Input: changed = [6,3,0,1]
+Output: []
+Explanation: changed is not a doubled array.
+```
+
+Example 3:
+```
+Input: changed = [1]
+Output: []
+Explanation: changed is not a doubled array.
+```
+
+The solution for leetcode 2007 of "Find Original Array From Doubled Array":
+```cpp
+// Time:  O(n + klogk), k is the distinct number of chagned
+// Space: O(k)
+
+class Solution {
+public:
+    vector<int> findOriginalArray(vector<int>& changed) {
+        if (size(changed) % 2) {
+            return {};
+        }
+        unordered_map<int, int> cnts;   // A map that records the number of occurrences of each integer
+        for (const auto& x : changed) {
+            ++cnts[x];
+        }
+        vector<int> nums;               // array of distinct values
+        for (const auto& [x, _] : cnts) { 
+            nums.emplace_back(x);
+        }
+        sort(begin(nums), end(nums));  
+        vector<int> result;
+        for (const auto& x : nums) {
+            if (cnts[x] > cnts[2 * x]) {
+                return {};
+            }
+            for (int i = 0; i < cnts[x]; ++i, --cnts[2 * x]) {
+                result.emplace_back(x);
+            }
+        }
+        return result;
+    }
+};
+```
