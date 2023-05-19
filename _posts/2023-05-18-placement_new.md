@@ -1,6 +1,6 @@
 ---
 layout:       post
-title:        "build a object in place with 'Placement new operator' in C++"
+title:        "'Placement new operator' and emplace_back() in C++"
 subtitle:     "emplace_back() of vector is used to construct an element in-place at the end of the vector. "
 date:         2023-05-18 01:05:00
 author:       "xuepro"
