@@ -165,9 +165,7 @@ The emplace_back() of vector can avoid copy constructor in push_back() of vector
 
 In C++, emplace_back() and push_back() are both member functions of the std::vector class that are used to add elements to the end of a vector. The main difference between them lies in how they construct or add elements to the vector.
 
-- 1. push_back(): 
-
-**Push_back**: Push_back adds a new element at the end. It first creates a temporary object by calling a constructor.
+**1. push_back():** Push_back adds a new element at the end. It first creates a temporary object by calling a constructor.
 
 Here is an example implementation of the emplace_back() function in C++:
 ```cpp
@@ -187,9 +185,7 @@ numbers.push_back(x); // Copy of x is added to the vector
 numbers.push_back(20); // Move the rvalue 20 into the vector
 ```
 
-- 2. emplace_back(): 
-
-**emplace_back**: It also Inserts a new element at the end. It does not create a temporary object. The object is directly created in the vector. Due to this, the efficiency is increased.
+**2. emplace_back():** It also Inserts a new element at the end. It does not create a temporary object. The object is directly created in the vector. Due to this, the efficiency is increased.
 
 Here is an example implementation of the emplace_back() function in C++:
 ```cpp
