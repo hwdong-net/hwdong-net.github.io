@@ -1,6 +1,6 @@
 ---
 layout:       post
-title:        "不写脚本不配音不露脸不用录制或寻找视频素材，剪映AI免费帮我们一键创作视频"
+title:        "不写文案不配音不露脸不录视频，剪映AI免费一键创作视频"
 subtitle:     "No need of scripts and no recording, Cutting AI create videos with one click."
 date:         2024-03-16 01:05:00
 author:       "hwdong"
