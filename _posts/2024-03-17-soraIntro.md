@@ -1,7 +1,7 @@
 ---
 layout:       post
-title:        "sora介绍，从文本生成视频"
-subtitle:     "Introducing Sora, OpenAI text to video model"
+title:        sora从文本生成视频
+subtitle:     Introducing Sora, OpenAI text to video model
 date:         2024-03-17 08:05:00
 author:       "hwdong"
 header-img:   "img/home_bg.jpg"
