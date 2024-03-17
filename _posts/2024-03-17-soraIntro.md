@@ -7,7 +7,7 @@ author:       "hwdong"
 header-img:   "img/home_bg.jpg"
 header-mask:  0.3
 catalog:      true
-multilingual: false
+multilingual: true
 tags:
     - AI
 --- 
