@@ -112,18 +112,14 @@ friends: [
    {
          title: "B站:hw-dong",
          href: "http://space.bilibili.com/281453312"
-    },
-    {      
-         title: "腾讯课堂",
-         href: "http://hwdong.ke.qq.com"   
-    },
+    },    
    {
-         title: "微博:hw-dong",
-         href: "http://weibo.com/6762417916"
+         title: "udemy C++数据结构",
+         href: "https://www.udemy.com/course/c-gxnkve/?referralCode=631859C266324D94DB28"
     },
     {      
-         title: "网易云课堂",
-         href: "https://study.163.com/provider/400000000236023/course.htm/"   
+         title: "udemy 算法设计与分析",
+         href: "https://www.udemy.com/course/hwdongdda/?referralCode=83E54D9C154313393A69"   
     }   
     
 ]
