@@ -14,4 +14,6 @@ tags:
 
 [让照片开口说话：零成本AI制作爆款视频，无需文案与拍摄，月增粉10万的自媒体秘籍！](https://youtu.be/zBDWrz29Dcw)
 
+[crazytalk下载链接](https://drive.google.com/file/d/1Y7YsuTeKAiao5qAZwwBbOVqflZ_EcZ3G/view?usp=drive_link)
+
 ![](https://hwdong-net.github.io/yt_imgs/imageTalk.jpg)
