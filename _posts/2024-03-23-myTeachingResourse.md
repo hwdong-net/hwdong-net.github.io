@@ -2,7 +2,7 @@
 layout:       post
 title:        "我的编程教学资源"
 subtitle:     "My  teaching resources on programming"
-date:         2023-04-18 17:46:00
+date:         2024-03-22 17:46:00
 author:       "xuepro"
 header-img:   "img/home_bg.jpg"
 header-mask:  0.3
@@ -16,12 +16,8 @@ tags:
 
 - [youtube channel 频道: hwdong](http://www.youtube.com/c/hwdong)
 - [blog 博客：](https://hwdong-net.github.io)
-- [网易云课堂：](https://study.163.com/provider/400000000236023/index.htm)
 - [B站编程课程hw-dong：](https://space.bilibili.com/281453312)
-- [medium:](https://medium.com/@hwdong)
-- [推特 :](https://twitter.com/hwdong)
-- [电报群：](https://t.me/hwdong)
-- QQ群：376330161
+- [网易云课堂：](https://study.163.com/provider/400000000236023/index.htm)
 
 #### 我写的3本书
 
@@ -50,15 +46,25 @@ tags:
 
 #### 高质量收费课程
 
- - [解剖深度学习原理-从0实现深度学习库](https://study.163.com/course/courseMain.htm?courseId=1210746801&share=2&shareId=400000000236023)  
-  或[udemy](https://udemy.com/course/dl_hwdong/?referralCode=60943453055D37DDB9A7)
- - [算法设计与分析](https://study.163.com/course/courseMain.htm?courseId=1213159804&share=2&shareId=400000000236023)    
- 或[udemy](https://udemy.com/course/hwdongdda/?referralCode=83E54D9C154313393A69) 
- - [C语言版数据结构2019](https://study.163.com/course/courseMain.htm?
+##### 解剖深度学习原理-从0实现深度学习库
+ - [解剖深度学习原理-从0实现深度学习库 （udemy）](https://udemy.com/course/dl_hwdong/?referralCode=60943453055D37DDB9A7)
+ - [解剖深度学习原理-从0实现深度学习库 （网易云课堂）](https://study.163.com/course/courseMain.htm?courseId=1210746801&share=2&shareId=400000000236023)  
+ 
+##### 算法设计与分析
+ - [算法设计与分析 （udemy）](https://udemy.com/course/hwdongdda/?referralCode=83E54D9C154313393A69)
+ - [算法设计与分析 (CSDN) ](http://t.csdnimg.cn/tZjRc)
+ - [算法设计与分析 （网易云课堂）](https://study.163.com/course/courseMain.htm?courseId=1213159804&share=2&shareId=400000000236023)    
+
+##### C语言版数据结构
+
+- [C语言版数据结构 (B站) ](https://www.bilibili.com/cheese/play/ss14620)
+- [C语言版数据结构 (网易云课堂)](https://study.163.com/course/courseMain.htm?
 courseId=1209184840&share=2&shareId=400000000236023)   
- - [C++版数据结构2019](https://study.163.com/course/courseMain.htm?courseId=1209131812&share=2&shareId=400000000236023)
-  或 [udemy](https://udemy.com/course/c-gxnkve/?referralCode=631859C266324D94DB28)
- - [C语言版数据结构2018](https://study.163.com/course/introduction/1004703004.htm)
+
+##### C++版数据结构
+ - [C++版数据结构 (Udemy)](https://udemy.com/course/c-gxnkve/?referralCode=631859C266324D94DB28)
+ - [C++版数据结构 (网易云课堂)](https://study.163.com/course/courseMain.htm?courseId=1209131812&share=2&shareId=400000000236023)
+
 
 #### YouTube频道列表：
 
