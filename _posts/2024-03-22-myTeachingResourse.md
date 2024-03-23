@@ -63,8 +63,7 @@ tags:
 
 - [C语言版数据结构 (B站) ](https://www.bilibili.com/cheese/play/ss14620)
 - [C语言版数据结构 (CSDN) ](http://t.csdnimg.cn/AcSHG)
-- [C语言版数据结构 (网易云课堂)](https://study.163.com/course/courseMain.htm?
-courseId=1209184840&share=2&shareId=400000000236023)   
+- [C语言版数据结构 (网易云课堂)](https://study.163.com/course/courseMain.htm?courseId=1209184840&share=2&shareId=400000000236023)   
 
 #### YouTube频道列表：
 
