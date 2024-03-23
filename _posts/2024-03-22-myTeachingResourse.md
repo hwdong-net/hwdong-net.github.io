@@ -27,7 +27,7 @@ tags:
 深度学习的书要么只有理论没有实践，要么就是平台使用教程，市场上缺少理论和代码实现结合的深入剖析深度学习的全面教材，
 本书从0代码实现深度学习框架、从底层剖析深度学习原理，看完这书，你会对许多似懂非懂的概念、原理豁然明白，发现深度学习如此简单。
 你在其他地方看不到对于转置卷积等深入易懂的分析和代码实现。强烈推荐！目前市场上没有比我这本更好的深度学习原理教材！
-![](https://hwdong-net.github.io/imgs/dl_0.png)
+[](https://hwdong-net.github.io/imgs/dl_0.png)
 ![](https://hwdong-net.github.io/imgs/dl_1.jpg)
 ![](https://hwdong-net.github.io/imgs/dl_2.jpg)
 
