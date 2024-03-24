@@ -14,4 +14,4 @@ tags:
 
 #### [如何从视频中导出一张图片？如何从视频中截取一张图片？](https://youtu.be/XTGSkjM7tCA)
 
-1[如何从视频中导出一张图片？如何从视频中截取一张图片？](https://hwdong-net.github.io/yt_imgs/ExportFrame.jpg)
+![如何从视频中导出一张图片？如何从视频中截取一张图片？](https://hwdong-net.github.io/yt_imgs/ExportFrame.jpg)
