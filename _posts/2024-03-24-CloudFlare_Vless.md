@@ -25,7 +25,7 @@ tags:
  - [https://github.com/2dust/v2rayN/releases](https://github.com/2dust/v2rayN/releases) （windows平台）
  - [https://github.com/yanue/V2rayU/releases/tag/v3.8.0](https://github.com/yanue/V2rayU/releases/tag/v3.8.0) （Mac平台）
 
-2. ip&域名优选打包
+2. ip优选工具和域名优选工具
 
 #### 部署过程
 
