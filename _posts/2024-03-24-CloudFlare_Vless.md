@@ -33,7 +33,7 @@ https://github.com/yanue/V2rayU/releases/tag/v3.8.0
 
 1.  用email在[Cloudflare.com](Cloudflare.com) 注册一个账号
 2.  Cloudflare创建workers
-3.  修改works的代码为:[https://github.com/3Kmfi6HP/EDtunnel/blob/main/_worker.js](https://github.com/3Kmfi6HP/EDtunnel/blob/main/_worker.js)
+3.  修改workers里的代码为:[https://github.com/3Kmfi6HP/EDtunnel/blob/main/_worker.js](https://github.com/3Kmfi6HP/EDtunnel/blob/main/_worker.js)
 4.  用V2ray软件生成的UUID修改 User_id
 5.  在V2ray软件中用vless订阅网址创建订阅分组
 6.  用ip优选工具获取优选的ip，或者用域名优选工具获取优选域名，  填入vless订阅的地址里
