@@ -35,8 +35,7 @@ https://github.com/yanue/V2rayU/releases/tag/v3.8.0
 
 2.  Cloudflare创建workers
 
-3.  修改works的代码
-
+3.  修改works的代码为:
 [https://github.com/3Kmfi6HP/EDtunnel/blob/main/_worker.js](https://github.com/3Kmfi6HP/EDtunnel/blob/main/_worker.js)
 
 4.  用V2ray软件生成的UUID修改 User_id
