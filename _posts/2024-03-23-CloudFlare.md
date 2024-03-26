@@ -24,6 +24,7 @@ tags:
 
 
 [pc-v2rayN 最新版下载地址](https://github.com/2dust/v2rayN/releases)
+
 [mac-v2rayu下载地址](https://github.com/yanue/V2rayU/releases/tag/v3.8.0)
 
 #### cloudflare 颁发域名收集
