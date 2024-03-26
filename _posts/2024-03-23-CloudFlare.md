@@ -2,7 +2,7 @@
 layout:       post
 title:        "白嫖CloudFlare：在 CloudFlare Workers 部署 VLESS 节点"
 subtitle:     "在 CloudFlare Workers 部署 VLESS 节点"
-date:         2024-03-22 10:05:00
+date:         2024-03-23 10:05:00
 author:       "xhwdong"
 header-img:   "img/home_bg.jpg"
 header-mask:  0.3
