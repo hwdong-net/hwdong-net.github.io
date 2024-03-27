@@ -14,5 +14,5 @@ tags:
 
 #### [用CloudFlare Pages部署vless节点更简单的方法，永久免费，速度超快，不限流量，不用VPS和域名。](https://youtu.be/34VPRvh04-g)
 
-![](https://hongwei-dong.github.io/yt_imgs/cloudflarePages.jpg)
+![](https://hwdong-net.github.io/yt_imgs/cloudflarePages.jpg)
 
