@@ -1,6 +1,6 @@
 ---
 layout:       post
-title:        "用CloudFlare Pages部署vless节点更简单的方法，永久免费，速度超快，不限流量，不用VPS和域名。"
+title:        "用CloudFlare Pages部署vless节点更简单的方法，永久免费科学上网，速度超快，不限流量，不用VPS和域名。"
 subtitle:     "最简单 PagesCloudFlare部署Vless的教程"
 date:         2024-03-24 10:05:00
 author:       "xhwdong"
