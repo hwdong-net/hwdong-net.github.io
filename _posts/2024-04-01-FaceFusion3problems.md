@@ -13,3 +13,5 @@ tags:
 ---
 
 #### [视频换脸软件FaceFusion安装运行过程中的3个问题：载很慢无法完成，无法加载 onnxruntime_providers_shared.dll，找不到  zlibwapi.dll]()
+
+![](https://hwdong-net.github.io/yt_imgs/FaceFusion3problems.jpg)
