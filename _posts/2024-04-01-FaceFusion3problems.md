@@ -1,6 +1,6 @@
 ---
 layout:       post
-title:        "视频换脸软件FaceFusion安装运行过程中的3个问题：载很慢无法完成，无法加载 onnxruntime_providers_shared.dll，找不到  zlibwapi.dll"
+title:        "视频换脸软件FaceFusion安装运行过程中的3个问题：下载载很慢安装无法完成，无法加载 onnxruntime_providers_shared.dll，找不到  zlibwapi.dll"
 subtitle:     "Three problems during the installation and operation of the video face-changing software FaceFusion: the download is too slow to complete, onnxruntime_providers_shared.dll cannot be loaded, and zlibwapi.dll cannot be found."
 date:         2024-04-01 12:46:00
 author:       "xuepro"
@@ -12,7 +12,7 @@ tags:
     - it
 ---
 
-#### [视频换脸软件FaceFusion安装运行过程中的3个问题：载很慢无法完成，无法加载 onnxruntime_providers_shared.dll，找不到  zlibwapi.dll](https://youtu.be/nOblaJSHdVY)
+#### [视频换脸软件FaceFusion安装运行过程中的3个问题：下载载很慢安装无法完成，无法加载 onnxruntime_providers_shared.dll，找不到  zlibwapi.dll](https://youtu.be/nOblaJSHdVY)
 
 Some erros:
 
