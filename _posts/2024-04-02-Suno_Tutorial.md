@@ -93,3 +93,13 @@ An end tag in the lyrics may work best alone as its own clip. Clear the Style Pr
 
 ···
 
+#### Lyrics are Stronger than Metatags
+```
+Metatags can ‘nudge’ the AI within the lyrics, but the lyric-structure, the current song pattern, and the Style Prompt, are stronger influences than the tags.
+
+Even when they work, they don’t always work. When they do work, it can still feel like a casino.
+
+A fast rap song needs more words per line than a slow ballad.
+Verse and Chorus need different syllable-per-line counts and phrasing, or they will sound the same and blur together.
+It’s possible to have a song that’s just verses, when all the lyrics follow the same pattern and rhyme scheme.
+```
