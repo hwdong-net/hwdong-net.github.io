@@ -2,7 +2,7 @@
 layout:       post
 title:        "Suno AI 简单教程"
 subtitle:     "Suno AI simple tutorial"
-date:         2024-04-03 11:46:00
+date:         2024-04-02 11:46:00
 author:       "xuepro"
 header-img:   "img/home_bg.jpg"
 header-mask:  0.3
