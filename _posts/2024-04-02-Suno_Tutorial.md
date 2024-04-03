@@ -1,7 +1,7 @@
 ---
 layout:       post
-title:        "Suno AI 简单教程"
-subtitle:     "Suno AI simple tutorial"
+title:        "Suno AI 作曲爆红全球，五音不全也可以称为音乐家，Suno 简单教程，5分钟学会填词谱曲"
+subtitle:     "Suno AI composition has become popular all over the world. Tone deaf can also be called a musician. Suno simple tutorial, learn to write lyrics and compose music in 5 minutes"
 date:         2024-04-02 11:46:00
 author:       "xuepro"
 header-img:   "img/home_bg.jpg"
@@ -11,6 +11,11 @@ multilingual: true
 tags:
     - it
 ---
+
+### [Suno AI 作曲爆红全球，五音不全也可以称为音乐家，Suno 简单教程，5分钟学会填词谱曲](https://youtu.be/KzwXnks2w_Y)
+
+[](https://hwdong-net.github.io/ai_imgs/Suno_Tutorial.jpg)
+
 
 ### Style and Lyrics
 
