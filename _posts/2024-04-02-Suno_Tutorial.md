@@ -111,3 +111,7 @@ A fast rap song needs more words per line than a slow ballad.
 Verse and Chorus need different syllable-per-line counts and phrasing, or they will sound the same and blur together.
 It’s possible to have a song that’s just verses, when all the lyrics follow the same pattern and rhyme scheme.
 ```
+
+#### sonoteller 从视频中得到风格描述
+
+[sonoteller](https://sonoteller.ai/)
