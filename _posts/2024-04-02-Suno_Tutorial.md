@@ -12,7 +12,11 @@ tags:
     - it
 ---
 
-### Lyrics （歌词）
+### Style and Lyrics
+
+Lyrics（歌词）
+
+[***Style and Genre List***](https://www.suno.wiki/faq/style-and-lyrics/styles-and-genres/)
 
 ### Meta Tags （元标签）描述歌曲的结构和风格
 
@@ -43,7 +47,10 @@ tags:
 ```
 
 ####  Beark: 
-   Beark: 休息/间奏：  其中主奏乐器或歌手静音，伴奏乐器演奏
+   Beark: 休息/间奏：  其中主奏乐器或歌手静音，伴奏乐器演奏。如：
+   
+   [Guitar solo]  吉他独奏
+   
  ```     
       Verse        
 
@@ -56,7 +63,8 @@ tags:
      Bridge
 ```
 #### Intro(前奏)、Outro（尾奏） 、End（结束）:
-  
+
+  如：[intro instrumental build]
 
 ···
   [Intro]
