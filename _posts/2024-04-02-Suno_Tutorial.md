@@ -12,6 +12,8 @@ tags:
     - it
 ---
 
+### Lyrics （歌词）
+
 ### Meta Tags （元标签）描述歌曲的结构和风格
 
 ####  Verse 和 Chorus 
