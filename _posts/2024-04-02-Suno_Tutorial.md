@@ -16,7 +16,7 @@ tags:
 
 Lyrics（歌词）
 
-[***Style and Genre List***](https://www.suno.wiki/faq/style-and-lyrics/styles-and-genres/)
+[***Style(风格)和 Genre（流派）***](https://www.suno.wiki/faq/style-and-lyrics/styles-and-genres/)
 
 ### Meta Tags （元标签）描述歌曲的结构和风格
 
