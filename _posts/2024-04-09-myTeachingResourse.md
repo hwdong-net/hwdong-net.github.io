@@ -52,7 +52,7 @@ tags:
  
 ##### 算法设计与分析
  - [算法设计与分析 （udemy）](https://udemy.com/course/hwdongdda/?referralCode=83E54D9C154313393A69)
- - [算法设计与分析 (CSDN) ](http://t.csdnimg.cn/tZjRc)
+ - [算法设计与分析 (CSDN) ](http://t.csdnimg.cn/5n72i)
  - [算法设计与分析 （网易云课堂）](https://study.163.com/course/courseMain.htm?courseId=1213159804&share=2&shareId=400000000236023)    
 
 ##### C++版数据结构
