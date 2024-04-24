@@ -2,7 +2,7 @@
 layout:       post
 title:        "我的编程教学资源"
 subtitle:     "My  teaching resources on programming"
-date:         2024-04-09 06:46:00
+date:         2024-04-24 06:46:00
 author:       "xuepro"
 header-img:   "img/home_bg.jpg"
 header-mask:  0.3
@@ -53,6 +53,7 @@ tags:
 ##### 算法设计与分析
  - [算法设计与分析 （udemy）](https://udemy.com/course/hwdongdda/?referralCode=83E54D9C154313393A69)
  - [算法设计与分析 (CSDN) ](http://t.csdnimg.cn/5n72i)
+ - [算法设计与分析 (B站)](https://www.bilibili.com/cheese/play/ss15643)
  - [算法设计与分析 （网易云课堂）](https://study.163.com/course/courseMain.htm?courseId=1213159804&share=2&shareId=400000000236023)    
 
 ##### C++版数据结构
