@@ -1,6 +1,6 @@
 ---
 layout:       post
-title:        "几千个免费节点供你选择，再也不用昂贵的付费上网了"
+title:        "几千个免费节点供你选择，一键订阅、永久免费、无需搭建、无需配置"
 subtitle:     "Thousands of free nodes are available for you to choose from, so you no longer have to pay expensive fees to access the Internet."
 date:         2024-04-23 06:46:00
 author:       "xuepro"
@@ -11,7 +11,7 @@ multilingual: true
 tags:
     - it
 ---
-### youtube视频： [几千个免费节点供你选择，再也不用昂贵的付费上网了]()
+### youtube视频： [几千个免费节点供你选择，一键订阅、永久免费、无需搭建、无需配置](https://youtu.be/c-98V2AJFw0)
 
 项目一：https://github.com/chengaopan/AutoMergePublicNodes?tab=readme-ov-file
 
