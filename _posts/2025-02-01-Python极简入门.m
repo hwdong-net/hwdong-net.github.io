@@ -12,6 +12,7 @@ tags:
     - Python
 ---
 
+**强烈推荐：[《python3从入门到实战》（电子工业出版社）](https://github.com/hwdong-net/python)**可在京东、当当、淘宝等网站购买
 
 # Python 快速入门教程 (面向零基础，更详细版本)
 
