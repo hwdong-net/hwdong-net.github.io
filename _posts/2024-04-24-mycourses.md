@@ -16,7 +16,7 @@ tags:
 
 - [youtube channel 频道: hwdong](http://www.youtube.com/c/hwdong)
 - [blog 博客：](https://hwdong-net.github.io)
-- [B站编程课程hw-dong](https://space.bilibili.com/281453312/pugv)  推荐
+- **[B站编程课程hw-dong](https://space.bilibili.com/281453312/pugv)  推荐**
 - [网易云课堂：](https://study.163.com/provider/400000000236023/index.htm) 不推荐
 
 # 我在udemy上的课程：
