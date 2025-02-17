@@ -2,7 +2,7 @@
 layout:       post
 title:        "几千个免费节点供你选择，一键订阅、永久免费、无需搭建、无需配置"
 subtitle:     "Thousands of free nodes are available for you to choose from, so you no longer have to pay expensive fees to access the Internet."
-date:         2024-01-23 06:46:00
+date:         2024-04-23 06:46:00
 author:       "xuepro"
 header-img:   "img/home_bg.jpg"
 header-mask:  0.3
