@@ -1,3 +1,18 @@
+---
+layout:       post
+title:        "Python极简入门.md"
+subtitle:     "A minimalist introduction to Python"
+date:         2025-02-11 13:10:00
+author:       "hwdong"
+header-img:   "img/home_bg.jpg"
+header-mask:  0.3
+catalog:      true
+multilingual: true
+tags:
+    - Python
+---
+
+
 # Python 快速入门教程 (面向零基础，更详细版本)
 
 **目标：**
