@@ -1,7 +1,7 @@
 ---
 layout:       post
 title:        "我的编程教学资源"
-subtitle:     "My  teaching resources on programming"
+subtitle:     "My teaching resources on programming"
 date:         2025-02-17 06:46:00
 author:       "xuepro"
 header-img:   "img/home_bg.jpg"
