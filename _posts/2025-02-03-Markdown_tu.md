@@ -74,16 +74,15 @@ tags:
 
 ### 1. 代码
 
-行内代码：`代码`
-
-代码块：
 ```markdown
+行内代码：`代码`
+代码块：
 ```编程语言
 // 示例（如python/js等）
 print("Hello World")
 ```
 ```
-
+```markdown
 ```cpp
 #include <iostream>       
 #include <string>         
@@ -95,6 +94,7 @@ print("Hello World")
  std::cout<<s2<<"  "<<s2.size()<<std::endl;
  std::cout<<s+s2<<std::endl;
  }
+```
 ```
 
 ### 2. 表格
