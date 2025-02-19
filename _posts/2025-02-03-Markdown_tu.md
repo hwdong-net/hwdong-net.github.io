@@ -1,3 +1,17 @@
+---
+layout:       post
+title:        "Markdown极简入门教程"
+subtitle:     "Markdown minimalist introductory tutorial"
+date:         2025-02-03 00:00:00
+author:       "xuepro"
+header-img:   "img/home_bg.jpg"
+header-mask:  0.3
+catalog:      true
+multilingual: true
+tags:
+    - it
+---
+
 # Markdown 基础教程
 
 ## 什么是 Markdown？
