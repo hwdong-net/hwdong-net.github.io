@@ -82,17 +82,18 @@ tags:
 print("Hello World")
 ```
 ```
-```markdown
+
+```
 ```cpp
 #include <iostream>       
 #include <string>         
 // std::cout
  // std::string
  int main (){
- std::string s("hello world");
- std::string s2 = s.substr(0,6);
- std::cout<<s2<<"  "<<s2.size()<<std::endl;
- std::cout<<s+s2<<std::endl;
+     std::string s("hello world");
+     std::string s2 = s.substr(0,6);
+     std::cout<<s2<<"  "<<s2.size()<<std::endl;
+     std::cout<<s+s2<<std::endl;
  }
 ```
 ```
