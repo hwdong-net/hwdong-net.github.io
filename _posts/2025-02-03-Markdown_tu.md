@@ -12,6 +12,8 @@ tags:
     - it
 ---
 
+[Markdown 极简入门教程 | Markdown minimalist introductory tutorial](https://youtu.be/0JiKRyZHMW0)
+
 # Markdown 基础教程
 
 ## 什么是 Markdown？
