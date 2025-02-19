@@ -74,9 +74,10 @@ tags:
 
 ### 1. 代码
 
-```markdown
 行内代码：`代码`
+
 代码块：
+```markdown
 ```编程语言
 // 示例（如python/js等）
 print("Hello World")
