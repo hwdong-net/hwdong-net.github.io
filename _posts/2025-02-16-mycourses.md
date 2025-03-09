@@ -29,7 +29,7 @@ tags:
 
 - [解剖深度学习原理-从0编写深度学习库](https://www.udemy.com/course/dl_hwdong/?referralCode=60943453055D37DDB9A7)
 
-#### 我写的3本书
+#### 我写的4本书
 
    （没有外国大师的语言文化差异、没有啰嗦的废话，通俗易懂、内容丰富）：
 + 《解剖深度学习原理-从0编写深度学习库》
@@ -44,6 +44,9 @@ tags:
 **电子版购买链接**: [http://leanpub.com/dl_0](http://leanpub.com/dl_0) 
 
 纸质书, 纸质书由电子工业出版社出版（国内京东等平台购买）。
+
++ 《现代C++编程实战：从入门到应用》电子版本 [https://leanpub.com/c01](https://leanpub.com/c01)
+  ![](https://hwdong-net.github.io/imgs/modern_Cplusplus.png)
 
 + 《C++17从入门到精通》清华大学出版社，2009年9月出版）。还在学习传统的C++98标准吗？为什么看不懂工业界的C++代码？本书带小白轻松掌握现代C++17!
 ![](https://hwdong-net.github.io/imgs/c++17_0.jpg)
