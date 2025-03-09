@@ -46,7 +46,7 @@ tags:
 纸质书, 纸质书由电子工业出版社出版（国内京东等平台购买）。
 
 + 《现代C++编程实战：从入门到应用》电子版本 [https://leanpub.com/c01](https://leanpub.com/c01)
-  ![](https://hwdong-net.github.io/imgs/modern_Cplusplus.jpg)
+  ![](https://hwdong-net.github.io/imgs/modern_Cplusplus.png)
 
 + 《C++17从入门到精通》清华大学出版社，2009年9月出版）。还在学习传统的C++98标准吗？为什么看不懂工业界的C++代码？本书带小白轻松掌握现代C++17!
 ![](https://hwdong-net.github.io/imgs/c++17_0.jpg)
