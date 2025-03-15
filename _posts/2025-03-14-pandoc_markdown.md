@@ -1,7 +1,7 @@
 ---
 layout:       post
-title:        "Pandoc将markdown转pdf"
-subtitle:     "Pandoc converts markdown to pdf"
+title:        "Pandoc将markdown转pdf,AI奋战十几个小时，最终战败，我也一天没有吃饭"
+subtitle:     "Pandoc converted markdown to pdf. AI fought for more than ten hours and finally lost. I didn’t eat for a day."
 date:         2025-03-14 23:30:00
 author:       "xuepro"
 header-img:   "img/home_bg.jpg"
@@ -11,6 +11,8 @@ multilingual: true
 tags:
     - it
 ---
+
+## Pandoc将markdown转pdf,AI奋战十几个小时，最终战败，我也一天没有吃饭
 
 昨天，我满怀期待地召唤了ChatGPT、Grok和Deepseek这些AI小助手，希望它们能化身技术导师，指引我将一本书的众多Markdown文件华丽变身为一个精美的PDF文档。它们齐刷刷地推荐我使用Pandoc这个神器，还耐心地一步步教我如何操作，颇有种“指点迷津”的架势。
 
