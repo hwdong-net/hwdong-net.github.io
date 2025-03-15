@@ -32,7 +32,7 @@ pandoc test.md -o output.pdf --pdf-engine=xelatex -V CJKmainfont="微软雅黑" 
 
 ```bash
 pandoc (Get-ChildItem -Path . -Filter "*.md" | Sort-Object Name | ForEach-Object { '"' + $_.FullName + '"' }) `
-  -o output.pdf --pdf-engine=xelatex `
+  -o output.pdf --pdf-engine=lualatex `
   --toc --number-sections `
   -V toc-title="目录" `
   -V documentclass=report `
@@ -43,6 +43,7 @@ pandoc (Get-ChildItem -Path . -Filter "*.md" | Sort-Object Name | ForEach-Object
   -V mainfont="Times New Roman" `
   --template=template.tex
 ```
+
 为了让输出的PDF更专业，我还顺手搭配了一个简单的template.tex模板：
 
 ```tex
