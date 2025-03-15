@@ -22,25 +22,15 @@ tags:
 
 真相其实就藏在这一行命令里，简单得让人想哭：
 
-bash
-
-Collapse
-
-Wrap
-
-Copy
+```bash
 pandoc test.md -o output.pdf --pdf-engine=xelatex -V CJKmainfont="微软雅黑" -V mainfont="Times New Roman"
+```
+
 我赶紧把它记下来，刻在脑子里，生怕哪天又忘了，再次陷入AI的“迷魂阵”。
 
 后来我还琢磨着，如果要把一个文件夹里所有的Markdown文件拼接起来，合成一个完整的PDF，又该怎么办呢？在Windows的PowerShell里，我捣鼓出了下面这个“终极武器”：
 
-bash
-
-Collapse
-
-Wrap
-
-Copy
+```bash
 pandoc (Get-ChildItem -Path . -Filter "*.md" | Sort-Object Name | ForEach-Object { '"' + $_.FullName + '"' }) `
   -o output.pdf --pdf-engine=xelatex `
   --toc --number-sections `
@@ -52,15 +42,10 @@ pandoc (Get-ChildItem -Path . -Filter "*.md" | Sort-Object Name | ForEach-Object
   -V CJKmainfont="Microsoft YaHei" `
   -V mainfont="Times New Roman" `
   --template=template.tex
+```
 为了让输出的PDF更专业，我还顺手搭配了一个简单的template.tex模板：
 
-tex
-
-Collapse
-
-Wrap
-
-Copy
+```tex
 \documentclass{report}
 \usepackage{fancyhdr}
 \pagestyle{fancy}
@@ -69,6 +54,7 @@ Copy
 \begin{document}
 $body$
 \end{document}
+```
 对了，如果你不知道怎么打开PowerShell，别慌，只需按下Win键+R，输入“Powershell”，就能召唤出这个命令行神器。
 
 这番折腾下来，我算是明白了：AI固然聪明，但关键时刻，还是得靠自己和谷歌这对“老搭档”救场啊！
