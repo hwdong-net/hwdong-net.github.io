@@ -2,7 +2,7 @@
 layout:       post
 title:        "贪吃蛇游戏源代码 source code for Snake game "
 subtitle:     "source code for Snake game"
-date:         2025-04-24 22:40:00
+date:         2025-04-24 14:08:00
 author:       "xuepro"
 header-img:   "img/home_bg.jpg"
 header-mask:  0.3
