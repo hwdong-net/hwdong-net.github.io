@@ -1,6 +1,6 @@
 ---
 layout:       post
-title:        "从零开始配置 Visual Studio 2022 进行现代 C++ 开发指南 "
+title:        "安装与配置 Visual Studio 2022 进行现代 C++ 开发指南 "
 subtitle:     "A Guide to Configuring Visual Studio 2022 for Modern C++ Development from Scratch"
 date:         2026-03-23 10:25:00
 author:       "xuepro"
@@ -12,7 +12,7 @@ tags:
     - it
 ---
 
-# 从零开始配置 **Visual Studio 2022** 进行现代 C++ 开发指南
+# 安装与配置 Visual Studio 2022 进行现代 C++ 开发指南
 
 ------
 
