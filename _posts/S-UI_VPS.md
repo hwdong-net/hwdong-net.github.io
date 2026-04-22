@@ -105,6 +105,8 @@ tags:
 
 ### 第四步：安装S-UI
 
+[https://github.com/alireza0/s-ui](https://github.com/alireza0/s-ui)
+
 登录SSH后，输入下面命令（在刚才的cmd窗口里，点击鼠标右键黏贴下面的命令内容。）：
 
 ```
