@@ -259,6 +259,8 @@ Windows/Mac（v2rayN）：[https://github.com/2dust/v2rayN/releases/tag/7.12.7](
 Android（NekoBox）：[https://github.com/MatsuriDayo/NekoBoxForAndroid/releases/tag/1.3.9](https://bulianglin.com/g/aHR0cHM6Ly9naXRodWIuY29tL01hdHN1cmlEYXlvL05la29Cb3hGb3JBbmRyb2lkL3JlbGVhc2VzL3RhZy8xLjMuOQ)
 IOS/Mac（shadowrocket）：[https://apps.apple.com/app/shadowrocket/id932747118](https://bulianglin.com/g/aHR0cHM6Ly9hcHBzLmFwcGxlLmNvbS9hcHAvc2hhZG93cm9ja2V0L2lkOTMyNzQ3MTE4)
 
+### 参考：
 
+[https://www.youtube.com/watch?v=6l01iAgKglY](https://www.youtube.com/watch?v=6l01iAgKglY)
 
 
