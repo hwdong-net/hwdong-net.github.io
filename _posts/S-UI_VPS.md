@@ -110,8 +110,9 @@ tags:
 登录SSH后，输入下面命令（在刚才的cmd窗口里，点击鼠标右键黏贴下面的命令内容。）：
 
 ```
-VERSION=1.2.2 && bash <(curl -Ls https://raw.githubusercontent.com/alireza0/s-ui/$VERSION/install.sh) $VERSION
+bash <(curl -Ls https://raw.githubusercontent.com/alireza0/s-ui/master/install.sh)
 ```
+
 
 当出现：
 
