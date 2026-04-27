@@ -2,7 +2,7 @@
 layout:       post
 title:        "关于老旧小区外挂加装电梯法律风险与财产风险的郑重告知书 "
 subtitle:     "给加装电梯业主的风险提醒"
-date:         2026-04-27 00:08:00
+date:         2026-04-27 00:08:10
 author:       "xuepro"
 header-img:   "img/home_bg.jpg"
 header-mask:  0.3
