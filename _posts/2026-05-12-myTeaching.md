@@ -41,6 +41,9 @@ tags:
 
 ![](https://hwdong-net.github.io/imgs/c01.png)
 
+
+预览网址：[https://hwdong-net.github.io/mcpp](https://hwdong-net.github.io/mcpp)
+
 #### 3. 《算法设计与分析》（2026电子版）
 
 系统讲解分治、动态规划、贪心、回溯等经典算法策略，注重思路推导与复杂度分析，适合准备面试、竞赛或夯实内功。  
