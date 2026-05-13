@@ -1,6 +1,6 @@
 ---
 layout:       post
-title:        "《现代C++编程实战》第4章语句的“猜数字游戏”和"Pong游戏"介绍 "
+title:        '《现代C++编程实战》第4章语句的“猜数字游戏”和"Pong游戏"介绍'
 subtitle:     "Guess the Number Game and Pong Game"
 date:         2026-03-23 12:25:00
 author:       "xuepro"
@@ -11,10 +11,3 @@ multilingual: true
 tags:
     - it
 ---
-
-
-# 《现代C++编程实战》第4章语句的“猜数字游戏”和"Pong游戏"介绍
-
-[猜数字游戏](https://youtu.be/5eDsc0fWgYA)
-
-[Pong游戏](https://youtu.be/4rWymY-AB3E)
