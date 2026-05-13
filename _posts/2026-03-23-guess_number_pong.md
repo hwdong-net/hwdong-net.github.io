@@ -11,3 +11,10 @@ multilingual: true
 tags:
     - it
 ---
+
+
+# 《现代C++编程实战》第4章语句的“猜数字游戏”和"Pong游戏"介绍
+
+[猜数字游戏](https://youtu.be/5eDsc0fWgYA)
+
+[Pong游戏](https://youtu.be/4rWymY-AB3E)
