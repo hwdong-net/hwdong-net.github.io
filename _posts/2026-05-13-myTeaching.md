@@ -2,7 +2,7 @@
 layout: post
 title: "我的编程教学资源"
 subtitle: "My programming teaching resources"
-date: 2026-05-13 12:10:00
+date: 2026-05-12 12:10:00
 author: "xuepro"
 header-img: "img/home_bg.jpg"
 header-mask: 0.3
