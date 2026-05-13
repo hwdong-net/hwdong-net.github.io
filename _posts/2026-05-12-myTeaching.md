@@ -27,7 +27,7 @@ tags:
 
 - 电子版（简体中文）：[https://leanpub.com/dl_0](https://leanpub.com/dl_0)  
   ![](https://hwdong-net.github.io/imgs/dl_0.png)  
-  （另有英文、日文、繁体中文版，见 [GitHub 仓库](https://github.com/hwdong-net/DL)）
+  （另有英文、日文、繁体中文版，见 [leanpub.com](https://leanpub.com)）
 - 纸质版：电子工业出版社，2021年7月（国内京东等平台购买）  
   ![](https://hwdong-net.github.io/imgs/dl_1.jpg)  
   ![](https://hwdong-net.github.io/imgs/dl_2.jpg)
