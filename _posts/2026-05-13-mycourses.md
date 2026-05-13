@@ -12,13 +12,11 @@ tags:
     - it
 ---
 
-
 ### 教学资源
 - [YouTube 频道：hwdong](http://www.youtube.com/c/hwdong)
 - [B站编程课程：hw-dong](https://space.bilibili.com/281453312/pugv) —— **推荐**
 - [作者博客](https://hwdong-net.github.io)
 - [网易云课堂](https://study.163.com/provider/400000000236023/index.htm) （不推荐）
-
 
 ### 我写的书籍
 
@@ -59,7 +57,6 @@ tags:
 ![](https://hwdong-net.github.io/imgs/py_1.jpg)
 ![](https://hwdong-net.github.io/imgs/py_2.jpg)
 
-
 ### 我在Udemy上的课程
 
 我在Udemy上课程的学生人数一直在增长，由于Udemy上的课程价格特别低，所以一直没有分享出来，现在分享出来：
@@ -67,8 +64,6 @@ tags:
 - [算法设计与分析](https://www.udemy.com/course/hwdongdda/?referralCode=83E54D9C154313393A69)
 - [C++版本数据结构](https://www.udemy.com/course/c-gxnkve/?referralCode=631859C266324D94DB28)
 - [解剖深度学习原理-从0编写深度学习库](https://www.udemy.com/course/dl_hwdong/?referralCode=60943453055D37DDB9A7)
-
-
 
 ### 高质量收费课程
 
@@ -91,7 +86,6 @@ tags:
 - [B站课程](https://www.bilibili.com/cheese/play/ss14620)
 - [CSDN 课程](http://t.csdnimg.cn/AcSHG)
 - [网易云课堂](https://study.163.com/course/courseMain.htm?courseId=1209184840&share=2&shareId=400000000236023)
-
 
 
 ### YouTube 频道播放列表
