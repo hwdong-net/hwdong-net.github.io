@@ -1,8 +1,8 @@
 ---
 layout:       post
-title:        "我的编程教学资源"
+title:        "我的编程教学资源 "
 subtitle:     "My programming teaching resources"
-date:         2026-05-13 12:10:00
+date:          2026-05-13 12:10:00
 author:       "xuepro"
 header-img:   "img/home_bg.jpg"
 header-mask:  0.3
@@ -10,16 +10,15 @@ catalog:      true
 multilingual: true
 tags:
     - it
+---
 
 
 ### 教学资源
-
 - [YouTube 频道：hwdong](http://www.youtube.com/c/hwdong)
 - [B站编程课程：hw-dong](https://space.bilibili.com/281453312/pugv) —— **推荐**
 - [作者博客](https://hwdong-net.github.io)
 - [网易云课堂](https://study.163.com/provider/400000000236023/index.htm) （不推荐）
 
----
 
 ### 我写的书籍
 
@@ -60,7 +59,6 @@ tags:
 ![](https://hwdong-net.github.io/imgs/py_1.jpg)
 ![](https://hwdong-net.github.io/imgs/py_2.jpg)
 
----
 
 ### 我在Udemy上的课程
 
@@ -70,7 +68,7 @@ tags:
 - [C++版本数据结构](https://www.udemy.com/course/c-gxnkve/?referralCode=631859C266324D94DB28)
 - [解剖深度学习原理-从0编写深度学习库](https://www.udemy.com/course/dl_hwdong/?referralCode=60943453055D37DDB9A7)
 
----
+
 
 ### 高质量收费课程
 
@@ -94,7 +92,7 @@ tags:
 - [CSDN 课程](http://t.csdnimg.cn/AcSHG)
 - [网易云课堂](https://study.163.com/course/courseMain.htm?courseId=1209184840&share=2&shareId=400000000236023)
 
----
+
 
 ### YouTube 频道播放列表
 
@@ -115,7 +113,7 @@ tags:
 - [Java快速入门教程](https://www.youtube.com/playlist?list=PLBijWKRKPQMKhzc8jmE0swJABDTj-jSME)
 - [面向信息奥赛的C++入门](https://www.youtube.com/playlist?list=PLBijWKRKPQML0kqsn1jgcAIyDBsOqMq_d)
 
----
+
 
 ### 源代码
 
