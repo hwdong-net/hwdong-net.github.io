@@ -1,18 +1,19 @@
 ---
-layout:       post
-title:        "我的编程教学资源 "
-subtitle:     "My programming teaching resources"
-date:          2026-05-13 12:10:00
-author:       "xuepro"
-header-img:   "img/home_bg.jpg"
-header-mask:  0.3
-catalog:      true
+layout: post
+title: "我的编程教学资源"
+subtitle: "My programming teaching resources"
+date: 2026-05-13 12:10:00
+author: "xuepro"
+header-img: "img/home_bg.jpg"
+header-mask: 0.3
+catalog: true
 multilingual: true
 tags:
-    - it
+  - it
 ---
 
 ### 教学资源
+
 - [YouTube 频道：hwdong](http://www.youtube.com/c/hwdong)
 - [B站编程课程：hw-dong](https://space.bilibili.com/281453312/pugv) —— **推荐**
 - [作者博客](https://hwdong-net.github.io)
@@ -24,37 +25,41 @@ tags:
 
 #### 1. 《解剖深度学习原理：从0编写深度学习库》
 
-- 电子版（简体中文）：[https://leanpub.com/dl_0](https://leanpub.com/dl_0)
-  ![](https://hwdong-net.github.io/imgs/dl_0.png)
+- 电子版（简体中文）：[https://leanpub.com/dl_0](https://leanpub.com/dl_0)  
+  ![](https://hwdong-net.github.io/imgs/dl_0.png)  
   （另有英文、日文、繁体中文版，见 [GitHub 仓库](https://github.com/hwdong-net/DL)）
-- 纸质版：电子工业出版社，2021年7月（国内京东等平台购买）
-![](https://hwdong-net.github.io/imgs/dl_1.jpg)
-![](https://hwdong-net.github.io/imgs/dl_2.jpg)
+- 纸质版：电子工业出版社，2021年7月（国内京东等平台购买）  
+  ![](https://hwdong-net.github.io/imgs/dl_1.jpg)  
+  ![](https://hwdong-net.github.io/imgs/dl_2.jpg)
 
 深度学习的书要么只有理论没有实践，要么就是平台使用教程，市场上缺少理论和代码实现结合的深入剖析深度学习的全面教材。本书从0代码实现深度学习框架、从底层剖析深度学习原理，看完这书，你会对许多似懂非懂的概念、原理豁然明白，发现深度学习如此简单。你在其他地方看不到对于转置卷积等深入易懂的分析和代码实现。**强烈推荐！**
 
 #### 2. 《现代C++编程实战：零基础C++项目实战》（2026电子版）
+
 本书在《C++17从入门到精通》基础上改编，专为零基础读者设计，通过项目案例讲解现代C++（C++11到C++23），内容持续更新。  
-电子版购买链接：[https://leanpub.com/c01](https://leanpub.com/c01)（请支持知识劳动成果）
+电子版购买链接：[https://leanpub.com/c01](https://leanpub.com/c01)（请支持知识劳动成果）  
 
 ![](https://hwdong-net.github.io/imgs/c01.png)
 
 #### 3. 《算法设计与分析》（2026电子版）
+
 系统讲解分治、动态规划、贪心、回溯等经典算法策略，注重思路推导与复杂度分析，适合准备面试、竞赛或夯实内功。  
-购买链接：[https://leanpub.com/daa](https://leanpub.com/daa)
+购买链接：[https://leanpub.com/daa](https://leanpub.com/daa)  
 
 ![](https://hwdong-net.github.io/imgs/daa.png)
 
 #### 4. 《C++17从入门到精通》（纸质版）
-清华大学出版社，2019年8月出版。还在学习传统的C++98标准吗？为什么看不懂工业界的C++代码？本书带小白轻松掌握现代C++17！
 
-![](https://hwdong-net.github.io/imgs/c++17_0.jpg)
+清华大学出版社，2019年8月出版。还在学习传统的C++98标准吗？为什么看不懂工业界的C++代码？本书带小白轻松掌握现代C++17！  
+
+![](https://hwdong-net.github.io/imgs/c++17_0.jpg)  
 ![](https://hwdong-net.github.io/imgs/c++17.jpg)
 
 #### 5. 《Python3从入门到实战》（纸质版）
-电子工业出版社 / 亚马逊平台，2019年10月出版。语法和项目实战结合的Python教材，通俗易懂，配有许多实战小项目如游戏编程、机器学习案例。
 
-![](https://hwdong-net.github.io/imgs/py_1.jpg)
+电子工业出版社 / 亚马逊平台，2019年10月出版。语法和项目实战结合的Python教材，通俗易懂，配有许多实战小项目如游戏编程、机器学习案例。  
+
+![](https://hwdong-net.github.io/imgs/py_1.jpg)  
 ![](https://hwdong-net.github.io/imgs/py_2.jpg)
 
 ### 我在Udemy上的课程
@@ -68,25 +73,28 @@ tags:
 ### 高质量收费课程
 
 #### 解剖深度学习原理-从0实现深度学习库
+
 - [Udemy 课程](https://udemy.com/course/dl_hwdong/?referralCode=60943453055D37DDB9A7)
 - [网易云课堂](https://study.163.com/course/courseMain.htm?courseId=1210746801&share=2&shareId=400000000236023)
 
 #### 算法设计与分析
+
 - [Udemy 课程](https://udemy.com/course/hwdongdda/?referralCode=83E54D9C154313393A69)
 - [B站课程](https://www.bilibili.com/cheese/play/ss15643) —— 强烈推荐
 - [CSDN 课程](http://t.csdnimg.cn/5n72i)
 - [网易云课堂](https://study.163.com/course/courseMain.htm?courseId=1213159804&share=2&shareId=400000000236023)
 
 #### C++版数据结构
+
 - [Udemy 课程](https://udemy.com/course/c-gxnkve/?referralCode=631859C266324D94DB28)
 - [B站课程](https://www.bilibili.com/cheese/play/ss15664)
 - [网易云课堂](https://study.163.com/course/courseMain.htm?courseId=1209131812&share=2&shareId=400000000236023)
 
 #### C语言版数据结构
+
 - [B站课程](https://www.bilibili.com/cheese/play/ss14620)
 - [CSDN 课程](http://t.csdnimg.cn/AcSHG)
 - [网易云课堂](https://study.163.com/course/courseMain.htm?courseId=1209184840&share=2&shareId=400000000236023)
-
 
 ### YouTube 频道播放列表
 
@@ -104,13 +112,5 @@ tags:
 - [C++版数据结构(2019)](https://www.youtube.com/playlist?list=PLBijWKRKPQMK2_-VH5IxaHPZmav11fpJj)
 - [Python tutorial](https://www.youtube.com/playlist?list=PLBijWKRKPQML4E7xw9jae97l6PnAc1bH0)
 - [C++17从入门到精通（2020）](https://www.youtube.com/playlist?list=PLBijWKRKPQMKB_JtUiXnKnCsM6s6qHWXG)
-- [Java快速入门教程](https://www.youtube.com/playlist?list=PLBijWKRKPQMKhzc8jmE0swJABDTj-jSME)
+- [Java快速入门教程](https://www.youtube.com/playlist?list=PLBijWKRKPQMKhzc8jmE0swJABDTj-sJME)
 - [面向信息奥赛的C++入门](https://www.youtube.com/playlist?list=PLBijWKRKPQML0kqsn1jgcAIyDBsOqMq_d)
-
-
-
-### 源代码
-
-- C语言版数据结构：[https://github.com/hwdong-net/ds/tree/master/C](https://github.com/hwdong-net/ds/tree/master/C)
-- C++版数据结构：[https://github.com/hwdong-net/ds/tree/master/cplusplus](https://github.com/hwdong-net/ds/tree/master/cplusplus)
-- C++17从入门到精通：[https://github.com/hwdong-net/cplusplus17](https://github.com/hwdong-net/cplusplus17)
